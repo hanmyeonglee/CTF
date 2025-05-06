@@ -1,0 +1,5972 @@
+{
+ "`N/A`": [
+    "Existential Crisis",
+        "Existential Crisis",
+        "Hydrothermal Vents",
+        "Hydrothermal Vents",
+        "Perpetual Cyclone",
+        "Perpetual Cyclone",
+        "Solidified Landscape",
+        "Solidified Landscape"
+ ],
+ "Steam": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "sky",
+  "water"
+ ],
+ "saturated lake": [
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "lake"
+ ],
+ "Stormy Sea": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "sky",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Thunderstorm": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "thunder",
+  "thunder"
+ ],
+ "Glacier": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Sandstorm": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "wind",
+  "wind"
+ ],
+ "Sand": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "wind",
+  "wind"
+ ],
+ "Lightning": [
+  "fire",
+  "fire",
+  "lake",
+  "mountain",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "N/A": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "sky",
+  "sky",
+  "wind"
+ ],
+ "Turbulent Ocean": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "thunder",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Cloud": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "sky"
+ ],
+ "Tornado": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Explosion": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "thunder",
+  "thunder"
+ ],
+ "A Storm": [
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Plasma": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Stormy Ocean": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Dust Storm": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "wind"
+ ],
+ "Hurricane": [
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "sky",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Volcano": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "thunder"
+ ],
+ "Volcanic Eruption": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "thunder"
+ ],
+ "Waterfall": [
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "lake",
+  "mountain",
+  "wind"
+ ],
+ "storm": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "sky",
+  "thunder",
+  "thunder"
+ ],
+ "Ocean Tsunami": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Turbulent Sea": [
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "thunder",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Flood": [
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "sky",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Lightning Storm": [
+  "earth",
+  "earth",
+  "earth",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Molten Lava": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire"
+ ],
+ "Fog": [
+  "earth",
+  "fire",
+  "fire",
+  "sky",
+  "sky",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Flooding": [
+  "earth",
+  "earth",
+  "mountain",
+  "thunder",
+  "water",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Fierce Storm": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "wind"
+ ],
+ "Nothingness": [
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ "Steam Explosion": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Maelstrom": [
+  "earth",
+  "lake",
+  "lake",
+  "lake",
+  "sky",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Ocean Storm": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Turmoil": [
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "sky",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Mammoth Mountain": [
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain"
+ ],
+ "Fury": [
+  "lake",
+  "lake",
+  "sky",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Tidal Wave": [
+  "earth",
+  "lake",
+  "lake",
+  "lake",
+  "thunder",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Lava": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "mountain"
+ ],
+ "Inferno": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "mountain"
+ ],
+ "Wildfire": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "chaos": [
+  "earth",
+  "fire",
+  "lake",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Turbulence": [
+  "fire",
+  "fire",
+  "lake",
+  "mountain",
+  "sky",
+  "sky",
+  "wind",
+  "wind"
+ ],
+ "Magma": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "lake"
+ ],
+ "Tsunami": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "thunder",
+  "water",
+  "water",
+  "water"
+ ],
+ "Cloudy Plains": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "sky",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ "Ocean": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "thunder",
+  "water"
+ ],
+ "Vapor": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "thunder",
+  "wind"
+ ],
+ "Extinction": [
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "sky",
+  "wind",
+  "wind"
+ ],
+ "Ash": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "sky"
+ ],
+ "Earthstorm": [
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "wind",
+  "wind"
+ ],
+ "Whirlwind": [
+  "earth",
+  "earth",
+  "earth",
+  "thunder",
+  "wind",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Smoke": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "sky",
+  "sky",
+  "wind"
+ ],
+ "Pyroclastic Flow": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "wind",
+  "wind"
+ ],
+ "Firestorm": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Mist": [
+  "earth",
+  "fire",
+  "fire",
+  "mountain",
+  "sky",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Earthquake": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "thunder",
+  "water"
+ ],
+ "Molten Earth": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Intense Inferno": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "sky",
+  "sky"
+ ],
+ "saturated earth": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "lake",
+  "water",
+  "water"
+ ],
+ "Extreme Storm": [
+  "fire",
+  "fire",
+  "mountain",
+  "thunder",
+  "water",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Planet": [
+  "earth",
+  "lake",
+  "lake",
+  "mountain",
+  "sky",
+  "sky",
+  "wind",
+  "wind"
+ ],
+ "Turbulent Storm": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Water Storm": [
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "sky",
+  "thunder",
+  "wind"
+ ],
+ "Turbulent Maelstrom": [
+  "sky",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Pyroclastic Storm": [
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "sky",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Eruption": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "thunder",
+  "water"
+ ],
+ "Mountain.": [
+  "earth",
+  "earth",
+  "fire",
+  "mountain",
+  "mountain",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ "Blaze": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "sky",
+  "sky",
+  "sky",
+  "wind"
+ ],
+ "Mountain core": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "mountain",
+  "thunder",
+  "thunder"
+ ],
+ "Cataclysmic Storm": [
+  "fire",
+  "fire",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Stormy Weather": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "sky",
+  "thunder"
+ ],
+ "Turbulent Torrent": [
+  "earth",
+  "fire",
+  "mountain",
+  "mountain",
+  "mountain",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "River": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "water"
+ ],
+ "Cloudburst": [
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Deep Sea": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "water",
+  "water",
+  "water"
+ ],
+ "Plateau": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "sky"
+ ],
+ "Flooding Storm": [
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Tornado Sea": [
+  "lake",
+  "lake",
+  "sky",
+  "water",
+  "wind",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "roar": [
+  "earth",
+  "fire",
+  "fire",
+  "lake",
+  "mountain",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Storm Cloud": [
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "sky",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Ocean Tidal Wave": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "sky",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Mountain Range": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "sky",
+  "wind"
+ ],
+ "Turbulent Earthquake": [
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "thunder",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Stormy Rain": [
+  "earth",
+  "earth",
+  "earth",
+  "sky",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Ocean Tides": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "water",
+  "wind"
+ ],
+ "Landslide": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "thunder"
+ ],
+ "Hailstorm": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "mountain",
+  "sky",
+  "thunder"
+ ],
+ "Depression": [
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "sky",
+  "water",
+  "wind"
+ ],
+ "Ripple": [
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "mountain",
+  "sky",
+  "sky",
+  "water"
+ ],
+ "Deep Ocean": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "water",
+  "water",
+  "water"
+ ],
+ "Avalanche": [
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "thunder",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Sizzling Storm": [
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "sky",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Storm Sea": [
+  "earth",
+  "earth",
+  "lake",
+  "sky",
+  "sky",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Smoothed Mountain": [
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Mud": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake"
+ ],
+ "Stormy River": [
+  "earth",
+  "lake",
+  "lake",
+  "sky",
+  "sky",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Cloudy Weather": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ "Lava Flow": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "mountain",
+  "thunder",
+  "wind"
+ ],
+ "Torrent": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "mountain",
+  "thunder",
+  "wind"
+ ],
+ "Ocean Breeze": [
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "sky",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Mountain Rock": [
+  "earth",
+  "fire",
+  "lake",
+  "mountain",
+  "sky",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Ocean.": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "mountain",
+  "thunder",
+  "water"
+ ],
+ "Rain": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "sizzling mud": [
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "sky",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Storm Surge": [
+  "earth",
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Turbid Water": [
+  "earth",
+  "fire",
+  "lake",
+  "mountain",
+  "sky",
+  "sky",
+  "wind",
+  "wind"
+ ],
+ "Desert Storm": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "sky",
+  "wind"
+ ],
+ "River Rapids": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "thunder"
+ ],
+ "Turbid Mire": [
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "sky",
+  "thunder",
+  "thunder"
+ ],
+ "Mountainlake": [
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "sky",
+  "wind"
+ ],
+ "Oceanic Earth": [
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "mountain",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Sea Breeze": [
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "sky",
+  "water",
+  "water",
+  "wind"
+ ],
+ "rocky rapids": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Turbulent Volcano": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Mountain Storm": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "sky",
+  "thunder"
+ ],
+ "Overflow": [
+  "lake",
+  "mountain",
+  "thunder",
+  "water",
+  "water",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Raging Storm": [
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "lake",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Rocky Ocean": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "mountain",
+  "mountain",
+  "water"
+ ],
+ "Strong Storm": [
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Strong Water": [
+  "lake",
+  "mountain",
+  "mountain",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Turbulent Mire": [
+  "earth",
+  "lake",
+  "mountain",
+  "sky",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Plain mountain": [
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "sky",
+  "sky"
+ ],
+ "Turbulent flood": [
+  "earth",
+  "earth",
+  "earth",
+  "sky",
+  "thunder",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ " Ocean": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "thunder",
+  "water",
+  "water"
+ ],
+ " Ocean Storm": [
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "water",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Temple": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Land": [
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "sky",
+  "sky"
+ ],
+ "Misty Storm": [
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "sky",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Foam": [
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "lake",
+  "mountain",
+  "sky",
+  "wind"
+ ],
+ "Mountainous Cliff": [
+  "earth",
+  "fire",
+  "mountain",
+  "sky",
+  "sky",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Cyclone": [
+  "earth",
+  "earth",
+  "lake",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "wind"
+ ],
+ "Constant Storm": [
+  "earth",
+  "fire",
+  "mountain",
+  "mountain",
+  "sky",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Sea": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "sky",
+  "sky",
+  "water"
+ ],
+ "Swamp": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake"
+ ],
+ "Flare": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Stormy Inferno": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Volcanic Mountain": [
+  "earth",
+  "fire",
+  "fire",
+  "lake",
+  "mountain",
+  "mountain",
+  "thunder",
+  "thunder"
+ ],
+ "Wave": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Ocean Current": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Wildstorm": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "thunder",
+  "wind"
+ ],
+ " Hurricanes": [
+  "fire",
+  "fire",
+  "lake",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Landform": [
+  "earth",
+  "lake",
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain",
+  "sky",
+  "wind"
+ ],
+ "Turbulent Mountain": [
+  "mountain",
+  "mountain",
+  "wind",
+  "wind",
+  "wind",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Torrent of Mud": [
+  "earth",
+  "fire",
+  "lake",
+  "mountain",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Rock": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "mountain"
+ ],
+ "Cinderstone": [
+  "earth",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ "Turbulent Water": [
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "wind"
+ ],
+ "Turbulent Blaze": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Storm.": [
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Riverbed": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "sky",
+  "water"
+ ],
+ "Clouded Haze": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "thunder"
+ ],
+ "Ocean Water": [
+  "fire",
+  "lake",
+  "mountain",
+  "thunder",
+  "water",
+  "water",
+  "water",
+  "water"
+ ],
+ "Intense Storm": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder"
+ ],
+ "Muddy Ocean": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "sky",
+  "water"
+ ],
+ "Turbulent Wave": [
+  "fire",
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "wind"
+ ],
+ "Misty Rain": [
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "sky",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Torrential Storm": [
+  "mountain",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Turbulent Weather": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "sky",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Boiling Sea": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "lake",
+  "sky"
+ ],
+ "Geyser": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "thunder"
+ ],
+ "Turbulent Tsunami": [
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Dry Land": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "sky",
+  "sky"
+ ],
+ "Severe Storm": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Furious Ocean": [
+  "earth",
+  "earth",
+  "earth",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Oceanic Hurricane": [
+  "earth",
+  "earth",
+  "lake",
+  "thunder",
+  "water",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Stormy Water": [
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Clouds": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "sky",
+  "sky",
+  "water",
+  "wind"
+ ],
+ "Mountain of flames": [
+  "fire",
+  "lake",
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain",
+  "sky",
+  "wind"
+ ],
+ "storms": [
+  "earth",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "[Heavy Rainstorm]": [
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "sky",
+  "water"
+ ],
+ "Air Storm": [
+  "earth",
+  "earth",
+  "sky",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "earthland": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Ocean Tornado": [
+  "mountain",
+  "sky",
+  "thunder",
+  "water",
+  "water",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Stormy Blaze": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Rocky Slope": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain"
+ ],
+ "Geothermal Water": [
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "mountain",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Melting Ice": [
+  "earth",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Aether": [
+  "earth",
+  "fire",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ " Torrential Storm": [
+  "earth",
+  "earth",
+  "mountain",
+  "thunder",
+  "thunder",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Hottest Water": [
+  "earth",
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "sky",
+  "water"
+ ],
+ "Volcanic Storm": [
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "mountain",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ " Ocean Tides": [
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "sky",
+  "wind",
+  "wind"
+ ],
+ "Whirlpool": [
+  "earth",
+  "earth",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Chaotic Tides": [
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "lake",
+  "sky",
+  "thunder",
+  "wind"
+ ],
+ "Oceanic Tsunami": [
+  "earth",
+  "earth",
+  "fire",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Ocean Tide": [
+  "earth",
+  "mountain",
+  "water",
+  "water",
+  "water",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Rockslide": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "mountain",
+  "thunder"
+ ],
+ "Turbulent Waves": [
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Muddy Water": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "wind"
+ ],
+ "Pyroclastic Cloud": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "mountain",
+  "sky"
+ ],
+ "Harsh Weather": [
+  "earth",
+  "lake",
+  "lake",
+  "mountain",
+  "wind",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Boiling Water": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "water",
+  "water"
+ ],
+ "Waves": [
+  "earth",
+  "earth",
+  "mountain",
+  "sky",
+  "sky",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Island": [
+  "earth",
+  "lake",
+  "lake",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "mountain"
+ ],
+ "Sea Foam": [
+  "fire",
+  "lake",
+  "lake",
+  "lake",
+  "sky",
+  "water",
+  "water",
+  "water"
+ ],
+ "Tundra": [
+  "earth",
+  "lake",
+  "mountain",
+  "mountain",
+  "mountain",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Basalt": [
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "mountain",
+  "mountain",
+  "mountain"
+ ],
+ "Muddy Marsh": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "lake",
+  "wind",
+  "wind"
+ ],
+ "Turbid Sea": [
+  "earth",
+  "lake",
+  "sky",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Muddy swamp": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "lake",
+  "sky",
+  "wind"
+ ],
+ "Hellfire": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "wind"
+ ],
+ "Volcanic Ash": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "wind"
+ ],
+ "Desert": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "wind"
+ ],
+ "Fire Storm": [
+  "fire",
+  "fire",
+  "wind",
+  "wind",
+  "wind",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Turbid Earth": [
+  "earth",
+  "mountain",
+  "mountain",
+  "mountain",
+  "water",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "typhoon": [
+  "earth",
+  "mountain",
+  "water",
+  "wind",
+  "wind",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Sun": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "sky"
+ ],
+ "Mountain of Ash": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "mountain",
+  "wind"
+ ],
+ "Smog": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "sky",
+  "sky",
+  "wind"
+ ],
+ "Blazing Inferno": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "wind"
+ ],
+ "torrential flood": [
+  "earth",
+  "fire",
+  "mountain",
+  "mountain",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Flaming Wave": [
+  "fire",
+  "lake",
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "thunder",
+  "water"
+ ],
+ "Intense Volcanic Eruption": [
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Geysers": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Electric Storm": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Fierce Ocean": [
+  "mountain",
+  "mountain",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water",
+  "water"
+ ],
+ "Vulcan": [
+  "earth",
+  "earth",
+  "fire",
+  "fire",
+  "fire",
+  "mountain",
+  "sky",
+  "wind"
+ ],
+ "Turbulent Earth": [
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Furious Flood": [
+  "lake",
+  "lake",
+  "mountain",
+  "mountain",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Furious Storm": [
+  "fire",
+  "fire",
+  "sky",
+  "thunder",
+  "thunder",
+  "water",
+  "water",
+  "water"
+ ],
+ "Hyperion": [
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "thunder",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Fierce Tsunami": [
+  "fire",
+  "lake",
+  "mountain",
+  "mountain",
+  "mountain",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Earthquakes": [
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "mountain",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Volcanic Mud": [
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "water"
+ ],
+ "Harsh Storm": [
+  "earth",
+  "earth",
+  "earth",
+  "mountain",
+  "thunder",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Superheated Water": [
+  "Steam",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "lake",
+  "lake",
+  "water"
+ ],
+ "Dust Devil": [
+  "Sandstorm",
+  "earth",
+  "earth",
+  "fire",
+  "lake",
+  "sky",
+  "wind",
+  "wind"
+ ],
+ "Electricity": [
+  "Aether",
+  "Aether",
+  "Lightning",
+  "Lightning",
+  "N/A",
+  "mountain",
+  "sky",
+  "thunder"
+ ],
+ "Nothing": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness"
+ ],
+ "Overload": [
+  "Overflow",
+  "Overflow",
+  "Overflow",
+  "Overflow",
+  "earth",
+  "earth",
+  "earth",
+  "earth"
+ ],
+ "Supernova": [
+  "Aether",
+  "Lightning",
+  "N/A",
+  "N/A",
+  "chaos",
+  "chaos",
+  "mountain",
+  "thunder"
+ ],
+ "Hyperstorm": [
+  "Lightning Storm",
+  "Lightning Storm",
+  "Lightning Storm",
+  "Lightning Storm",
+  "Maelstrom",
+  "Maelstrom",
+  "Maelstrom",
+  "Maelstrom"
+ ],
+ "Violent Storm": [
+  "Explosion",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Complete Destruction": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion"
+ ],
+ "Magnitude": [
+  "Volcanic Eruption",
+  "Volcanic Eruption",
+  "Volcanic Eruption",
+  "Volcanic Eruption",
+  "Waterfall",
+  "Waterfall",
+  "Waterfall",
+  "Waterfall"
+ ],
+ "Nuclear Explosion": [
+  "Intense Inferno",
+  "Intense Inferno",
+  "Intense Inferno",
+  "Intense Inferno",
+  "Plasma",
+  "Plasma",
+  "Plasma",
+  "Plasma"
+ ],
+ "Oceanic Catastrophe": [
+  "Fierce Tsunami",
+  "Fierce Tsunami",
+  "Fierce Tsunami",
+  "Fierce Tsunami",
+  "Fierce Tsunami",
+  "Fierce Tsunami",
+  "Fierce Tsunami",
+  "Fierce Tsunami"
+ ],
+ "Fierce Thunder": [
+  "Lightning",
+  "fire",
+  "fire",
+  "mountain",
+  "mountain",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Critical Mass": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Plasma",
+  "Plasma",
+  "Plasma",
+  "Plasma"
+ ],
+ "Total Annihilation": [
+  "Cyclone",
+  "Cyclone",
+  "Cyclone",
+  "Cyclone",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava"
+ ],
+ "Extreme Weather": [
+  " Ocean Storm",
+  "Cyclone",
+  "Sandstorm",
+  "Thunderstorm",
+  "Turbulent Weather",
+  "Volcano",
+  "fire",
+  "water"
+ ],
+ "Severe Thunderstorm": [
+  "Harsh Weather",
+  "Misty Storm",
+  "Misty Storm",
+  "Tornado",
+  "earth",
+  "sky",
+  "wind",
+  "wind"
+ ],
+ "Infinite Lava": [
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava"
+ ],
+ "Black Hole": [
+  "Intense Inferno",
+  "Intense Inferno",
+  "Intense Inferno",
+  "Intense Inferno",
+  "Planet",
+  "Planet",
+  "Planet",
+  "Planet"
+ ],
+ "Pyroclastic": [
+  "chaos",
+  "chaos",
+  "chaos",
+  "chaos",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Apocalypse": [
+  "Cataclysmic Storm",
+  "Cataclysmic Storm",
+  "Cataclysmic Storm",
+  "Cataclysmic Storm",
+  "Fury",
+  "Fury",
+  "Fury",
+  "Fury"
+ ],
+ "Void": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "Turbulent Earth"
+ ],
+ "Extreme Fire": [
+  "Aether",
+  "Plasma",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "sky",
+  "sky"
+ ],
+ "Perfect Storm": [
+  " Torrential Storm",
+  " Torrential Storm",
+  " Torrential Storm",
+  " Torrential Storm",
+  " Torrential Storm",
+  " Torrential Storm",
+  " Torrential Storm",
+  " Torrential Storm"
+ ],
+ "Total Destruction": [
+  "Cyclone",
+  "Cyclone",
+  "Cyclone",
+  "Cyclone",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion"
+ ],
+ "Dust": [
+  "Deep Sea",
+  "Deep Sea",
+  "Deep Sea",
+  "Deep Sea",
+  "Desert",
+  "Desert",
+  "Desert",
+  "Desert"
+ ],
+ "Fierce Explosion": [
+  "Firestorm",
+  "Firestorm",
+  "Hurricane",
+  "Hurricane",
+  "Volcano",
+  "fire",
+  "fire",
+  "thunder"
+ ],
+ "Vacuum": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "earth",
+  "earth",
+  "earth"
+ ],
+ "Paradox": [
+  "Lightning",
+  "Lightning",
+  "chaos",
+  "chaos",
+  "chaos",
+  "chaos",
+  "chaos",
+  "chaos"
+ ],
+ "Singularity": [
+  "Aether",
+  "Aether",
+  "Glacier",
+  "Glacier",
+  "Molten Lava",
+  "Molten Lava",
+  "Plasma",
+  "Plasma"
+ ],
+ "Vortex": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "wind",
+  "wind"
+ ],
+ "Turbidity": [
+  "Sandstorm",
+  "Sandstorm",
+  "Sandstorm",
+  "Sandstorm",
+  "Sandstorm",
+  "Sandstorm",
+  "Sandstorm",
+  "Sandstorm"
+ ],
+ "Fireball": [
+  "Aether",
+  "Aether",
+  "earth",
+  "fire",
+  "fire",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ "Disintegration": [
+  "Steam Explosion",
+  "Steam Explosion",
+  "Steam Explosion",
+  "Steam Explosion",
+  "Steam Explosion",
+  "Steam Explosion",
+  "Steam Explosion",
+  "Steam Explosion"
+ ],
+ "Astral Vortex": [
+  "Aether",
+  "N/A",
+  "Ocean",
+  "Ocean",
+  "earth",
+  "fire",
+  "fire",
+  "thunder"
+ ],
+ "Dust Devastation": [
+  "Dust Storm",
+  "Dust Storm",
+  "Dust Storm",
+  "Dust Storm",
+  "Dust Storm",
+  "Dust Storm",
+  "Dust Storm",
+  "Dust Storm"
+ ],
+ "Intense Firestorm": [
+  "Fierce Ocean",
+  "Magma",
+  "Thunderstorm",
+  "Thunderstorm",
+  "chaos",
+  "chaos",
+  "sky",
+  "sky"
+ ],
+ "Mega Explosion": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava",
+  "Molten Lava"
+ ],
+ "Super Nova": [
+  "Aether",
+  "Aether",
+  "Lightning",
+  "Ocean",
+  "chaos",
+  "lake",
+  "thunder",
+  "water"
+ ],
+ "Extreme Thunder": [
+  "Earthquake",
+  "Earthquake",
+  "Earthquake",
+  "Earthquake",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Haze": [
+  "Cloud",
+  "Dust Storm",
+  "Dust Storm",
+  "Dust Storm",
+  "Dust Storm",
+  "Explosion",
+  "Intense Storm",
+  "Magma"
+ ],
+ "Abyss": [
+  "chaos",
+  "chaos",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ "Darkness": [
+  "Clouded Haze",
+  "Storm Cloud",
+  "Storm Cloud",
+  "Storm Cloud",
+  "earth",
+  "earth",
+  "earth",
+  "sky"
+ ],
+ "Turbulent Tempest": [
+  "Stormy Weather",
+  "Stormy Weather",
+  "Stormy Weather",
+  "Stormy Weather",
+  "Thunderstorm",
+  "Thunderstorm",
+  "sky",
+  "sky"
+ ],
+ "Global Catastrophe": [
+  "Intense Storm",
+  "Intense Storm",
+  "Ocean Storm",
+  "Wildfire",
+  "earth",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Torrential Downpour": [
+  "Extreme Storm",
+  "earth",
+  "earth",
+  "fire",
+  "thunder",
+  "water",
+  "water",
+  "water"
+ ],
+ "Cataclysm": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "chaos",
+  "earth",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "Creation": [
+  "Aether",
+  "Aether",
+  "chaos",
+  "fire",
+  "lake",
+  "lake",
+  "water",
+  "wind"
+ ],
+ "Complete Void": [
+  "Mountain of Ash",
+  "Mountain of Ash",
+  "Mountain of Ash",
+  "Mountain of Ash",
+  "chaos",
+  "chaos",
+  "chaos",
+  "chaos"
+ ],
+ "Complete Chaos": [
+  "Flood",
+  "Flood",
+  "Flood",
+  "Flood",
+  "chaos",
+  "chaos",
+  "chaos",
+  "chaos"
+ ],
+ "Fusion": [
+  "Aether",
+  "Aether",
+  "Lightning",
+  "River",
+  "River",
+  "earth",
+  "fire",
+  "water"
+ ],
+ "Catastrophe": [
+  "Cyclone",
+  "Cyclone",
+  "Cyclone",
+  "Cyclone",
+  "Tsunami",
+  "Tsunami",
+  "Tsunami",
+  "Tsunami"
+ ],
+ "Primordial Chaos": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Ocean"
+ ],
+ "Disaster": [
+  "Ocean Storm",
+  "Stormy Sea",
+  "Turbulent Sea",
+  "earth",
+  "earth",
+  "fire",
+  "sky",
+  "thunder"
+ ],
+ "Fierce Thunderstorm": [
+  " Hurricanes",
+  " Ocean",
+  "Hurricane",
+  "Mountain Storm",
+  "Sandstorm",
+  "Strong Storm",
+  "Torrent",
+  "fire"
+ ],
+ "Intense Fire": [
+  "Ash",
+  "Magma",
+  "Magma",
+  "Molten Lava",
+  "Molten Lava",
+  "Volcano",
+  "Volcano",
+  "fire"
+ ],
+ "Extreme Earthquake": [
+  "Earthquake",
+  "Earthquake",
+  "Earthquake",
+  "Earthquake",
+  "Volcano",
+  "Volcano",
+  "Volcano",
+  "Volcano"
+ ],
+ "Oblivion": [
+  "N/A",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Primordial Force": [
+  "Aether",
+  "chaos",
+  "chaos",
+  "earth",
+  "fire",
+  "fire",
+  "thunder",
+  "wind"
+ ],
+ "Nebula": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Cataclysmic Explosion": [
+  "Pyroclastic Flow",
+  "Pyroclastic Flow",
+  "Pyroclastic Flow",
+  "Pyroclastic Flow",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Eclipse": [
+  "Lightning",
+  "Ocean",
+  "earth",
+  "lake",
+  "sky",
+  "sky",
+  "thunder",
+  "wind"
+ ],
+ "Nuclear Winter": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Glacier",
+  "Glacier",
+  "Glacier",
+  "Glacier"
+ ],
+ "Empty Space": [
+  "N/A",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness"
+ ],
+ "Absolute Destruction": [
+  "Intense Inferno",
+  "Intense Inferno",
+  "Intense Inferno",
+  "Intense Inferno",
+  "chaos",
+  "chaos",
+  "chaos",
+  "chaos"
+ ],
+ "Havoc": [
+  "N/A",
+  "N/A",
+  "N/A",
+  "N/A",
+  "Thunderstorm",
+  "Thunderstorm",
+  "Thunderstorm",
+  "Thunderstorm"
+ ],
+ "Infinite Fire": [
+  "Blaze",
+  "Blaze",
+  "Blaze",
+  "Blaze",
+  "Blaze",
+  "Blaze",
+  "Blaze",
+  "Blaze"
+ ],
+ "Destruction": [
+  "N/A",
+  "earth",
+  "earth",
+  "mountain",
+  "mountain",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Astral Storm": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Pandemonium": [
+  "Aether",
+  "Lightning",
+  "chaos",
+  "fire",
+  "fire",
+  "lake",
+  "thunder",
+  "wind"
+ ],
+ "Massive Explosion": [
+  "Explosion",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth"
+ ],
+ "Nova": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "thunder",
+  "thunder"
+ ],
+ "Extreme Chaos": [
+  "Explosion",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Singular Entity": [
+  "Maelstrom",
+  "Maelstrom",
+  "Maelstrom",
+  "Maelstrom",
+  "Plasma",
+  "Plasma",
+  "Plasma",
+  "Plasma"
+ ],
+ "The Void": [
+  "Aether",
+  "N/A",
+  "chaos",
+  "chaos",
+  "earth",
+  "fire",
+  "water",
+  "wind"
+ ],
+ "Primordial Sea": [
+  "Aether",
+  "Aether",
+  "chaos",
+  "fire",
+  "fire",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Turbulent Thunder": [
+  "Electric Storm",
+  "Electric Storm",
+  "Electric Storm",
+  "Electric Storm",
+  "Plateau",
+  "Plateau",
+  "Plateau",
+  "Plateau"
+ ],
+ "Absolute Chaos": [
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm"
+ ],
+ "Paradise": [
+  "Aether",
+  "Aether",
+  "Lightning",
+  "chaos",
+  "chaos",
+  "fire",
+  "water",
+  "wind"
+ ],
+ "Meteor": [
+  "Aether",
+  "Aether",
+  "N/A",
+  "N/A",
+  "River",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Extreme Thunderstorm": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Thunderstorm",
+  "Thunderstorm",
+  "Thunderstorm",
+  "Thunderstorm"
+ ],
+ "Saturated Water": [
+  "Boiling Water",
+  "Boiling Water",
+  "Boiling Water",
+  "Boiling Water",
+  "saturated lake",
+  "saturated lake",
+  "saturated lake",
+  "saturated lake"
+ ],
+ "Multiverse": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Planet",
+  "Planet",
+  "Planet",
+  "Planet"
+ ],
+ "Huge Explosion": [
+  "Eruption",
+  "Explosion",
+  "Volcano",
+  "Volcano",
+  "earth",
+  "fire",
+  "sky",
+  "thunder"
+ ],
+ "Solar Flare": [
+  "Aether",
+  "Lightning",
+  "N/A",
+  "N/A",
+  "Ocean",
+  "chaos",
+  "fire",
+  "fire"
+ ],
+ "Stability": [
+  "Hailstorm",
+  "Hailstorm",
+  "Hailstorm",
+  "Hailstorm",
+  "Hailstorm",
+  "Hailstorm",
+  "Hailstorm",
+  "Hailstorm"
+ ],
+ "Pure Energy": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Plasma",
+  "Plasma",
+  "Plasma",
+  "Plasma"
+ ],
+ "Turbulent Chaos": [
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean"
+ ],
+ "Universe": [
+  "Aether",
+  "Aether",
+  "Ocean",
+  "earth",
+  "fire",
+  "lake",
+  "sky",
+  "wind"
+ ],
+ "Intense Tempest": [
+  "Ocean Storm",
+  "Rain",
+  "Thunderstorm",
+  "Thunderstorm",
+  "Turbulent Sea",
+  "earth",
+  "thunder",
+  "water"
+ ],
+ "Extreme Turbulence": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "Turbulent Earth"
+ ],
+ "Hell": [
+  "Firestorm",
+  "Firestorm",
+  "Firestorm",
+  "Firestorm",
+  "Plasma",
+  "Plasma",
+  "Plasma",
+  "Plasma"
+ ],
+ "Saturated Plasma": [
+  "Plasma",
+  "Plasma",
+  "Plasma",
+  "Plasma",
+  "water",
+  "water",
+  "water",
+  "water"
+ ],
+ "Abyssal Storm": [
+  "Aether",
+  "Lightning",
+  "Ocean",
+  "Ocean",
+  "earth",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Extreme Firestorm": [
+  "Extreme Storm",
+  "Volcano",
+  "Volcano",
+  "fire",
+  "thunder",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Omnipotence": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion"
+ ],
+ "Astral Fire": [
+  "Aether",
+  "Aether",
+  "N/A",
+  "Ocean",
+  "Ocean",
+  "earth",
+  "earth",
+  "fire"
+ ],
+ "Turbulent Fire": [
+  "Cloud",
+  "Fog",
+  "Molten Lava",
+  "Pyroclastic Flow",
+  "Thunderstorm",
+  "Volcano",
+  "Volcano",
+  "thunder"
+ ],
+ "Oceanic Eruption": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "water",
+  "water",
+  "water",
+  "water"
+ ],
+ "Overcast": [
+  "Cloud",
+  "Cloud",
+  "Cloud",
+  "Cloud",
+  "Cloud",
+  "Cloud",
+  "Cloud",
+  "Fog"
+ ],
+ "Violent Weather": [
+  "Extreme Storm",
+  "Thunderstorm",
+  "earth",
+  "fire",
+  "fire",
+  "lake",
+  "mountain",
+  "wind"
+ ],
+ "Thunder Storm": [
+  "Lightning",
+  "N/A",
+  "chaos",
+  "earth",
+  "fire",
+  "mountain",
+  "sky",
+  "wind"
+ ],
+ "The Storm": [
+  "Cloud",
+  "N/A",
+  "N/A",
+  "Thunderstorm",
+  "Thunderstorm",
+  "sky",
+  "water",
+  "wind"
+ ],
+ "Extreme Inferno": [
+  "Extreme Storm",
+  "Firestorm",
+  "Firestorm",
+  "Hurricane",
+  "Hurricane",
+  "Volcano",
+  "Volcano",
+  "fire"
+ ],
+ "Fierce Hurricane": [
+  "Firestorm",
+  "Volcano",
+  "fire",
+  "fire",
+  "mountain",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Turbulent Inferno": [
+  "Blaze",
+  "Blaze",
+  "Blaze",
+  "Blaze",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean"
+ ],
+ "Perpetual Blaze": [
+  "Wildfire",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder"
+ ],
+ "Deepest Sea": [
+  "Ocean",
+  "Stormy Sea",
+  "Turbulent Sea",
+  "Wildfire",
+  "mountain",
+  "water",
+  "water",
+  "water"
+ ],
+ "Bubble": [
+  "Foam",
+  "Foam",
+  "Foam",
+  "Foam",
+  "Foam",
+  "Foam",
+  "Foam",
+  "Tsunami"
+ ],
+ "Tectonic Activity": [
+  "Earthquake",
+  "Earthquake",
+  "Earthquake",
+  "Earthquake",
+  "Earthquake",
+  "Earthquake",
+  "mountain",
+  "mountain"
+ ],
+ "Tectonic Plate": [
+  "Desert Storm",
+  "Desert Storm",
+  "Desert Storm",
+  "Desert Storm",
+  "Mammoth Mountain",
+  "Mammoth Mountain",
+  "Mammoth Mountain",
+  "Mammoth Mountain"
+ ],
+ "Desert Sandstorm": [
+  "Boiling Water",
+  "Island",
+  "Muddy Water",
+  "Sandstorm",
+  "Tundra",
+  "fire",
+  "fire",
+  "wind"
+ ],
+ "Fierce Firestorm": [
+  "Fierce Storm",
+  "Tornado",
+  "fire",
+  "fire",
+  "sky",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Mountain with fire": [
+  "Volcano",
+  "Volcano",
+  "lake",
+  "lake",
+  "thunder",
+  "water",
+  "wind",
+  "wind"
+ ],
+ "Rocky Landslide": [
+  "Mud",
+  "Sandstorm",
+  "Thunderstorm",
+  "earth",
+  "earth",
+  "fire",
+  "mountain",
+  "mountain"
+ ],
+ "Muddy Lake": [
+  "Mud",
+  "Mud",
+  "Mud",
+  "Mud",
+  "lake",
+  "lake",
+  "lake",
+  "lake"
+ ],
+ "Fierce Flood": [
+  "Flooding",
+  "earth",
+  "mountain",
+  "sky",
+  "storm",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Intense Thunder": [
+  "Electric Storm",
+  "Electric Storm",
+  "Electric Storm",
+  "Electric Storm",
+  "Muddy Ocean",
+  "Muddy Ocean",
+  "Muddy Ocean",
+  "Muddy Ocean"
+ ],
+ "Damaging Ocean Wave": [
+  "Ocean Tsunami",
+  "Sand",
+  "Thunderstorm",
+  "Thunderstorm",
+  "Turbulent Weather",
+  "Whirlpool",
+  "Wildfire",
+  "fire"
+ ],
+ "Fierce Sea": [
+  "Maelstrom",
+  "Magma",
+  "Stormy Ocean",
+  "Stormy Ocean",
+  "Volcanic Eruption",
+  "Volcano",
+  "Volcano",
+  "lake"
+ ],
+ "Extreme Volcano": [
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Magma",
+  "Magma",
+  "Magma",
+  "Magma"
+ ],
+ "Fierce Inferno": [
+  "Firestorm",
+  "Firestorm",
+  "Firestorm",
+  "Firestorm",
+  "Flooding",
+  "Flooding",
+  "Flooding",
+  "Flooding"
+ ],
+ "Turbulent Vortex": [
+  "Cataclysmic Storm",
+  "Cataclysmic Storm",
+  "Cataclysmic Storm",
+  "Cataclysmic Storm",
+  "wind",
+  "wind",
+  "wind",
+  "wind"
+ ],
+ "Massive Earthquake": [
+  "Earthquake",
+  "Earthquake",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth"
+ ],
+ "Molten Rock": [
+  "Magma",
+  "Molten Lava",
+  "Molten Lava",
+  "Rock",
+  "earth",
+  "earth",
+  "earth",
+  "fire"
+ ],
+ "Thick Smoke": [
+  "Cloud",
+  "Cloud",
+  "Cloud",
+  "Cloud",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Geomagnetic Storm": [
+  "Explosion",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "water"
+ ],
+ "Nothing remains": [
+  "N/A",
+  "N/A",
+  "N/A",
+  "N/A",
+  "N/A",
+  "N/A",
+  "N/A",
+  "fire"
+ ],
+ "Pollution": [
+  "Smog",
+  "Smog",
+  "Smog",
+  "Smog",
+  "Smog",
+  "Smog",
+  "Smog",
+  "Smog"
+ ],
+ "Extreme Volcanic Eruption": [
+  "Glacier",
+  "Glacier",
+  "Molten Lava",
+  "Molten Lava",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "thunder",
+  "thunder"
+ ],
+ "Electrified Sea Breeze": [
+  "Flaming Wave",
+  "Lightning",
+  "Ocean Storm",
+  "Thunderstorm",
+  "fire",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Catastrophic Thunder": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Turbulent Mountain",
+  "Turbulent Mountain",
+  "Turbulent Mountain",
+  "Turbulent Mountain"
+ ],
+ "Massive Storm": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "thunder",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Frenzied Water": [
+  "Aether",
+  "Lightning",
+  "River",
+  "River",
+  "earth",
+  "lake",
+  "thunder",
+  "thunder"
+ ],
+ "Electrical Discharge": [
+  "Lightning Storm",
+  "earth",
+  "fire",
+  "sky",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Turbulent Lake": [
+  "N/A",
+  "N/A",
+  "Ocean",
+  "chaos",
+  "chaos",
+  "earth",
+  "lake",
+  "wind"
+ ],
+ "Devastation": [
+  "Explosion",
+  "Explosion",
+  "Steam Explosion",
+  "Steam Explosion",
+  "fire",
+  "fire",
+  "thunder",
+  "wind"
+ ],
+ "Sea of Fire": [
+  "Molten Lava",
+  "Molten Lava",
+  "Ocean",
+  "Ocean",
+  "Plasma",
+  "Plasma",
+  "saturated lake",
+  "saturated lake"
+ ],
+ "Mega Tsunami": [
+  "Explosion",
+  "Explosion",
+  "Stormy Sea",
+  "Tsunami",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "lake",
+  "water"
+ ],
+ "Mega Inferno": [
+  "Inferno",
+  "Inferno",
+  "Inferno",
+  "Inferno",
+  "Mountain Storm",
+  "Mountain Storm",
+  "Mountain Storm",
+  "Mountain Storm"
+ ],
+ "Vast Inferno": [
+  "Ocean",
+  "Ocean",
+  "Ocean",
+  "Ocean",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Extreme Hurricane": [
+  "Stormy Sea",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "thunder",
+  "thunder",
+  "water",
+  "water",
+  "wind"
+ ],
+ "Electrical Explosion": [
+  "Lightning Storm",
+  "Steam",
+  "fire",
+  "fire",
+  "fire",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Extreme Plasma": [
+  "Electric Storm",
+  "Electric Storm",
+  "Electric Storm",
+  "Electric Storm",
+  "Plasma",
+  "Plasma",
+  "Plasma",
+  "Plasma"
+ ],
+ "Astral Plasma": [
+  "Aether",
+  "chaos",
+  "fire",
+  "lake",
+  "lake",
+  "mountain",
+  "thunder",
+  "wind"
+ ],
+ "Rough": [
+  "Stormy Sea",
+  "earth",
+  "mountain",
+  "mountain",
+  "thunder",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Superstorm": [
+  "Aether",
+  "Lightning",
+  "Lightning",
+  "N/A",
+  "Ocean",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Catastrophic Weather": [
+  "Extreme Storm",
+  "Extreme Storm",
+  "Mountain Range",
+  "Thunderstorm",
+  "Tsunami",
+  "lake",
+  "mountain",
+  "sky"
+ ],
+ "Fierce Tempest": [
+  "Extreme Storm",
+  "Volcano",
+  "earth",
+  "fire",
+  "thunder",
+  "thunder",
+  "wind",
+  "wind"
+ ],
+ "Fierce Blaze": [
+  "Eruption",
+  "Lightning Storm",
+  "Ocean",
+  "Sizzling Storm",
+  "Stormy Weather",
+  "mountain",
+  "thunder",
+  "thunder"
+ ],
+ "Wild Ocean": [
+  "Ocean Storm",
+  "Ocean Storm",
+  "fire",
+  "lake",
+  "mountain",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Massive landslide": [
+  "Rockslide",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "thunder"
+ ],
+ "Vicious Storm": [
+  "Cyclone",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "sky",
+  "wind"
+ ],
+ "Dark Plasma": [
+  "Aether",
+  "Intense Inferno",
+  "Intense Inferno",
+  "Plasma",
+  "fire",
+  "fire",
+  "fire",
+  "sky"
+ ],
+ "Nuclear Fusion": [
+  "Aether",
+  "Aether",
+  "Electric Storm",
+  "Electric Storm",
+  "Glacier",
+  "Glacier",
+  "Plasma",
+  "Plasma"
+ ],
+ "Mountain collapse": [
+  "Explosion",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "mountain"
+ ],
+ "Calamity": [
+  "N/A",
+  "chaos",
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "thunder",
+  "wind"
+ ],
+ "Intense Thunderstorm": [
+  " Ocean Storm",
+  "Eruption",
+  "Ocean Storm",
+  "Ocean Storm",
+  "Stormy Ocean",
+  "roar",
+  "sky",
+  "thunder"
+ ],
+ "Electromagnetic Discharge": [
+  "Ocean Storm",
+  "Rain",
+  "Thunderstorm",
+  "Turbulent Sea",
+  "Turbulent Sea",
+  "Turbulent Sea",
+  "earth",
+  "thunder"
+ ],
+ "Furious Thunder": [
+  "Thunderstorm",
+  "Turbulent Blaze",
+  "earth",
+  "fire",
+  "lake",
+  "mountain",
+  "thunder",
+  "wind"
+ ],
+ "Fierce Turbulence": [
+  "Ocean Storm",
+  "Ocean Storm",
+  "Ocean Storm",
+  "Ocean Storm",
+  "Steam Explosion",
+  "Steam Explosion",
+  "Steam Explosion",
+  "Steam Explosion"
+ ],
+ "Intense Flood": [
+  "Storm Surge",
+  "earth",
+  "fire",
+  "sky",
+  "thunder",
+  "thunder",
+  "thunder",
+  "water"
+ ],
+ "Mudslide": [
+  "Flood",
+  "Storm Surge",
+  "earth",
+  "earth",
+  "earth",
+  "earth",
+  "fire",
+  "mountain"
+ ],
+ "Hyper Storm": [
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm"
+ ],
+ "Fierce Eruption": [
+  "Aether",
+  "Aether",
+  "Molten Lava",
+  "Molten Lava",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "thunder",
+  "thunder"
+ ],
+ "Intense rain": [
+  "Desert",
+  "Storm Surge",
+  "Tornado",
+  "fire",
+  "fire",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Severe Tempest": [
+  "Electric Storm",
+  "Electric Storm",
+  "Electric Storm",
+  "Electric Storm",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean"
+ ],
+ "Extended Fire": [
+  "Fierce Tsunami",
+  "Turbulent Sea",
+  "Turbulent Weather",
+  "Turmoil",
+  "fire",
+  "lake",
+  "wind",
+  "wind"
+ ],
+ "Severe Hurricane": [
+  "Constant Storm",
+  "Constant Storm",
+  "Molten Lava",
+  "River",
+  "Thunderstorm",
+  "earth",
+  "lake",
+  "wind"
+ ],
+ "Severe Thunder": [
+  "Lightning Storm",
+  "Thunderstorm",
+  "earth",
+  "fire",
+  "mountain",
+  "sky",
+  "sky",
+  "thunder"
+ ],
+ "Violent Hurricane": [
+  "Intense Storm",
+  "fire",
+  "fire",
+  "lake",
+  "thunder",
+  "water",
+  "wind",
+  "wind"
+ ],
+ " Ocean ": [
+  "Turbulent Waves",
+  "Turbulent Waves",
+  "Turbulent Waves",
+  "Turbulent Waves",
+  "Turbulent Waves",
+  "Turbulent Waves",
+  "Turbulent Waves",
+  "Turbulent Waves"
+ ],
+ "Catastrophic Flood": [
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Flooding",
+  "Flooding",
+  "Flooding",
+  "Flooding"
+ ],
+ "Mega Storm": [
+  "Electric Storm",
+  "Fierce Storm",
+  "Fierce Storm",
+  "Lava",
+  "Lightning",
+  "fire",
+  "lake",
+  "lake"
+ ],
+ "Ocean of Lava": [
+  "Pyroclastic Storm",
+  "Pyroclastic Storm",
+  "Pyroclastic Storm",
+  "Pyroclastic Storm",
+  "Waves",
+  "Waves",
+  "Waves",
+  "Waves"
+ ],
+ "Anti-Matter": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Lightning",
+  "N/A",
+  "lake",
+  "lake",
+  "thunder"
+ ],
+ "Overcharged": [
+  "Electrical Discharge",
+  "Electrical Discharge",
+  "Lightning Storm",
+  "Lightning Storm",
+  "fire",
+  "sky",
+  "thunder",
+  "thunder"
+ ],
+ "Exploded": [
+  "Overload",
+  "Overload",
+  "Overload",
+  "Overload",
+  "Overload",
+  "Overload",
+  "Overload",
+  "Overload"
+ ],
+ "Nuclear Reaction": [
+  "Critical Mass",
+  "Critical Mass",
+  "Critical Mass",
+  "Critical Mass",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness"
+ ],
+ "Duststorm": [
+  "Dust Devil",
+  "Glacier",
+  "Lightning",
+  "Nothing",
+  "Sandstorm",
+  "Stormy Sea",
+  "Thunderstorm",
+  "lake"
+ ],
+ "Super Storm": [
+  "Hurricane",
+  "Ocean Storm",
+  "Ocean Storm",
+  "Ocean Storm",
+  "Severe Tempest",
+  "earth",
+  "thunder",
+  "wind"
+ ],
+ "Cosmic Annihilation": [
+  "Destruction",
+  "Molten Lava",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Turbulent Sea",
+  "Vortex"
+ ],
+ "Total Chaos": [
+  "Fierce Tempest",
+  "Fierce Tempest",
+  "Fierce Tempest",
+  "Fierce Tempest",
+  "Severe Tempest",
+  "Severe Tempest",
+  "Severe Tempest",
+  "Severe Tempest"
+ ],
+ "All Consuming Void": [
+  "Complete Destruction",
+  "Explosion",
+  "Infinite Lava",
+  "Lightning Storm",
+  "N/A",
+  "Overload",
+  "Volcano",
+  "storm"
+ ],
+ "Complete Annihilation": [
+  "Catastrophe",
+  "Catastrophe",
+  "Catastrophe",
+  "Catastrophe",
+  "Intense Thunder",
+  "Intense Thunder",
+  "Intense Thunder",
+  "Intense Thunder"
+ ],
+ "Armageddon": [
+  "Apocalypse",
+  "Apocalypse",
+  "Apocalypse",
+  "Apocalypse",
+  "Apocalypse",
+  "Apocalypse",
+  "Apocalypse",
+  "Apocalypse"
+ ],
+ "A Black Hole": [
+  "Extreme Fire",
+  "Extreme Fire",
+  "Extreme Fire",
+  "Extreme Fire",
+  "Infinite Fire",
+  "Infinite Fire",
+  "Infinite Fire",
+  "Infinite Fire"
+ ],
+ "Natural Disaster": [
+  "Extreme Weather",
+  "Extreme Weather",
+  "Fierce Thunder",
+  "N/A",
+  "Rain",
+  "Rain",
+  "Tsunami",
+  "earth"
+ ],
+ "Cosmic Tornado": [
+  "Hyperstorm",
+  "Lightning",
+  "Lightning Storm",
+  "Ocean Storm",
+  "Severe Thunderstorm",
+  "Stormy Ocean",
+  "Supernova",
+  "Tornado"
+ ],
+ "Absolute Annihilation": [
+  "Absolute Destruction",
+  "Oblivion",
+  "Oblivion",
+  "Oblivion",
+  "Oblivion",
+  "Oblivion",
+  "Oblivion",
+  "Oblivion"
+ ],
+ "Cosmic Explosion": [
+  "Extreme Weather",
+  "Extreme Weather",
+  "Extreme Weather",
+  "Extreme Weather",
+  "Pure Energy",
+  "Pure Energy",
+  "Pure Energy",
+  "Pure Energy"
+ ],
+ "Nuclear Reactor": [
+  "Infinite Fire",
+  "Infinite Fire",
+  "Infinite Fire",
+  "Infinite Fire",
+  "Vortex",
+  "Vortex",
+  "Vortex",
+  "Vortex"
+ ],
+ "Extreme Energy": [
+  "Extreme Fire",
+  "Extreme Fire",
+  "Extreme Fire",
+  "Extreme Fire",
+  "Planet",
+  "Planet",
+  "Planet",
+  "Planet"
+ ],
+ "Intensified Electricity": [
+  "Electricity",
+  "Electricity",
+  "Electricity",
+  "Electricity",
+  "Lightning",
+  "Lightning",
+  "Lightning",
+  "Lightning"
+ ],
+ "Ash cloud": [
+  "Fog",
+  "Intense Storm",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Turbulent Storm",
+  "Volcano"
+ ],
+ "Singular Point": [
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Black Hole"
+ ],
+ "Emptiness": [
+  "Empty Space",
+  "Nothingness",
+  "Nothingness",
+  "Nothingness",
+  "Void",
+  "sky",
+  "sky",
+  "sky"
+ ],
+ "Frenzied Torrent": [
+  "Electricity",
+  "Fury",
+  "Glacier",
+  "Perfect Storm",
+  "Tidal Wave",
+  "Turbulent Sea",
+  "Turmoil",
+  "lake"
+ ],
+ "Neutron Star": [
+  "Black Hole",
+  "Flood",
+  "Overload",
+  "Sand",
+  "Stormy Sea",
+  "Turbulent Sea",
+  "Violent Storm",
+  "sky"
+ ],
+ "Primordial Soup": [
+  "Nebula",
+  "chaos",
+  "chaos",
+  "earth",
+  "mountain",
+  "sky",
+  "thunder",
+  "water"
+ ],
+ "Floods": [
+  "N/A",
+  "Nothing",
+  "Void",
+  "fire",
+  "mountain",
+  "thunder",
+  "water",
+  "wind"
+ ],
+ "Nuclear Annihilation": [
+  "Cataclysm",
+  "Cataclysm",
+  "Hellfire",
+  "Intense Thunderstorm",
+  "Oblivion",
+  "Oceanic Tsunami",
+  "Pyroclastic Flow",
+  "Vacuum"
+ ],
+ "Astrophysical Explosion": [
+  "Super Nova",
+  "Super Nova",
+  "Super Nova",
+  "Super Nova",
+  "thunder",
+  "thunder",
+  "thunder",
+  "thunder"
+ ],
+ "Gamma Ray Burst": [
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Vast Inferno",
+  "Vast Inferno",
+  "Vast Inferno",
+  "Vast Inferno"
+ ],
+ "Cosmic Event": [
+  "Astral Vortex",
+  "Black Hole",
+  "Disintegration",
+  "Fog",
+  "Pyroclastic Flow",
+  "Pyroclastic Flow",
+  "fire",
+  "lake"
+ ],
+ "Cosmic Vortex": [
+  "Aether",
+  "Aether",
+  "N/A",
+  "N/A",
+  "Nebula",
+  "River",
+  "chaos",
+  "wind"
+ ],
+ "Hypernova": [
+  "Maelstrom",
+  "Pyroclastic Flow",
+  "Supernova",
+  "Supernova",
+  "Wildfire",
+  "lake",
+  "sky",
+  "wind"
+ ],
+ "A Singularity": [
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Extreme Turbulence",
+  "Extreme Turbulence",
+  "Extreme Turbulence",
+  "Extreme Turbulence"
+ ],
+ "Mountaintop": [
+  "Eruption",
+  "Eruption",
+  "Eruption",
+  "Eruption",
+  "Hell",
+  "Hell",
+  "Hell",
+  "Hell"
+ ],
+ "Extreme Vortex": [
+  "Extreme Turbulence",
+  "Extreme Turbulence",
+  "Extreme Turbulence",
+  "Extreme Turbulence",
+  "Infinite Lava",
+  "Infinite Lava",
+  "Infinite Lava",
+  "Infinite Lava"
+ ],
+ "Astrophysical Event": [
+  "Darkness",
+  "Lightning",
+  "N/A",
+  "Nebula",
+  "Nebula",
+  "fire",
+  "lake",
+  "mountain"
+ ],
+ "Global Annihilation": [
+  "Calamity",
+  "Calamity",
+  "Calamity",
+  "Calamity",
+  "Extreme Fire",
+  "Extreme Fire",
+  "Extreme Fire",
+  "Extreme Fire"
+ ],
+ "Annihilation": [
+  "Total Annihilation",
+  "Total Annihilation",
+  "Total Annihilation",
+  "Total Annihilation",
+  "earth",
+  "earth",
+  "earth",
+  "earth"
+ ],
+ "Asteroid Impact": [
+  "Blazing Inferno",
+  "Blazing Inferno",
+  "Blazing Inferno",
+  "Blazing Inferno",
+  "Nuclear Explosion",
+  "Nuclear Explosion",
+  "Nuclear Explosion",
+  "Nuclear Explosion"
+ ],
+ "Moon": [
+  "Aether",
+  "N/A",
+  "N/A",
+  "Nebula",
+  "Nebula",
+  "Ocean",
+  "earth",
+  "sky"
+ ],
+ "Wormhole": [
+  "Astral Vortex",
+  "Astral Vortex",
+  "Astral Vortex",
+  "Astral Vortex",
+  "Critical Mass",
+  "Critical Mass",
+  "Critical Mass",
+  "Critical Mass"
+ ],
+ "Mega Black Hole": [
+  "Super Nova",
+  "Super Nova",
+  "Super Nova",
+  "Super Nova",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean",
+  "Turbulent Ocean"
+ ],
+ "Massive Thunder": [
+  "Intense Firestorm",
+  "Stormy Weather",
+  "Thunderstorm",
+  "fire",
+  "lake",
+  "mountain",
+  "sky",
+  "sky"
+ ],
+ "Galactic Explosion": [
+  "Astral Plasma",
+  "Complete Chaos",
+  "Maelstrom",
+  "N/A",
+  "Nothingness",
+  "River",
+  "Supernova",
+  "lake"
+ ],
+ "Astrophysical Singularity": [
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "storm",
+  "storm",
+  "storm",
+  "storm"
+ ],
+ "Galaxy": [
+  "Aether",
+  "Aether",
+  "Lightning",
+  "Nebula",
+  "Ocean",
+  "fire",
+  "thunder",
+  "water"
+ ],
+ "Supermassive Black Hole": [
+  "Black Hole",
+  "Black Hole",
+  "Lightning",
+  "Ocean",
+  "Stormy Sea",
+  "Thunderstorm",
+  "lake",
+  "wind"
+ ],
+ "Metastable Plasma": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Aether",
+  "Nebula",
+  "Pure Energy",
+  "fire",
+  "fire"
+ ],
+ "Event Horizon": [
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Black Hole",
+  "Critical Mass",
+  "Critical Mass",
+  "Critical Mass",
+  "Critical Mass"
+ ],
+ "Ashes": [
+  "Apocalypse",
+  "Global Catastrophe",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "lake",
+  "wind"
+ ],
+ "Transcendence": [
+  "Aether",
+  "Nebula",
+  "chaos",
+  "chaos",
+  "earth",
+  "fire",
+  "mountain",
+  "sky"
+ ],
+ "Quasar": [
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Nothingness",
+  "Steam",
+  "Turbulent Sea",
+  "Volcanic Eruption"
+ ],
+ "Stable Singularity": [
+  "Astral Vortex",
+  "Astral Vortex",
+  "Astral Vortex",
+  "Astral Vortex",
+  "Astral Vortex",
+  "Astral Vortex",
+  "Astral Vortex",
+  "Astral Vortex"
+ ],
+ "Absolute Darkness": [
+  "Darkness",
+  "N/A",
+  "Steam",
+  "Storm Surge",
+  "Void",
+  "Void",
+  "saturated lake",
+  "sky"
+ ],
+ "Universal Annihilation": [
+  "Complete Destruction",
+  "Complete Destruction",
+  "Complete Destruction",
+  "Complete Destruction",
+  "Extreme Firestorm",
+  "Extreme Firestorm",
+  "Extreme Firestorm",
+  "Extreme Firestorm"
+ ],
+ "Stellar Vortex": [
+  "Aether",
+  "Aether",
+  "Lightning",
+  "N/A",
+  "Nebula",
+  "earth",
+  "lake",
+  "thunder"
+ ],
+ "The Big Bang": [
+  "Global Catastrophe",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Nebula",
+  "Pyroclastic Flow",
+  "Steam",
+  "Vacuum"
+ ],
+ "Paradoxical Void": [
+  "Massive Explosion",
+  "Massive Explosion",
+  "Massive Explosion",
+  "Massive Explosion",
+  "saturated lake",
+  "saturated lake",
+  "saturated lake",
+  "saturated lake"
+ ],
+ "Turbulent Void": [
+  "Abyss",
+  "Abyss",
+  "Abyss",
+  "Abyss",
+  "Thunderstorm",
+  "Thunderstorm",
+  "Thunderstorm",
+  "Thunderstorm"
+ ],
+ "Catastrophic Annihilation": [
+  "Massive Explosion",
+  "Massive Explosion",
+  "Massive Explosion",
+  "Massive Explosion",
+  "Tidal Wave",
+  "Tidal Wave",
+  "Tidal Wave",
+  "Tidal Wave"
+ ],
+ "Existence": [
+  "Extreme Chaos",
+  "Extreme Chaos",
+  "Extreme Chaos",
+  "Extreme Chaos",
+  "Fierce Tempest",
+  "Fierce Tempest",
+  "Fierce Tempest",
+  "Fierce Tempest"
+ ],
+ "Extreme Apocalypse": [
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Explosion",
+  "Extreme Volcano",
+  "Extreme Volcano",
+  "Extreme Volcano",
+  "Extreme Volcano"
+ ],
+ "Astral Event": [
+  "Aether",
+  "Aether",
+  "N/A",
+  "Nebula",
+  "Nebula",
+  "mountain",
+  "sky",
+  "thunder"
+ ],
+ "Astonishing Explosion": [
+  "Super Nova",
+  "Super Nova",
+  "Super Nova",
+  "Super Nova",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Singular Vortex": [
+  "Black Hole",
+  "Darkness",
+  "Darkness",
+  "Fierce Storm",
+  "Inferno",
+  "Lava",
+  "Molten Lava",
+  "Steam Explosion"
+ ],
+ "Gas Giant": [
+  "Aether",
+  "Aether",
+  "Aether",
+  "Nebula",
+  "River",
+  "River",
+  "chaos",
+  "sky"
+ ],
+ "Cosmic Cataclysm": [
+  "Complete Chaos",
+  "Complete Chaos",
+  "Complete Chaos",
+  "Complete Chaos",
+  "Eruption",
+  "Eruption",
+  "Eruption",
+  "Eruption"
+ ],
+ "Empty Void": [
+  "Magma",
+  "Magma",
+  "Magma",
+  "Magma",
+  "Vacuum",
+  "Vacuum",
+  "Vacuum",
+  "Vacuum"
+ ],
+ "Total Disaster": [
+  "Apocalypse",
+  "Constant Storm",
+  "Severe Hurricane",
+  "earth",
+  "earth",
+  "lake",
+  "mountain",
+  "sky"
+ ],
+ "Infinite Void": [
+  "Abyss",
+  "Abyss",
+  "Abyss",
+  "Abyss",
+  "Abyss",
+  "Abyss",
+  "Abyss",
+  "Abyss"
+ ],
+ "Huge Storm": [
+  "Cloudy Weather",
+  "Cloudy Weather",
+  "Cloudy Weather",
+  "Cloudy Weather",
+  "Vast Inferno",
+  "Vast Inferno",
+  "Vast Inferno",
+  "Vast Inferno"
+ ],
+ "Strong Ocean Current": [
+  "Deepest Sea",
+  "Muddy Water",
+  "Ocean",
+  "Wildfire",
+  "earth",
+  "lake",
+  "water",
+  "wind"
+ ],
+ "Muddy earth": [
+  "Haze",
+  "Haze",
+  "Haze",
+  "Haze",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "Turbulent Earth"
+ ],
+ "Intense Torrent": [
+  "Extreme Volcano",
+  "Intense Thunder",
+  "Muddy Ocean",
+  "Ocean",
+  "Sandstorm",
+  "Turbulent Mountain",
+  "Turbulent Storm",
+  "water"
+ ],
+ "Desolation": [
+  "Apocalypse",
+  "Fierce Explosion",
+  "Fire Storm",
+  "Hellfire",
+  "Lightning Storm",
+  "Magma",
+  "Magma",
+  "earth"
+ ],
+ "Uncontrollable Flood": [
+  "Extreme Storm",
+  "Fierce Inferno",
+  "Fierce Storm",
+  "Intense Storm",
+  "Intense Thunder",
+  "Magma",
+  "Volcanic Eruption",
+  "water"
+ ],
+ "Radioactive Fallout": [
+  "Blaze",
+  "Critical Mass",
+  "Dry Land",
+  "Explosion",
+  "Nuclear Winter",
+  "Storm Sea",
+  "Stormy Water",
+  "Stormy Weather"
+ ],
+ "Massive Flood": [
+  "Avalanche",
+  "Fierce Thunderstorm",
+  "Geothermal Water",
+  "Storm Cloud",
+  "Turbulent flood",
+  "chaos",
+  "mountain",
+  "water"
+ ],
+ "Fierce Lightning": [
+  "Severe Thunderstorm",
+  "Severe Thunderstorm",
+  "Severe Thunderstorm",
+  "Stormy Weather",
+  "fire",
+  "fire",
+  "sky",
+  "thunder"
+ ],
+ "Pyroclastic Flood": [
+  "Disaster",
+  "Sandstorm",
+  "Sandstorm",
+  "earth",
+  "fire",
+  "lake",
+  "mountain",
+  "thunder"
+ ],
+ "Asteroid": [
+  "Lightning",
+  "Lightning",
+  "N/A",
+  "Nebula",
+  "Ocean",
+  "chaos",
+  "chaos",
+  "earth"
+ ],
+ "Intense Lightning": [
+  "Blazing Inferno",
+  "Destruction",
+  "Electric Storm",
+  "Fierce Tempest",
+  "N/A",
+  "River",
+  "Sea",
+  "sky"
+ ],
+ "Nuclear Fallout": [
+  "Fireball",
+  "Fusion",
+  "Lava",
+  "Maelstrom",
+  "Maelstrom",
+  "Nuclear Explosion",
+  "Vapor",
+  "Waterfall"
+ ],
+ "Extreme Tsunami": [
+  "Extreme Earthquake",
+  "Extreme Earthquake",
+  "Extreme Earthquake",
+  "Extreme Earthquake",
+  "Ocean.",
+  "Ocean.",
+  "Ocean.",
+  "Ocean."
+ ],
+ "Huge Catastrophe": [
+  "Explosion",
+  "Explosion",
+  "Massive Explosion",
+  "Massive Explosion",
+  "fire",
+  "fire",
+  "thunder",
+  "wind"
+ ],
+ "Extreme Magma": [
+  "Extreme Thunder",
+  "Firestorm",
+  "Firestorm",
+  "Volcano",
+  "Volcano",
+  "Volcano",
+  "Volcano",
+  "fire"
+ ],
+ "Mega Eruption": [
+  "Earthquake",
+  "Fierce Firestorm",
+  "Furious Flood",
+  "Mega Tsunami",
+  "Pyroclastic Storm",
+  "Thunderstorm",
+  "Volcano",
+  "fire"
+ ],
+ "Holocaust": [
+  "Apocalypse",
+  "Apocalypse",
+  "Apocalypse",
+  "Apocalypse",
+  "fire",
+  "fire",
+  "fire",
+  "fire"
+ ],
+ "Catastrophic Disaster": [
+  "Apocalypse",
+  "Apocalypse",
+  "Catastrophic Thunder",
+  "Earthquake",
+  "Fierce Hurricane",
+  "Furious Flood",
+  "Turbulent Ocean",
+  "Turbulent Ocean"
+ ],
+ "Nonexistence": [
+  "N/A",
+  "Nothing",
+  "Nothing",
+  "Nothing",
+  "Nothing",
+  "Nothingness",
+  "Oblivion",
+  "Void"
+ ],
+ "Cosmic Inferno": [
+  "Astral Storm",
+  "Astral Storm",
+  "Astral Storm",
+  "Astral Storm",
+  "Hell",
+  "Hell",
+  "Hell",
+  "Hell"
+ ],
+ "Total Catastrophe": [
+  "Disaster",
+  "Disaster",
+  "Disaster",
+  "Landslide",
+  "Landslide",
+  "Storm Surge",
+  "earth",
+  "mountain"
+ ],
+ "Thunderclap": [
+  "Lightning",
+  "N/A",
+  "N/A",
+  "Nebula",
+  "River",
+  "fire",
+  "mountain",
+  "thunder"
+ ],
+ "Overwhelming Destruction": [
+  "Catastrophe",
+  "Catastrophe",
+  "Catastrophe",
+  "Catastrophe",
+  "Nothing",
+  "Nothing",
+  "Nothing",
+  "Nothing"
+ ],
+ "Mega Catastrophe": [
+  "Mega Explosion",
+  "Mega Explosion",
+  "Mega Explosion",
+  "Mega Explosion",
+  "Ocean Storm",
+  "Ocean Storm",
+  "Ocean Storm",
+  "Ocean Storm"
+ ],
+ "Thunderous Earthquake": [
+  "Electric Storm",
+  "Extreme Thunderstorm",
+  "Intense Thunderstorm",
+  "Intense Thunderstorm",
+  "Ocean Tidal Wave",
+  "Thunderstorm",
+  "earth",
+  "earth"
+ ],
+ "Turbulent Cataclysm": [
+  "Hurricane",
+  "Hurricane",
+  "Hurricane",
+  "Hurricane",
+  "Turbulent Chaos",
+  "Turbulent Chaos",
+  "Turbulent Chaos",
+  "Turbulent Chaos"
+ ],
+ "Furious Explosion": [
+  "Earthquake",
+  "Intense Thunderstorm",
+  "Thunderstorm",
+  "Thunderstorm",
+  "chaos",
+  "chaos",
+  "fire",
+  "sky"
+ ],
+ "Furious Inferno": [
+  "Extreme Thunderstorm",
+  "Extreme Thunderstorm",
+  "Extreme Thunderstorm",
+  "Extreme Thunderstorm",
+  "Extreme Volcanic Eruption",
+  "Extreme Volcanic Eruption",
+  "Extreme Volcanic Eruption",
+  "Extreme Volcanic Eruption"
+ ],
+ "Extreme Cataclysm": [
+  "Explosion",
+  "Extreme Earthquake",
+  "N/A",
+  "Tsunami",
+  "Tsunami",
+  "Turbulent Storm",
+  "lake",
+  "thunder"
+ ],
+ "Natural Catastrophe": [
+  "Disaster",
+  "Disaster",
+  "Flood",
+  "Hurricane",
+  "Tsunami",
+  "earth",
+  "water",
+  "wind"
+ ],
+ "Great Tempest": [
+  "Intense Storm",
+  "Turbulent Inferno",
+  "Turbulent Inferno",
+  "fire",
+  "mountain",
+  "sky",
+  "thunder",
+  "wind"
+ ],
+ "Extreme Cyclone": [
+  "Extreme Hurricane",
+  "Severe Thunder",
+  "Severe Thunder",
+  "fire",
+  "storm",
+  "thunder",
+  "thunder",
+  "wind"
+ ],
+ "A Void": [
+  "Empty Space",
+  "Empty Space",
+  "Empty Space",
+  "Supernova",
+  "Supernova",
+  "Supernova",
+  "Supernova",
+  "Supernova"
+ ],
+ "Absolute Cataclysm": [
+  "Extreme Chaos",
+  "Extreme Chaos",
+  "Extreme Chaos",
+  "Extreme Chaos",
+  "Turbulent Storm",
+  "Turbulent Storm",
+  "Turbulent Storm",
+  "Turbulent Storm"
+ ],
+ "Blast": [
+  "Extreme Fire",
+  "Hurricane",
+  "Intensified Electricity",
+  "Overcharged",
+  "Singularity",
+  "earth",
+  "storm",
+  "thunder"
+ ],
+ "Absolute Void": [
+  "Annihilation",
+  "Annihilation",
+  "Hell",
+  "Hell",
+  "Nuclear Winter",
+  "Nuclear Winter",
+  "Vast Inferno",
+  "Vast Inferno"
+ ],
+ "Catastrophic Inferno": [
+  "Apocalypse",
+  "Duststorm",
+  "Electricity",
+  "Extreme Fire",
+  "Fog",
+  "Turbulent Ocean",
+  "Violent Storm",
+  "fire"
+ ],
+ "Cosmic Void": [
+  "Astral Vortex",
+  "Black Hole",
+  "Catastrophe",
+  "Cosmic Explosion",
+  "Hyperstorm",
+  "Natural Disaster",
+  "Neutron Star",
+  "sky"
+ ],
+ "Eternity": [
+  "Absolute Annihilation",
+  "Ash cloud",
+  "Electricity",
+  "Intensified Electricity",
+  "Lightning",
+  "Nothing",
+  "Nuclear Explosion",
+  "Perfect Storm"
+ ],
+ "Nuclear Magma": [
+  "Fury",
+  "Intensified Electricity",
+  "Nuclear Explosion",
+  "Nuclear Reactor",
+  "Ocean",
+  "Plasma",
+  "Turbulent Sea",
+  "earth"
+ ],
+ "Big Bang": [
+  "Astrophysical Event",
+  "Astrophysical Event",
+  "Astrophysical Event",
+  "Astrophysical Event",
+  "Astrophysical Event",
+  "Astrophysical Event",
+  "Astrophysical Event",
+  "Astrophysical Event"
+ ],
+ "Cosmic Collapse": [
+  "Armageddon",
+  "Astral Event",
+  "Catastrophic Disaster",
+  "Empty Void",
+  "Hurricane",
+  "Lightning",
+  "Nothing",
+  "Thunderstorm"
+ ],
+ "Total Void": [
+  "Complete Annihilation",
+  "Cosmic Event",
+  "Neutron Star",
+  "Ocean Storm",
+  "Stormy Sea",
+  "saturated lake",
+  "sky",
+  "storm"
+ ],
+ "Full Destruction": [
+  "Apocalypse",
+  "Complete Destruction",
+  "Cosmic Explosion",
+  "Extreme Weather",
+  "N/A",
+  "Nuclear Reaction",
+  "Severe Thunderstorm",
+  "thunder"
+ ],
+ "Nuclear Waste": [
+  "Radioactive Fallout",
+  "Radioactive Fallout",
+  "Radioactive Fallout",
+  "Radioactive Fallout",
+  "earth",
+  "earth",
+  "earth",
+  "earth"
+ ],
+ "Dark Maelstrom": [
+  "Black Hole",
+  "Nothingness",
+  "Primordial Chaos",
+  "Torrential Downpour",
+  "Total Chaos",
+  "Violent Storm",
+  "thunder",
+  "wind"
+ ],
+ "Primordial Fire": [
+  "Complete Void",
+  "Cosmic Tornado",
+  "Cosmic Vortex",
+  "Dust Devastation",
+  "Magnitude",
+  "Primordial Soup",
+  "fire",
+  "thunder"
+ ],
+ "Absolute Zero": [
+  "All Consuming Void",
+  "Cosmic Annihilation",
+  "Cosmic Event",
+  "Cosmic Vortex",
+  "Supernova",
+  "Void",
+  "Wildfire",
+  "storm"
+ ],
+ " Fireball": [
+  "Black Hole",
+  "Cosmic Event",
+  "Cosmic Explosion",
+  "Duststorm",
+  "Maelstrom",
+  "Pyroclastic Flow",
+  "Turbidity",
+  "fire"
+ ],
+ "Dark Matter": [
+  "Asteroid",
+  "Asteroid",
+  "N/A",
+  "N/A",
+  "Plasma",
+  "Plasma",
+  "Super Nova",
+  "Void"
+ ],
+ "A Big Bang": [
+  "A Singularity",
+  "Armageddon",
+  "Devastation",
+  "Devastation",
+  "Extinction",
+  "Maelstrom",
+  "Oceanic Eruption",
+  "Singular Entity"
+ ],
+ "A Supermassive Black Hole": [
+  "A Black Hole",
+  "A Black Hole",
+  "A Black Hole",
+  "A Black Hole",
+  "water",
+  "water",
+  "water",
+  "water"
+ ],
+ "Endless Void": [
+  "Ashes",
+  "Ashes",
+  "Ashes",
+  "Ashes",
+  "Vortex",
+  "Vortex",
+  "Vortex",
+  "Vortex"
+ ],
+ "Universal Void": [
+  "Armageddon",
+  "Cosmic Vortex",
+  "Creation",
+  "Singularity",
+  "Singularity",
+  "Super Nova",
+  "Vacuum",
+  "water"
+ ],
+ "A Cosmic Singularity": [
+  "A Black Hole",
+  "A Black Hole",
+  "Fusion",
+  "Fusion",
+  "Pyroclastic",
+  "Pyroclastic",
+  "Turbulent Sea",
+  "Turbulent Sea"
+ ],
+ "Higgs Field": [
+  "Extreme Thunder",
+  "Extreme Vortex",
+  "Galaxy",
+  "Maelstrom",
+  "Nuclear Reaction",
+  "Quasar",
+  "Singular Point",
+  "Supernova"
+ ],
+ "Crater": [
+  "Asteroid Impact",
+  "Asteroid Impact",
+  "Asteroid Impact",
+  "Asteroid Impact",
+  "Asteroid Impact",
+  "Asteroid Impact",
+  "Asteroid Impact",
+  "Asteroid Impact"
+ ],
+ "Molten Core": [
+  "Black Hole",
+  "Blazing Inferno",
+  "Desolation",
+  "Extreme Weather",
+  "Molten Lava",
+  "Tsunami",
+  "Volcanic Ash",
+  "Volcanic Ash"
+ ],
+ "Nuclear Meltdown": [
+  "Nuclear Reaction",
+  "Nuclear Reaction",
+  "Nuclear Reaction",
+  "Nuclear Reaction",
+  "earth",
+  "earth",
+  "earth",
+  "earth"
+ ],
+ "Ablation": [
+  "Gamma Ray Burst",
+  "Gamma Ray Burst",
+  "Gamma Ray Burst",
+  "Gamma Ray Burst",
+  "Superstorm",
+  "Superstorm",
+  "Superstorm",
+  "Superstorm"
+ ],
+ "Avoidance": [
+  "A Singularity",
+  "A Singularity",
+  "A Singularity",
+  "A Singularity",
+  "Supernova",
+  "Supernova",
+  "Supernova",
+  "Supernova"
+ ],
+ "Nucleus": [
+  "Singular Point",
+  "Singular Point",
+  "Singular Point",
+  "Singular Point",
+  "Sun",
+  "Sun",
+  "Sun",
+  "Sun"
+ ],
+ "Continental Drift": [
+  "Strong Ocean Current",
+  "Volcano",
+  "Volcano",
+  "Volcano",
+  "Wildfire",
+  "Wildfire",
+  "earth",
+  "mountain"
+ ],
+ "Basaltic Lava": [
+  "Basalt",
+  "Deepest Sea",
+  "Ocean Tides",
+  "Perpetual Blaze",
+  "Strong Ocean Current",
+  "Tectonic Activity",
+  "Volcano",
+  "fire"
+ ],
+ "Radioactive Waste": [
+  "Desolation",
+  "Earthquake",
+  "Fierce Thunderstorm",
+  "Fire Storm",
+  "Molten Earth",
+  "Mud",
+  "Nuclear Winter",
+  "Turbid Earth"
+ ],
+ "Pyrocumulonimbus": [
+  "Explosion",
+  "Fierce Explosion",
+  "Fierce Firestorm",
+  "Fire Storm",
+  "Intense Lightning",
+  "Pyroclastic Flood",
+  "Tornado",
+  "wind"
+ ],
+ "Nuclear Abyss": [
+  "Ashes",
+  "Ashes",
+  "Extreme Fire",
+  "Extreme Fire",
+  "Hyperstorm",
+  "Hyperstorm",
+  "Total Annihilation",
+  "Total Annihilation"
+ ],
+ "Helmwind": [
+  "Catastrophic Disaster",
+  "Extinction",
+  "Extreme Tsunami",
+  "Intense Lightning",
+  "Mega Inferno",
+  "Sea of Fire",
+  "Steam",
+  "Torrent"
+ ],
+ "Extreme Disaster": [
+  "Earthquake",
+  "Hell",
+  "Hellfire",
+  "Massive Flood",
+  "Mega Explosion",
+  "Nuclear Explosion",
+  "Pyroclastic Flood",
+  "Tsunami"
+ ],
+ "Astonishing Catastrophe": [
+  "Cosmic Explosion",
+  "Hurricane",
+  "Hurricane",
+  "Nothing",
+  "Nothingness",
+  "Storm Surge",
+  "Thunderstorm",
+  "Thunderstorm"
+ ],
+ "Hydrostatic Collapse": [
+  "Natural Disaster",
+  "Nothingness",
+  "Oceanic Tsunami",
+  "Supernova",
+  "Tornado",
+  "Void",
+  "Void",
+  "water"
+ ],
+ "Ambient Black Hole": [
+  "Black Hole",
+  "Extreme Weather",
+  "Storm Surge",
+  "Universal Annihilation",
+  "Whirlpool",
+  "fire",
+  "thunder",
+  "water"
+ ],
+ "Ancient, Star-Crushing Flame": [
+  "Asteroid",
+  "Dark Plasma",
+  "Earthquake",
+  "Fierce Thunderstorm",
+  "Maelstrom",
+  "Superstorm",
+  "Universal Annihilation",
+  "fire"
+ ],
+ "Catastrophic Explosion": [
+  "Armageddon",
+  "Fierce Thunder",
+  "Flood",
+  "Lightning",
+  "Lightning",
+  "Turbulence",
+  "mountain",
+  "thunder"
+ ],
+ "Mega Cataclysm": [
+  "Cosmic Cataclysm",
+  "Cosmic Cataclysm",
+  "Cosmic Cataclysm",
+  "Cosmic Cataclysm",
+  "Mega Tsunami",
+  "Mega Tsunami",
+  "Mega Tsunami",
+  "Mega Tsunami"
+ ],
+ "Overwhelming Explosion": [
+  "Blast",
+  "Blast",
+  "Blast",
+  "Blast",
+  "Blast",
+  "Blast",
+  "Blast",
+  "Blast"
+ ],
+ "Canyon": [
+  "Blast",
+  "Explosion",
+  "Hyperstorm",
+  "Magnitude",
+  "Stormy Ocean",
+  "Stormy Sea",
+  "earth",
+  "wind"
+ ],
+ "Atomic Explosion": [
+  "Blast",
+  "Exploded",
+  "Severe Thunderstorm",
+  "Steam",
+  "Stormy Sea",
+  "Superheated Water",
+  "Volcanic Eruption",
+  "fire"
+ ],
+ "None": [
+  "Catastrophic Inferno",
+  "Complete Annihilation",
+  "Cosmic Explosion",
+  "Oceanic Catastrophe",
+  "Superheated Water",
+  "Turbulent Ocean",
+  "Volcanic Eruption",
+  "Wildfire"
+ ],
+ "Galactic Vortex": [
+  "A Black Hole",
+  "Dust Storm",
+  "Molten Lava",
+  "Nuclear Magma",
+  "Total Destruction",
+  "Turmoil",
+  "sky",
+  "wind"
+ ],
+ "Absolute Nothingness": [
+  "Absolute Zero",
+  "Fury",
+  "Lightning Storm",
+  "Nuclear Waste",
+  "Severe Thunderstorm",
+  "Thunderstorm",
+  "Turbulent Tempest",
+  "Universal Annihilation"
+ ],
+ "Supercritical Steam": [
+  "Full Destruction",
+  "Intensified Electricity",
+  "Nothing",
+  "Nuclear Waste",
+  "Pyroclastic",
+  "Turmoil",
+  "Vortex",
+  "water"
+ ],
+ "Cosmic Cycle": [
+  "Big Bang",
+  "Complete Annihilation",
+  "Cosmic Event",
+  "Earthquake",
+  "Extinction",
+  "Mist",
+  "Sand",
+  "Vacuum"
+ ],
+ "Primordial Void": [
+  "Absolute Void",
+  "Cosmic Annihilation",
+  "Dust Storm",
+  "Neutron Star",
+  "Primordial Chaos",
+  "Stormy Sea",
+  "Supernova",
+  "thunder"
+ ],
+ "Primordial Destruction": [
+  "Ash",
+  "Astral Vortex",
+  "Cosmic Vortex",
+  "Fierce Thunderstorm",
+  "Full Destruction",
+  "Intensified Electricity",
+  "Primordial Fire",
+  "chaos"
+ ],
+ "Temporal Singularity": [
+  "Black Hole",
+  "Black Hole",
+  "Complete Void",
+  "Cosmic Collapse",
+  "Floods",
+  "Pyroclastic Flow",
+  "thunder",
+  "thunder"
+ ],
+ "Quantum Void": [
+  "A Black Hole",
+  "Annihilation",
+  "Cosmic Tornado",
+  "Cosmic Vortex",
+  "Extreme Vortex",
+  "Full Destruction",
+  "Molten Lava",
+  "Vacuum"
+ ],
+ "Nuclear Inferno": [
+  "Cosmic Collapse",
+  "Fierce Hurricane",
+  "Hell",
+  "Lava",
+  "Molten Lava",
+  "Nuclear Annihilation",
+  "Wildfire",
+  "thunder"
+ ],
+ "Astral Explosion": [
+  "Astral Vortex",
+  "Cosmic Collapse",
+  "Extreme Chaos",
+  "Extreme Storm",
+  "Haze",
+  "Super Nova",
+  "Wildfire",
+  "sky"
+ ],
+ "Abyssal Maelstrom": [
+  "Cosmic Collapse",
+  "Cosmic Void",
+  "Cosmic Void",
+  "Cosmic Vortex",
+  "Lava",
+  "Natural Disaster",
+  "Nuclear Waste",
+  "Tidal Wave"
+ ],
+ "Extreme Event": [
+  "A Black Hole",
+  "Extreme Energy",
+  "Fog",
+  "Sandstorm",
+  "Total Void",
+  "Void",
+  "Volcano",
+  "Wildfire"
+ ],
+ "Time": [
+  "Eternity",
+  "Eternity",
+  "Eternity",
+  "Eternity",
+  "Void",
+  "Void",
+  "Void",
+  "Void"
+ ],
+ "Primordial Storm": [
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Extreme Storm",
+  "Primordial Fire",
+  "Primordial Fire",
+  "Primordial Fire",
+  "Primordial Fire"
+ ],
+ " Absolute Zero": [
+  "Absolute Void",
+  "Cloud",
+  "Huge Explosion",
+  "Intense Firestorm",
+  "Intense Tempest",
+  "Planet",
+  "Plasma",
+  "thunder"
+ ],
+ "Singular Singularity": [
+  "Molten Core",
+  "Molten Core",
+  "Molten Core",
+  "Molten Core",
+  "Nuclear Explosion",
+  "Nuclear Explosion",
+  "Nuclear Explosion",
+  "Nuclear Explosion"
+ ],
+ "Nuclear Anomaly": [
+  "Ash",
+  "Crater",
+  "Hellfire",
+  "Lava",
+  "Lightning Storm",
+  "Nuclear Meltdown",
+  "Turbid Water",
+  "chaos"
+ ],
+ "Furious Tempest": [
+  "Electrified Sea Breeze",
+  "Electrified Sea Breeze",
+  "Flood",
+  "Intense Lightning",
+  "Ocean Storm",
+  "Pyrocumulonimbus",
+  "water",
+  "wind"
+ ],
+ "Radioactive poison": [
+  "Nuclear Meltdown",
+  "Nuclear Meltdown",
+  "Nuclear Meltdown",
+  "Nuclear Meltdown",
+  "water",
+  "water",
+  "water",
+  "water"
+ ],
+ "Dark Energy": [
+  "Asteroid",
+  "Asteroid",
+  "Dark Matter",
+  "Dark Matter",
+  "Emptiness",
+  "Emptiness",
+  "Endless Void",
+  "Plasma"
+ ],
+ "Energy Explosion": [
+  "Big Bang",
+  "Big Bang",
+  "Big Bang",
+  "Big Bang",
+  "mountain",
+  "mountain",
+  "mountain",
+  "mountain"
+ ],
+ "Oceanic Abyss": [
+  "Maelstrom",
+  "Thunderstorm",
+  "Turbulent Earth",
+  "Turbulent Earth",
+  "Universal Void",
+  "fire",
+  "fire",
+  "lake"
+ ],
+ "Fusion Reactor": [
+  "Dark Matter",
+  "Fierce Thunderstorm",
+  "Flood",
+  "Fusion",
+  "Maelstrom",
+  "Molten Rock",
+  "Vacuum",
+  "water"
+ ],
+ "Molten Mountain": [
+  "Destruction",
+  "Extreme Disaster",
+  "Molten Lava",
+  "N/A",
+  "Total Disaster",
+  "Void",
+  "Volcanic Eruption",
+  "mountain"
+ ],
+ "Harsh Sandstorm": [
+  "Dust Devil",
+  "Glacier",
+  "Hyperstorm",
+  "N/A",
+  "Overwhelming Explosion",
+  "Plasma",
+  "Thunderstorm",
+  "earth"
+ ],
+ "Astral Disintegration": [
+  "Canyon",
+  "Infinite Lava",
+  "Lightning Storm",
+  "Nuclear Explosion",
+  "Overload",
+  "Steam",
+  "Supernova",
+  "wind"
+ ],
+ "Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind": [
+  "Canyon",
+  "Dust Storm",
+  "N/A",
+  "Plasma",
+  "Pyroclastic",
+  "Sandstorm",
+  "Tidal Wave",
+  "storm"
+ ],
+ "Galactic Annihilation": [
+  "Atomic Explosion",
+  "Complete Destruction",
+  "Cosmic Annihilation",
+  "Emptiness",
+  "Galactic Vortex",
+  "Nuclear Magma",
+  "Oceanic Catastrophe",
+  "Tsunami"
+ ],
+ "Nuclear Singularity": [
+  "Nuclear Anomaly",
+  "Nuclear Anomaly",
+  "Nuclear Anomaly",
+  "Nuclear Anomaly",
+  "Nuclear Anomaly",
+  "Nuclear Anomaly",
+  "Nuclear Anomaly",
+  "Nuclear Anomaly"
+ ],
+ "\n\nTotal Chaos": [
+  "Cataclysm",
+  "Complete Chaos",
+  "None",
+  "Stormy Sea",
+  "Total Void",
+  "Void",
+  "Wildfire",
+  "wind"
+ ],
+ "Time Loop": [
+  "N/A",
+  "N/A",
+  "N/A",
+  "N/A",
+  "Time",
+  "Time",
+  "Time",
+  "Time"
+ ],
+ "Hydrocyclone": [
+  "Creation",
+  "Duststorm",
+  "Extreme Event",
+  "Fierce Thunderstorm",
+  "Intense Tempest",
+  "Ocean Breeze",
+  "Paradoxical Void",
+  "Water Storm"
+ ],
+ "Absolute Obstruction": [
+  "Absolute Annihilation",
+  "Astral Disintegration",
+  "Dust",
+  "Harsh Sandstorm",
+  "Magnitude",
+  "Ocean",
+  "Volcanic Eruption",
+  "lake"
+ ],
+ "Pretty much N/A": [
+  "Armageddon",
+  "Astral Disintegration",
+  "Black Hole",
+  "Cosmic Collapse",
+  "Neutron Star",
+  "Nothingness",
+  "Nuclear Annihilation",
+  "sky"
+ ],
+ "Empty Sky": [
+  "Cosmic Void",
+  "Galactic Vortex",
+  "Harsh Sandstorm",
+  "Haze",
+  "Perfect Storm",
+  "Singularity",
+  "Super Storm",
+  "saturated lake"
+ ],
+ "Universal Collapse": [
+  "A Black Hole",
+  "A Black Hole",
+  "Black Hole",
+  "Flooding",
+  "Galactic Annihilation",
+  "Nuclear Reaction",
+  "Wildfire",
+  "saturated lake"
+ ],
+ "Quantum Singularity": [
+  "Armageddon",
+  "Astral Disintegration",
+  "Astral Vortex",
+  "Cataclysmic Explosion",
+  "Fierce Thunderstorm",
+  "Higgs Field",
+  "Ocean Storm",
+  "Turbidity"
+ ],
+ "Time Dilation": [
+  "Time Loop",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop"
+ ],
+ "Nuclear Disintegration": [
+  "All Consuming Void",
+  "Astral Disintegration",
+  "Catastrophic Inferno",
+  "Complete Void",
+  "Cosmic Event",
+  "Extreme Weather",
+  "Full Destruction",
+  "Nuclear Reactor"
+ ],
+ "Infinite Annihilation": [
+  "All Consuming Void",
+  "Astral Disintegration",
+  "Cosmic Vortex",
+  "Flood",
+  "Nuclear Reaction",
+  "Volcanic Eruption",
+  "Wildfire",
+  "wind"
+ ],
+ "Big Explosion": [
+  "Big Bang",
+  "Cosmic Annihilation",
+  "Full Destruction",
+  "Galactic Annihilation",
+  "Neutron Star",
+  "Super Nova",
+  "Violent Storm",
+  "fire"
+ ],
+ "Temporal Vortex": [
+  "Astral Storm",
+  "Astral Storm",
+  "Astral Storm",
+  "Astral Storm",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop"
+ ],
+ "Purple Sky": [
+  "Asteroid Impact",
+  "Astral Disintegration",
+  "Astral Disintegration",
+  "Catastrophic Thunder",
+  "Hellfire",
+  "Sea of Fire",
+  "Singularity",
+  "sky"
+ ],
+ "A N/A": [
+  "A Cosmic Singularity",
+  "Intense Lightning",
+  "Quantum Singularity",
+  "Universal Void",
+  "Universal Void",
+  "Universal Void",
+  "Universal Void",
+  "Universal Void"
+ ],
+ "Time Warp": [
+  "Time Dilation",
+  "Time Dilation",
+  "Time Dilation",
+  "Time Dilation",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop",
+  "Time Loop"
+ ]
+}

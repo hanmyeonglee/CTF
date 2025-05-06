@@ -1,0 +1,897 @@
+{
+ "Magma": [
+  "['Cosmic Explosion', 'Maelstrom', 'Mammoth Mountain', 'Nothing', 'Overcharged', 'Overload', 'Thunderstorm', 'lake']"
+ ],
+ "Lightning": [
+  "['Fog', 'Nothing', 'Sandstorm', 'Severe Thunderstorm', 'Tidal Wave', 'Turmoil', 'saturated lake', 'thunder']"
+ ],
+ "Extreme Earthquake": [
+  "[' Extreme Chaos ', 'Duststorm', 'Extreme Thunder', 'Flooding', 'Lava', 'Pretty much N/A', 'chaos', 'earth']"
+ ],
+ "Global Catastrophe": [
+  "['Apocalypse', 'Ash', 'Duststorm', 'Fierce Thunder', 'Frenzied Torrent', 'Magnitude', 'Steam', 'Tidal Wave']",
+  "['Apocalypse', 'Existential Collapse', 'Explosive Inferno', 'Lava', 'N/A', 'Sandstorm', 'Tidal Wave', 'Total Chaos']"
+ ],
+ "Critical Mass": [
+  "['Critical Mass', 'Fierce Storm', 'Glacier', 'Nuclear Explosion', 'Severe Thunderstorm', 'Super Storm', 'Turbulent Ocean', 'Turbulent Sea']"
+ ],
+ "Cosmic Explosion": [
+  "['Apocalypse', 'Explosion', 'Extreme Fire', 'Fierce Thunder', 'Flooding', 'Nuclear', 'Violent Storm', 'Volcano']",
+  "['A Gamma Ray Burst', 'Astrophysical Explosion', 'Cloud', 'Complete Devastation', 'Cosmic Collapse', 'Emptiness', 'Mist', 'Nuclear']",
+  "['Astral Disintegration', 'Blast', 'Fury', 'Infinite Lava', 'Ocean', 'Singular Point', 'Tornadic Flood', 'mountain']",
+  "[' Extreme Chaos ', 'Astrophysical Event', 'Cosmic Collapse', 'Dust Storm', 'Extreme Fire', 'Extreme Thunder', 'Total Chaos', 'Turmoil']"
+ ],
+ "New Reality": [
+  "['A Singularity', 'Absolute Obstruction', 'Ash', 'Complete Devastation', 'Eternity', 'Galactic Destruction', 'Quantum Singularity', 'Renewal']"
+ ],
+ "Wildfire": [
+  "['Dust Storm', 'Fierce Thunder', 'Intense Lightning Storm', 'Mammoth Mountain', 'Overload', 'Violent Storm', 'Wild Thunder', 'fire']",
+  "['Electricity', 'Fierce Storm', 'Flooding', 'Natural Disaster', 'Nuclear Explosion', 'Overwhelming Explosion', 'Total Annihilation', 'Wildcard']",
+  "['Abyss', 'Cosmic Void', 'Global Catastrophe', 'Intense Firestorm', 'Lava', 'Tsunami', 'Volcanic Eruption', 'Wildcard']"
+ ],
+ "Primordial Singularity": [
+  "['A Gamma Ray Burst', 'Asteroid Annihilation', 'Hyperstorm', 'Natural Disaster', 'Nuclear', 'Primordial Singularity', 'Super Storm', 'Turbulent Tempest']",
+  "['Astral Disaster', 'Cosmic Event', 'Cosmic Tornado', 'Glacier', 'Perfect Storm', 'Primordial Singularity', 'fire', 'thunder']"
+ ],
+ "Primordial Ooze": [
+  "['Cosmic Cycle', 'Eternity', 'Flood', 'Lava', 'Primordial Chaos', 'Quantum Fluctuation', 'Superheated Water', 'Turbulent Waters']"
+ ],
+ "Cataclysmic Explosion": [
+  "['Armageddon', 'Molten Earth', 'Oceanic Catastrophe', 'Pyroclastic', 'Pyroclastic Flow', 'Turbulent Tempest', 'Volcanic Eruption', 'storm']"
+ ],
+ "Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind": [
+  "['Canyon', 'Dust Storm', 'N/A', 'Plasma', 'Pyroclastic', 'Sandstorm', 'Tidal Wave', 'storm']"
+ ],
+ "Astrophysical Expulsion": [
+  "['A Black Hole', 'Cosmic Annihilation', 'Dust Devil', 'Hurricane', 'Lightning Storm', 'Saturated Sky', 'Volcanic Eruption', 'thunder']"
+ ],
+ "Tidal Wave": [
+  "['Atomic Explosion', 'Cosmic Annihilation', 'Explosive Inferno', 'Extreme Fire', 'Tornado', 'Turbulent Sea', 'Violent Storm', 'water']"
+ ],
+ "Extreme Thunder": [
+  "['A Storm', 'Galactic Vortex', 'Magma', 'Nuclear Reaction', 'Plasma', 'Steam', 'Total Destruction', 'thunder']"
+ ],
+ "Gamma-ray burst": [
+  "['A gamma-ray burst', 'Complete Destruction', 'Hyperstorm', 'None', 'Ocean', 'Ocean Storm', 'Paradoxical Singularity', 'lake']"
+ ],
+ "Extreme Weather": [
+  "['Astrophysical Expulsion', 'Dust Storm', 'Extreme Weather', 'Hyperstorm', 'Severe Thunderstorm', 'Total Destruction', 'Wild Fire', 'storm']",
+  "['Cloud', 'Cosmic Explosion', 'Earthstorm', 'Extreme Fire', 'N/A', 'Total Annihilation', 'Wildfire', 'saturated lake']"
+ ],
+ "Nuclear Fire": [
+  "['Cosmic Catastrophe', 'Dust Devastation', 'Duststorm', 'Fierce Storm', 'Frenzied Plasma Discharge', 'Intense Firestorm', 'Nuclear', 'fire']"
+ ],
+ "Vortex": [
+  "['Cosmic Tornado', 'N/A', 'Plasma', 'Superheated Water', 'Tornado', 'Turbulent Sea', 'chaos', 'sky']"
+ ],
+ "Darkness": [
+  "['Abyss', 'All Consuming Void', 'Ash', 'Astrophysical Catastrophe', 'Eclipse', 'Empty Space', 'Turmoil', 'lake']"
+ ],
+ "Emptiness": [
+  "['All Consuming Void', 'Mammoth Mountain', 'Nothingness', 'Steam', 'Thunderstorm', 'Turbulent Ocean', 'Wild Thunder', 'storm']"
+ ],
+ "Total Void": [
+  "['Complete Annihilation', 'Cosmic Event', 'Neutron Star', 'Ocean Storm', 'Stormy Sea', 'saturated lake', 'sky', 'storm']"
+ ],
+ "Explosive Inferno": [
+  "['Astronomical Singularity', 'Blast', 'Cosmic Black Hole', 'Cosmic Void', 'Explosive Inferno', 'Galactic Destruction', 'Sand', 'Smoke']"
+ ],
+ "Total Chaos": [
+  "['Existential Collapse', 'Explosive Inferno', 'Hurricane', 'Ocean Tsunami', 'Steam', 'Turbulent Ocean', 'Turbulent Waters', 'storm']"
+ ],
+ "Dust": [
+  "['Absolute Void', 'Dust Devil', 'Duststorm', 'N/A', 'Ocean Tsunami', 'Sand', 'Severe Thunderstorm', 'water']"
+ ],
+ "Catastrophic Inferno": [
+  "['Apocalypse', 'Duststorm', 'Electricity', 'Extreme Fire', 'Fog', 'Turbulent Ocean', 'Violent Storm', 'fire']"
+ ],
+ "Thrust": [
+  "['A Gamma Ray Burst', 'Astrophysical Explosion', 'Frenzied Torrent', 'Ocean', 'Sandstorm', 'Steam Explosion', 'Superheated Water', 'wind']"
+ ],
+ "Nuclear Reactor": [
+  "['Blast', 'Ocean Storm', 'Plasma', 'Total Chaos', 'Turbulent Sea', 'Volcano', 'lake', 'sky']"
+ ],
+ "Natural Disaster": [
+  "['Armageddon', 'Blast', 'Fierce Storm', 'Lightning', 'Ocean', 'Ocean Tsunami', 'Turmoil', 'water']"
+ ],
+ "Extra Dimensional Singularity": [
+  "['Astral Disaster', 'Cloud', 'Earthstorm', 'Expansion', 'Gravity Well', 'Hurricane', 'Lightning Storm', 'Mega Explosion']"
+ ],
+ "Mountaintop": [
+  "['Asteroid Annihilation', 'Critical Mass', 'Firestorm', 'Galactic Vortex', 'Nuclear Waste', 'Singularity', 'Vapor', 'Volcano']"
+ ],
+ "Turbulent Annihilation": [
+  "['Complete Annihilation', 'Cosmic Collapse', 'Existential Collapse', 'Explosive Inferno', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Thrust', 'Total Chaos', 'Turbulence']"
+ ],
+ "A Total Void": [
+  "[' Primordial Singularity ', 'A Total Void', 'Astrophysical Catastrophe', 'Earthstorm', 'Frenzied Plasma Discharge', 'Lightning Storm', 'Nuclear Magma', 'Primordial Singularity']"
+ ],
+ "Tremendous Explosion": [
+  "['Atomic Explosion', 'Fierce Explosion', 'Harsh Sandstorm', 'Mega Explosion', 'Nuclear Reaction', 'Tidal Wave', 'Tornadic Flood', 'mountain']"
+ ],
+ "Plasma": [
+  "['Canyon', 'Earthstorm', 'Fog', 'Infinite Lava', 'N/A', 'Nuclear Storm', 'Wildcard', 'wind']"
+ ],
+ "Earth": [
+  "['Canyon', 'Fierce Storm', 'Saturated Sky', 'Superheated Water', 'Turbulent Sea', 'lake', 'mountain', 'wind']",
+  "['Cloudy Plains', 'Complete Chaos', 'Cosmic Explosion', 'Explosion', 'Floods', 'Intense Firestorm', 'Mist', 'Natural Disaster']",
+  "['Canyon', 'Cosmic Collapse', 'Fusion', 'Primordial Explosion', 'Pyroclastic Firestorm', 'Pyroclastic Flow', 'Stormy Ocean', 'Thunderstorm']",
+  "['Cold Darkness', 'Cosmic Catastrophe', 'Cosmic Cycle', 'Electricity', 'Massive Thunder', 'Mist', 'Sea of Chaos', 'mountain']"
+ ],
+ "Fierce Storm": [
+  "['Dust', 'Dust Devil', 'Explosive Inferno', 'Flooding', 'Glacier', 'Maelstrom', 'Violent Storm', 'fire']"
+ ],
+ "Wreckage": [
+  "['Asteroid Impact', 'Astral Disintegration', 'Infinite Lava', 'Lightning Storm', 'Primordial Fire', 'Stormy Ocean', 'Thrust', 'fire']"
+ ],
+ "Extinction": [
+  "['Complete Annihilation', 'Extreme Energy', 'Fury', 'Magnitude', 'Overwhelming Explosion', 'Steam', 'Supernova', 'water']"
+ ],
+ "Pyroclastic Flow": [
+  "['Ash cloud', 'Extreme Energy', 'None', 'Nuclear Reactor', 'Ocean Tsunami', 'Steam Explosion', 'fire', 'storm']",
+  "['Disintegration', 'Existential Destruction', 'Nuclear Explosion', 'Oceanic Catastrophe', 'Primordial Soup', 'Pyroclastic Flow', 'Steam', 'Volcano']"
+ ],
+ "Extreme Chaos": [
+  "[' Extreme Chaos ', 'A Big Bang', 'Cosmic Tornado', 'Intense Inferno', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'None', 'Nothingness', 'Wildfire']"
+ ],
+ "Nuclear Reaction": [
+  "['Critical Mass', 'Explosive Inferno', 'Lightning Storm', 'Magnitude', 'Paradox', 'Severe Thunderstorm', 'Stormy Sea', 'Turmoil']"
+ ],
+ "Big Bang": [
+  "['Astrophysical Expulsion', 'Cosmic Explosion', 'Exploded', 'Nuclear Explosion', 'Oceanic Catastrophe', 'Singularity', 'Tornadic Flood', 'Total Chaos']",
+  "['Creation Event', 'Extreme Catastrophe', 'Flood', 'Nebula', 'New Universe', 'Ocean Storm', 'Turbulent Maelstrom', 'Vaporized Void']",
+  "['A Quantum Singularity', 'Critical Mass', 'Dark Matter', 'Fury', 'Pandemonium', 'Singular Black Hole', 'Temporal Singularity', 'Wild Fire']"
+ ],
+ "Blackhole": [
+  "['Duststorm', 'Extreme Catastrophe', 'Flood', 'Inferno', 'Paradox', 'Pyroclastic Firestorm', 'Super Nova', 'Thunderstorm']",
+  "['Apocalypse', 'Blackhole', 'Explosive Inferno', 'Extreme Catastrophe', 'Mammoth Black Hole', 'Oblivion', 'Overload', 'Sandstorm']"
+ ],
+ "Primordial Chaos": [
+  "['Abyss', 'Existential Destruction', 'Gamma Ray Burst', 'Intense Inferno', 'Primordial Ooze', 'Sandstorm', 'Thunderstorm', 'Turbulent Waters']",
+  "['Absolute Obstruction', 'Blackhole', 'Explosion', 'Frenzied Torrent', 'Mist', 'Oceanic Catastrophe', 'Primordial Energy', 'Tidal Wave']",
+  "['Cosmic Disaster', 'Extreme Earthquake', 'Fierce Thunder', 'Global Catastrophe', 'Massive Explosion', 'Primordial Chaos', 'Turbid Maelstrom', 'chaos']"
+ ],
+ "Infinite Fire": [
+  "['Astounding Chaos', 'Dark Maelstrom', 'Disaster', 'Disintegration', 'Eclipse', 'Infinite Lava', 'Mountaintop', 'N/A']"
+ ],
+ "Nova": [
+  "['A Singularity', 'Black Hole', 'Extreme Energy', 'Gamma Ray', 'Lightning Storm', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Overcharged', 'Total Devastation']"
+ ],
+ "Steam": [
+  "['Dust Devastation', 'Exploded', 'Hyperstorm', 'Infinite Lava', 'Primordial Energy', 'Steam', 'Thrust', 'Turbulent Tempest']"
+ ],
+ "Primordial Black Hole": [
+  "[' Fireball', 'Asteroid Impact', 'Canyon', 'Cosmic Tornado', 'Mammoth Black Hole', 'Nuclear Explosion', 'Perfect Storm', 'Primordial Soup']"
+ ],
+ "Volcanic Eruption": [
+  "['Flood', 'Lightning Storm', 'Magnitude', 'Nothingness', 'Super Storm', 'Violent Storm', 'Volcanic Eruption', 'storm']",
+  "['Ash cloud', 'Complete Annihilation', 'Cosmic Explosion', 'Explosion', 'Stormy Ocean', 'Violent Storm', 'earth', 'lake']",
+  "['Astrophysical Expulsion', 'Extreme Fire', 'Flooding', 'Inferno', 'Infinite Lava', 'Sandstorm', 'Turbulence', 'wind']",
+  "['Earthstorm', 'Hyperstorm', 'Maelstrom', 'Nuclear Magma', 'Overcharged', 'Steam', 'Stormy Ocean', 'Wild Fire']",
+  "['Cloudy Plains', 'Extreme Energy', 'Mega Explosion', 'Pyroclastic', 'Vapor', 'earth', 'mountain', 'wind']",
+  "['Critical Mass', 'Desolate Wasteland', 'Duststorm', 'Inferno', 'Pyroclastic Firestorm', 'Sand', 'mountain', 'wind']"
+ ],
+ "Nuclear Explosion": [
+  "['Armageddon', 'Canyon', 'Flood', 'Nuclear', 'Perfect Storm', 'Steam Explosion', 'Void', 'thunder']",
+  "['Apocalypse', 'Blast', 'Fog', 'Lightning Storm', 'Oceanic Catastrophe', 'Overcharged', 'Severe Thunderstorm', 'saturated lake']",
+  "['Blast', 'Glacier', 'N/A', 'Nuclear Reaction', 'Plasma', 'Pyroclastic', 'Tidal Wave', 'Volcano']",
+  "['Atomic Explosion', 'Blast', 'Exploded', 'Extreme Weather', 'Hyperstorm', 'Lightning', 'Nuclear', 'Steam Explosion']",
+  "['Abyss', 'Astral Disintegration', 'Astrophysical Explosion', 'Explosion', 'Fierce Explosion', 'Mist', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Nuclear Magma']",
+  "['Critical Mass', 'Fierce Storm', 'Infinite Lava', 'N/A', 'Nothing', 'Tornadic Flood', 'Tornado', 'Wildcard']",
+  "['Ash', 'Empty Space', 'Hyperstorm', 'Moon', 'N/A', 'Nuclear Winter', 'Quantum Fluctuation', 'Smoke']",
+  "['Cosmic Disaster', 'Extreme Thunder', 'Extreme Vortex', 'Gamma Ray', 'Oceanic Catastrophe', 'Vacuum', 'lake', 'thunder']"
+ ],
+ "Abyss": [
+  "['All Consuming Void', 'Flooding', 'Frenzied Plasma Discharge', 'Neutron Star', 'Nuclear Magma', 'Primordial Explosion', 'Steam', 'Super Nova']",
+  "['Abyss', 'Armageddon', 'Dust Storm', 'Extreme Catastrophe', 'Firestorm', 'Galactic Annihilation', 'Ocean Tsunami', 'Singularity']"
+ ],
+ "Nebula": [
+  "['A Cosmic Black Hole', 'Asteroid Impact', 'Cosmic Annihilation', 'Cosmic Void', 'Mega Explosion', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Nebula', 'Supercritical Steam']"
+ ],
+ "Primordial Explosion": [
+  "['Atomic Explosion', 'Dust Devil', 'Extreme Fire', 'Primordial Soup', 'Volcano', 'Wild Fire', 'chaos', 'thunder']",
+  "['Blast', 'Cosmic Explosion', 'Critical Mass', 'Extreme Fire', 'Gamma Ray Burst', 'Primordial Explosion', 'Singularity', 'Steam Explosion']",
+  "['Catastrophic Inferno', 'Electricity', 'Glacier', 'Nothing', 'Primordial Explosion', 'Superheated Water', 'Vortex', 'wind']",
+  "['Cosmic Tornado', 'Duststorm', 'Fireball', 'Neutron Star', 'Nothingness', 'Primordial Explosion', 'Pure Chaos', 'Unstable Energy']"
+ ],
+ "Mountain": [
+  "['Armageddon', 'Atomic Explosion', 'Nuclear Reactor', 'Oceanic Catastrophe', 'Pyroclastic', 'Turbulent Sea', 'Violent Storm', 'earth']",
+  "['Ash cloud', 'Cosmic Tornado', 'Cosmic Void', 'Extreme Energy', 'Extreme Weather', 'Hyperstorm', 'Singularity', 'mountain']",
+  "['Canyon', 'Cosmic Void', 'Glacier', 'Harsh Sandstorm', 'Hyperstorm', 'Molten Lava', 'Sandstorm', 'Volcanic Eruption']",
+  "['Absolute Obstruction', 'Cosmic Void', 'Inferno', 'Nothing', 'Overcharged', 'Perfect Storm', 'Vacuum', 'thunder']",
+  "['Absolute Void', 'Atomic Explosion', 'Catastrophic Inferno', 'Extreme Fire', 'Intense Lightning Storm', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Perfect Storm', 'Wild Thunder']",
+  "['Absolute Obstruction', 'Cosmic Event', 'Earthstorm', 'Exploded', 'Pyroclastic', 'Singularity', 'Turbulence', 'saturated lake']",
+  "['Absolute Obstruction', 'Cosmic Void', 'Cosmic Vortex', 'Hypernova', 'Neutron Star', 'Nuclear Reaction', 'Plasma', 'Quantum Fluctuation']",
+  "['Abyss', 'Cloudy Plains', 'Destructive Chaos', 'Extreme Energy', 'Fierce Thunder', 'Primordial Energy', 'Thuder', 'Wildfire']",
+  "['Absolute Obstruction', 'Complete Destruction', 'Extreme Fire', 'Extreme Thunder', 'Magma', 'Overcharged', 'Primordial Force', 'fire']",
+  "['Absolute Obstruction', 'Cosmic Explosion', 'Cosmic Vortex', 'Extreme Fire', 'Lava', 'Moon', 'Primordial Energy', 'Volcanic Eruption']"
+ ],
+ "Extreme Fusion": [
+  "[' Extreme Chaos ', 'Big Bang', 'Cloudy Plains', 'Complete Void', 'Nuclear Magma', 'Supernova', 'water', 'wind']"
+ ],
+ "A Black Hole": [
+  "['A Black Hole', 'A Storm', 'Complete Destruction', 'Dust Storm', 'Flooding', 'Harsh Sandstorm', 'Total Destruction', 'Volcanic Eruption']",
+  "['A Black Hole', 'Cosmic Explosion', 'Saturated Sky', 'Super Storm', 'Supernova', 'Volcano', 'lake', 'mountain']",
+  "['A Black Hole', 'A Storm', 'Duststorm', 'Hyperstorm', 'Perfect Storm', 'Total Annihilation', 'mountain', 'storm']",
+  "['A Black Hole', 'A Storm', 'Astral Disintegration', 'Cosmic Annihilation', 'Hurricane', 'Infinite Lava', 'Thunderstorm', 'earth']",
+  "['A Black Hole', 'Electricity', 'Mammoth Mountain', 'Sandstorm', 'Singular Point', 'Superheated Water', 'Supernova', 'Total Chaos']",
+  "['Catastrophe', 'Lightning Storm', 'Nuclear Waste', 'Primordial Explosion', 'Sandstorm', 'Singularity', 'Stormy Ocean', 'Total Chaos']"
+ ],
+ "Complete Annihilation": [
+  "['Absolute Void', 'Apocalypse', 'Complete Annihilation', 'Fierce Thunder', 'Lightning Storm', 'Ocean Storm', 'earth', 'sky']",
+  "['Armageddon', 'Atomic Explosion', 'Complete Annihilation', 'Dust Storm', 'Nothingness', 'Thunderstorm', 'saturated lake', 'wind']",
+  "['Canyon', 'Complete Annihilation', 'Molten Lava', 'N/A', 'Severe Thunderstorm', 'Stormy Ocean', 'Total Destruction', 'Turbulent Ocean']",
+  "['Complete Annihilation', 'Dust Storm', 'Exploded', 'Extreme Energy', 'Nuclear Reactor', 'Overload', 'Saturated Sky', 'Singularity']",
+  "['Asteroid Annihilation', 'Astrophysical Event', 'Complete Chaos', 'Fierce Thunderstorm', 'Fury', 'Nuclear Annihilation', 'Void', 'Volcanic Eruption']",
+  "['Absolute Annihilation', 'Abyss', 'Complete Devastation', 'Cosmic Collision', 'Extreme Weather', 'Turbulent Sea', 'Violent Storm', 'Volcanic Eruption']"
+ ],
+ "Absolute Void": [
+  "['Absolute Void', 'Black Hole', 'Exploded', 'Fury', 'Nothing', 'Nuclear Reactor', 'Paradox', 'Vacuum']",
+  "['A Cosmic Black Hole', 'Absolute Void', 'Complete Void', 'Cosmic Annihilation', 'Electricity', 'Pyroclastic Firestorm', 'Pyroclastic Flow', 'lake']"
+ ],
+ "Primordial Energy": [
+  "['A gamma-ray burst', 'Catastrophe', 'Extreme Earthquake', 'Frenzied Torrent', 'Molten Lava', 'Nuclear Reactor', 'Primordial Energy', 'Supercritical Steam']"
+ ],
+ "Cosmic Catastrophe": [
+  "[' Extreme Storm', 'Cosmic Collapse', 'Galactic Vortex', 'Hypernova', 'Inferno', 'Sand', 'Violent Storm', 'earth']"
+ ],
+ "Singular Point": [
+  "['Black Hole', 'Canyon', 'Extreme Energy', 'Fierce Storm', 'Maelstrom', 'N/A', 'saturated lake', 'wind']"
+ ],
+ "Maelstrom": [
+  "['Astrophysical Expulsion', 'Lightning Storm', 'Maelstrom', 'Mammoth Mountain', 'Plasma', 'Stormy Sea', 'Total Annihilation', 'thunder']"
+ ],
+ "Armageddon": [
+  "['Apocalypse', 'Dust Devil', 'End of the World', 'Existential Collapse', 'Harsh Sandstorm', 'Overload', 'Pyroclastic Flow', 'Wildfire']",
+  "['Complete Destruction', 'Disaster', 'End of the World', 'Magma', 'Natural Disaster', 'Pretty much N/A', 'Smoke', 'Thunderstorm']",
+  "['Darkness', 'Disintegration', 'Explosion', 'Fierce Thunderstorm', 'Natural Disaster', 'Nuclear', 'Total Chaos', 'Wild Fire']"
+ ],
+ "Super Nova": [
+  "['Black Hole', 'Explosion', 'Fierce Thunder', 'Frenzied Torrent', 'Overcharged', 'Total Chaos', 'Volcano', 'thunder']"
+ ],
+ "Void": [
+  "['Cosmic Annihilation', 'Exploded', 'Harsh Sandstorm', 'Molten Lava', 'Overcharged', 'Overload', 'Total Annihilation', 'Wild Thunder']",
+  "['Absolute Annihilation', 'Canyon', 'Cosmic Annihilation', 'Dust Storm', 'Extreme Weather', 'Fierce Storm', 'Severe Thunderstorm', 'Total Destruction']",
+  "['Astral Disintegration', 'Cosmic Explosion', 'Maelstrom', 'Magnitude', 'Nothingness', 'Plasma', 'Sandstorm', 'Turmoil']",
+  "['Astral Disintegration', 'Cosmic Annihilation', 'Cosmic Explosion', 'Lightning Storm', 'Molten Lava', 'Nothing', 'Nothingness', 'Nuclear Explosion']",
+  "['Absolute Annihilation', 'Armageddon', 'Blast', 'Canyon', 'Overcharged', 'Perfect Storm', 'Sand', 'Tornado']",
+  "['Complete Annihilation', 'Cosmic Tornado', 'Fierce Storm', 'Infinite Lava', 'Singular Point', 'Thunderstorm', 'Turbulent Sea', 'wind']",
+  "['Emptiness', 'Extreme Fire', 'Fog', 'Lightning Storm', 'Mammoth Mountain', 'Natural Disaster', 'Plasma', 'fire']",
+  "['Complete Destruction', 'Fury', 'Glacier', 'Lava', 'Nothingness', 'Pyroclastic', 'Total Annihilation', 'Turbulent Ocean']",
+  "['Absolute Annihilation', 'Cloud', 'Cosmic Tornado', 'Paradox', 'Plasma', 'Stormy Ocean', 'Supernova', 'Wildfire']",
+  "['Complete Annihilation', 'Explosion', 'Explosive Inferno', 'Frenzied Torrent', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Ocean Tsunami', 'Primordial Soup', 'Turbidity']",
+  "['Absolute Annihilation', 'Atomic Explosion', 'Extreme Weather', 'Flood', 'Nothingness', 'Nuclear', 'Plasma', 'Total Annihilation']",
+  "['Absolute Nothingness', 'Cloudy Plains', 'Eternity', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Stormy Sea', 'Super Nova', 'Turbulent Ocean', 'sky']",
+  "['Absolute Nothingness', 'Ash', 'Cosmic Explosion', 'Disintegration', 'N/A', 'Sand', 'Turmoil', 'storm']",
+  "['Absolute Annihilation', 'Astral Disintegration', 'Catastrophic Inferno', 'Intense Firestorm', 'N/A', 'Sandstorm', 'Wild Thunder', 'water']",
+  "['End of the World', 'Extinction', 'Intense Firestorm', 'Neutron Star', 'Stormy Ocean', 'Thuder', 'Total Annihilation', 'water']",
+  "['Earthstorm', 'Magnitude', 'Mammoth Mountain', 'Neutron Star', 'Sandstorm', 'Turbulence', 'Turbulent Ocean', 'sky']",
+  "['Eternity', 'Extinction', 'Lightning', 'Overcharged', 'Primordial Soup', 'Tsunami', 'Turbidity', 'storm']",
+  "['Cosmic Annihilation', 'Darkness', 'Fierce Explosion', 'Glacier', 'N/A', 'Perfect Storm', 'Steam', 'Turbulent Waters']",
+  "['Canyon', 'Cloudy Plains', 'Cosmic Annihilation', 'Destructive Chaos', 'Disintegration', 'Floods', 'Stormy Ocean', 'Tornado']",
+  "['Absolute Void', 'Ash cloud', 'Astral Catastrophe', 'Haze', 'Lightning Storm', 'Superheated Water', 'Wildcard', 'storm']",
+  "['Catastrophic Inferno', 'Cosmic Collapse', 'Mist', 'Primordial Chaos', 'Pyroclastic Firestorm', 'Total Chaos', 'Turbulence', 'Whirlwind']",
+  "['Darkness', 'Dust Devastation', 'Fusion', 'Magma', 'Nuclear Waste', 'Tornadic Flood', 'Total Chaos', 'Tremendous Explosion']",
+  "['Blast', 'Creation', 'Hurricane', 'Infinite Lava', 'Nothingness', 'Paradoxical Singularity', 'Sand', 'sky']",
+  "['Cataclysm', 'Complete Chaos', 'Fusion', 'Plasma', 'Tidal Wave', 'Total Void', 'Waterfall', 'storm']",
+  "['A Cosmic Black Hole', 'Absolute Obstruction', 'Extreme Storm', 'Intense Lightning Storm', 'Nuclear Void', 'Oceanic Catastrophe', 'Tidal Wave', 'chaos']",
+  "['Exploded', 'Extreme Fire', 'Frenzied Torrent', 'Galactic Annihilation', 'Nuclear Reaction', 'Ocean Tsunami', 'Overwhelming Explosion', 'Saturated Sky']",
+  "['Absolute Annihilation', 'Astral Disaster', 'Cosmic Catastrophe', 'Critical Mass', 'Galactic Vortex', 'Intense Inferno', 'Thermal Explosion', 'Vortex']",
+  "['A Singularity', 'Extreme Fire', 'Fierce Storm', 'Galactic Annihilation', 'Overload', 'Overwhelming Explosion', 'Primordial Fire', 'Thunderstorm']",
+  "['Absolute Nothingness', 'Astral Catastrophe', 'Astral Disintegration', 'Catastrophic Inferno', 'Cloud', 'Primordial Force', 'sky', 'wind']",
+  "['Big Bang', 'Complete Chaos', 'Eternity', 'Global Annihilation', 'Harsh Sandstorm', 'Magnitude', 'Quantum Fluctuation', 'Superheated Water']",
+  "['Absolute Nothingness', 'Catastrophic Inferno', 'Earthquake', 'Intense Lightning Storm', 'Intensified Electricity', 'Nuclear Catastrophe', 'Turbulent Sea', 'water']",
+  "['Absolute Obstruction', 'Armageddon', 'Complete Annihilation', 'Fierce Storm', 'Fog', 'Gamma Ray', 'Turbulence', 'Vacuum']",
+  "['Astral Disintegration', 'Galactic Annihilation', 'Singular Point', 'Smoke', 'Stormy Ocean', 'Supernova', 'Turbulent Annihilation', 'fire']",
+  "['Annihilation', 'Atomic Explosion', 'Complete Annihilation', 'Cosmic Explosion', 'Intense Inferno', 'Oceanic Catastrophe', 'Primordial Singularity', 'Pyroclastic']",
+  "[' Primordial Singularity ', 'Annihilation', 'Cosmic Cycle', 'Dust', 'Harsh Sandstorm', 'Neutron Star', 'Pyroclastic Flow', 'Turbulent Sea']",
+  "['Catastrophic Inferno', 'Extreme Energy', 'Mammoth Black Hole', 'Nuclear Reaction', 'Perfect Storm', 'Vaporized Void', 'Water Storm', 'fire']",
+  "['Ash cloud', 'Cosmic Catastrophe', 'Cosmic Event', 'Intense Firestorm', 'Super Storm', 'Supernova', 'Turbulent Sea', 'Vacuum']",
+  "['Absolute Annihilation', 'Existential Destruction', 'Extreme Catastrophe', 'Oblivion', 'Turbulent Annihilation', 'Waterfall', 'fire', 'sky']",
+  "['Annihilation', 'Full Destruction', 'Global Devastation', 'Intense Lightning Storm', 'Supernova', 'Tsunami', 'Volcano', 'earth']",
+  "['A Singularity', 'Cataclysmic Explosion', 'Cosmic Event', 'Global Catastrophe', 'Molten Earth', 'Nuclear', 'Planet', 'Quantum Turbulence']",
+  "['Annihilation', 'Cosmic Explosion', 'Duststorm', 'Frenzied Torrent', 'Gamma-ray burst', 'Lightning Storm', 'Turbulent Tempest', 'water']",
+  "['Blackhole', 'Cosmic Explosion', 'Gamma Ray', 'Hypernova', 'Mega Explosion', 'Pyroclastic Flow', 'Saturated Sky', 'chaos']",
+  "['Existential Collapse', 'Nuclear Catastrophe', 'Quantum Singularity', 'Sand', 'Turbidity', 'Turbulent Waters', 'Unstable Energy', 'Wreckage']"
+ ],
+ "Wildcard": [
+  "['Electricity', 'Explosive Inferno', 'Extreme Energy', 'Fierce Storm', 'Infinite Lava', 'Total Chaos', 'Wild Thunder', 'storm']"
+ ],
+ "Mega Explosion": [
+  "['Atomic Explosion', 'Cosmic Tornado', 'Overwhelming Explosion', 'Pyroclastic', 'Severe Thunderstorm', 'Turbulent Ocean', 'Wildcard', 'fire']"
+ ],
+ "Thunder": [
+  "['Absolute Void', 'Complete Destruction', 'Cosmic Tornado', 'Harsh Sandstorm', 'Intense Lightning Storm', 'N/A', 'Nuclear Explosion', 'wind']",
+  "['Electricity', 'Infinite Lava', 'Lightning Storm', 'Magnitude', 'Nuclear', 'Ocean Tsunami', 'Overcharged', 'mountain']",
+  "['Atomic Explosion', 'Extreme Energy', 'Harsh Sandstorm', 'Overwhelming Explosion', 'Plasma', 'earth', 'fire', 'wind']",
+  "['A Storm', 'Black Hole', 'Catastrophic Inferno', 'Cloud', 'Emptiness', 'Hurricane', 'Lava', 'Wildfire']",
+  "['A Storm', 'Complete Destruction', 'Neutron Star', 'Stormy Sea', 'Super Storm', 'Turbulent Sea', 'Turmoil', 'lake']",
+  "['Extreme Energy', 'Fierce Explosion', 'Fury', 'Nuclear Annihilation', 'Pyroclastic', 'Super Storm', 'Turbidity', 'Turbulent Sea']"
+ ],
+ "Gamma Ray Burst": [
+  "['A Gamma Ray Burst', 'Absolute Obstruction', 'Complete Annihilation', 'Mammoth Mountain', 'Nuclear Reaction', 'Overwhelming Explosion', 'Paradoxical Singularity', 'Steam Explosion']",
+  "['A Gamma Ray Burst', 'Extreme Energy', 'Gamma Ray Burst', 'Intense Lightning Storm', 'None', 'Overwhelming Explosion', 'Primordial Explosion', 'Wild Thunder']"
+ ],
+ "Absolute Nothingness": [
+  "['Absolute Void', 'Astrophysical Explosion', 'Cloud', 'Cosmic Annihilation', 'Extreme Storm', 'Mammoth Black Hole', 'Nuclear Explosion', 'Tornado']"
+ ],
+ "Lake": [
+  "['Apocalypse', 'Cosmic Annihilation', 'Duststorm', 'Explosion', 'Extreme Weather', 'Steam Explosion', 'chaos', 'lake']"
+ ],
+ "Gravity Well": [
+  "['Cosmic Collapse', 'Electricity', 'Extreme Energy', 'Mammoth Mountain', 'Paradox', 'Quantum Fluctuation', 'Steam Explosion', 'mountain']"
+ ],
+ "Astral Explosion": [
+  "['A Big Bang', 'Astral Explosion', 'Astrophysical Event', 'Cloudy Plains', 'Duststorm', 'Empty Sky', 'Explosion', 'No solution']"
+ ],
+ "Turbulent Abyss": [
+  "['A Singularity', 'Cloudy Plains', 'Cold Darkness', 'Fierce Explosion', 'Hurricane', 'Total Destruction', 'Turmoil', 'thunder']"
+ ],
+ "Astral Disintegration": [
+  "['Canyon', 'Infinite Lava', 'Lightning Storm', 'Nuclear Explosion', 'Overload', 'Steam', 'Supernova', 'wind']",
+  "['Absolute Nothingness', 'All Consuming Void', 'Astral Disintegration', 'Astrophysical Expulsion', 'Dust Storm', 'Ocean', 'Pyroclastic', 'Vapor']"
+ ],
+ "Whirlwind": [
+  "['Dust Devil', 'Exploded', 'Flood', 'Superheated Water', 'Violent Storm', 'Vortex', 'storm', 'wind']"
+ ],
+ "Desolate Wasteland": [
+  "['Extinction', 'Fog', 'Frenzied Plasma Discharge', 'Molten Lava', 'Nuclear', 'Sand', 'Sandstorm', 'earth']"
+ ],
+ "Absolute Zero": [
+  "[' Primordial Singularity ', 'Cloud', 'Firestorm', 'Haze', 'Nothing', 'Pyroclastic', 'Turbid Maelstrom', 'sky']"
+ ],
+ "Ocean": [
+  "['A Storm', 'Complete Annihilation', 'Complete Destruction', 'Molten Lava', 'Overload', 'Overwhelming Explosion', 'Severe Thunderstorm', 'Waterfall']"
+ ],
+ "New Universe": [
+  "['Big Bang', 'Empty Space', 'Extreme Fusion', 'Frenzied Fire', 'Quantum Fluctuation', 'Quantum Void', 'Superheated Water', 'Turbulent Storm']"
+ ],
+ "Extreme Vortex": [
+  "[' Extreme Storm', 'Astral Vortex', 'Extreme Storm', 'Extreme Weather', 'Nuclear Waste', 'Paradoxical Singularity', 'Turbulent Annihilation', 'Whirlwind']"
+ ],
+ "Absolute Obstruction": [
+  "['Absolute Annihilation', 'Astral Disintegration', 'Dust', 'Harsh Sandstorm', 'Magnitude', 'Ocean', 'Volcanic Eruption', 'lake']"
+ ],
+ "Tsunami": [
+  "['Cloud', 'Fierce Explosion', 'Inferno', 'N/A', 'Violent Storm', 'Volcanic Eruption', 'mountain', 'storm']",
+  "['Floods', 'Glacier', 'Magnitude', 'Mist', 'Super Nova', 'Tremendous Explosion', 'Vortex', 'thunder']",
+  "['Ash', 'Extreme Thunder', 'Flooding', 'Hyperstorm', 'Saturated Sky', 'Tornadic Flood', 'Waterfall', 'saturated earth']"
+ ],
+ "Cosmic Annihilation": [
+  "['Cosmic Annihilation', 'Dust', 'Nothingness', 'Nuclear Magma', 'Singularity', 'Turbulent Sea', 'Wildcard', 'lake']",
+  "['Astral Disintegration', 'Canyon', 'Extreme Weather', 'Maelstrom', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Stormy Ocean', 'Total Annihilation', 'mountain']",
+  "['Astrophysical Explosion', 'Black Hole', 'Cosmic Annihilation', 'Cosmic Void', 'Frenzied Torrent', 'Neutron Star', 'Severe Thunderstorm', 'earth']",
+  "['Complete Void', 'Cosmic Explosion', 'Earthstorm', 'Galactic Annihilation', 'None', 'Nuclear Waste', 'Tornadic Flood', 'Turbulence']",
+  "['Abyss', 'Armageddon', 'Astral Catastrophe', 'Extinction', 'Galactic Annihilation', 'Magnitude', 'Oceanic Catastrophe', 'Turbulent Annihilation']",
+  "['Exploded', 'Fury', 'Global Annihilation', 'Hyperstorm', 'Infinite Lava', 'Nuclear Reactor', 'Total Void', 'fire']"
+ ],
+ "Sandstorm": [
+  "['Duststorm', 'Lightning', 'Molten Lava', 'Nothing', 'Overload', 'Perfect Storm', 'Turmoil', 'sky']",
+  "['Dust Storm', 'Duststorm', 'Explosion', 'Fierce Thunder', 'Infinite Lava', 'Plasma', 'Total Chaos', 'wind']",
+  "['Dust Storm', 'Emptiness', 'Exploded', 'Extreme Weather', 'Glacier', 'Inferno', 'Turmoil', 'wind']",
+  "['Ash cloud', 'Explosive Inferno', 'Glacier', 'Primordial Explosion', 'Vacuum', 'Void', 'Volcanic Eruption', 'wind']",
+  "['Dust Devil', 'Eternity', 'Mammoth Black Hole', 'Natural Disaster', 'Paradox', 'Perfect Storm', 'Sandstorm', 'wind']",
+  "['Ash', 'Cosmic Explosion', 'Desolate Wasteland', 'Duststorm', 'Flood', 'Hyperstorm', 'Perfect Storm', 'Steam']"
+ ],
+ "Storm": [
+  "['Astral Vortex', 'Explosion', 'Extinction', 'Fireball', 'Ocean', 'Primordial Chaos', 'Tornadic Flood', 'Waterfall']",
+  "['Cloud', 'Complete Annihilation', 'Darkness', 'Desolate Wasteland', 'Gamma Ray', 'Global Annihilation', 'Tornado', 'Wildfire']"
+ ],
+ " Extreme Chaos ": [
+  "['Firestorm', 'Fury', 'Harsh Sandstorm', 'Lava', 'Plasma', 'Saturated Sky', 'Severe Thunderstorm', 'Turmoil']"
+ ],
+ "Fierce Thunderstorm": [
+  "['Cloudy Plains', 'Cosmic Tornado', 'Earthquake', 'Electricity', 'Fierce Thunder', 'Magma', 'Mammoth Mountain', 'Smoke']"
+ ],
+ "Fury": [
+  "['A Storm', 'Blast', 'Critical Mass', 'Hurricane', 'Super Storm', 'Tornado', 'Turbulent Ocean', 'earth']",
+  "['Blast', 'Duststorm', 'Fierce Storm', 'Fury', 'Superheated Water', 'Tornado', 'Turmoil', 'Wildcard']"
+ ],
+ "Existential Collapse": [
+  "['End of the World', 'Nothingness', 'Nuclear Reactor', 'Ocean Tsunami', 'Supernova', 'Volcano', 'Vortex', 'wind']"
+ ],
+ "Extreme Fire": [
+  "['Dust Storm', 'Extreme Fire', 'Fierce Thunder', 'Lightning', 'Magnitude', 'Overload', 'Pyroclastic', 'sky']"
+ ],
+ "Nuclear Catastrophe": [
+  "['Atomic Explosion', 'Duststorm', 'Flood', 'Gamma Ray Burst', 'Hyperstorm', 'None', 'Sandstorm', 'Saturated Sky']",
+  "['Disaster', 'Extreme Energy', 'Fierce Thunder', 'Frenzied Plasma Discharge', 'Mammoth Black Hole', 'Nuclear Catastrophe', 'Oceanic Catastrophe', 'Overwhelming Explosion']"
+ ],
+ "Quantum Void": [
+  "['Exploded', 'Primordial Soup', 'Pure Chaos', 'Quantum Fluctuation', 'Sea of Chaos', 'Vacuum.', 'Void', 'chaos']"
+ ],
+ "Thuder": [
+  "['Atomic Explosion', 'Blast', 'Electricity', 'End of the World', 'Fog', 'Overwhelming Explosion', 'Pyroclastic', 'Tsunami']"
+ ],
+ "Asteroid Impact": [
+  "['Global Annihilation', 'Mammoth Mountain', 'Primordial Energy', 'Super Nova', 'Tornado', 'Wildcard', 'fire', 'wind']"
+ ],
+ "Primordial Fire": [
+  "['Blast', 'Dust Devastation', 'Galactic Annihilation', 'Global Annihilation', 'Primordial Fire', 'Tidal Wave', 'Torrential Downpour', 'water']"
+ ],
+ " Destruction": [
+  "['Apocalypse', 'Cloud', 'Cloudy Plains', 'Extreme Storm', 'Extreme Vortex', 'Infinite Lava', 'Lightning', 'Wreckage']"
+ ],
+ "Molten Lava": [
+  "['Atomic Explosion', 'Explosion', 'Molten Lava', 'Nothingness', 'Nuclear Explosion', 'Oceanic Catastrophe', 'Sandstorm', 'lake']",
+  "['Armageddon', 'Atomic Explosion', 'Fierce Thunder', 'Molten Lava', 'Nothingness', 'Stormy Sea', 'Wild Fire', 'mountain']",
+  "['Ash cloud', 'Fierce Explosion', 'Fireball', 'N/A', 'Nuclear Reactor', 'Ocean', 'earth', 'fire']",
+  "['Armageddon', 'Electricity', 'Fierce Storm', 'Molten Earth', 'Paradox', 'Stormy Sea', 'lake', 'water']",
+  "[' Fireball', 'Firestorm', 'Full Destruction', 'Lava', 'Nuclear Annihilation', 'Overcharged', 'Wild Fire', 'saturated earth']"
+ ],
+ "Cosmic Void": [
+  "['Absolute Annihilation', 'Absolute Void', 'Armageddon', 'Critical Mass', 'Electricity', 'Harsh Sandstorm', 'Lightning Storm', 'Steam']"
+ ],
+ "Singularity": [
+  "['Full Destruction', 'Fusion', 'Intense Lightning Storm', 'Neutron Star', 'Pretty much N/A', 'Tornadic Flood', 'Total Chaos', 'Turbulent Tempest']",
+  "['Black Hole', 'Canyon', 'Catastrophic Inferno', 'Fierce Thunder', 'Intensified Electricity', 'Pyroclastic Firestorm', 'Thermal Explosion', 'Tornado']",
+  "['A Cosmic Black Hole', 'Complete Chaos', 'Cosmic Collapse', 'Critical Mass', 'Thuder', 'Turbulent Waters', 'Vortex', 'Whirlwind']",
+  "['A Black Hole', 'Apocalypse', 'Astral Force', 'Duststorm', 'Eclipse', 'Extreme Vortex', 'Gamma Ray', 'Oblivion']",
+  "['Cosmic Disaster', 'Fierce Storm', 'Gamma Ray Burst', 'Hypernova', 'Primordial Explosion', 'Stormy Sea', 'Time Dilation', 'Total Destruction']"
+ ],
+ "Sky": [
+  "['Armageddon', 'Blast', 'Cosmic Annihilation', 'Fierce Storm', 'Overload', 'Total Chaos', 'Total Destruction', 'Volcanic Eruption']",
+  "['Astrophysical Explosion', 'Canyon', 'Complete Destruction', 'Dust Storm', 'Flooding', 'Fog', 'Lava', 'Overcharged']",
+  "['Cloud', 'Creation', 'Critical Mass', 'Dust Devastation', 'Earthstorm', 'Lightning Storm', 'Total Void', 'Turmoil']",
+  "['Complete Destruction', 'Complete Devastation', 'Cosmic Annihilation', 'Earthstorm', 'End of the World', 'None', 'Planet', 'Waterfall']",
+  "['Atomic Explosion', 'Blast', 'Complete Devastation', 'Desolate Void', 'Destructive Chaos', 'Mist', 'Primordial Force', 'Tornado']"
+ ],
+ "Firestorm": [
+  "['Cosmic Collapse', 'Extreme Storm', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Nuclear Waste', 'Pyroclastic Firestorm', 'Tidal Wave', 'Turbulence', 'Waterfall']"
+ ],
+ "Primordial Void": [
+  "['Cosmic Void', 'Extinction', 'Nuclear Storm', 'Overload', 'Primordial Singularity', 'Quantum Turbulence', 'Turbulent Ocean', 'Turbulent Tempest']",
+  "['All Consuming Void', 'Eternity', 'Exploded', 'Maelstrom', 'Mammoth Mountain', 'Nuclear Void', 'Primordial Force', 'Turbulent Tempest']"
+ ],
+ "Metastable Plasma": [
+  "['Cloud', 'Extreme Vortex', 'Intense Lightning Storm', 'Nuclear', 'Total Chaos', 'Vacuum', 'Water Storm', 'Wildcard']"
+ ],
+ "Primordial Soup": [
+  "['Cosmic Explosion', 'Cosmic Void', 'Emptiness', 'Lightning', 'Natural Disaster', 'Superheated Water', 'Volcano', 'water']",
+  "['A Gamma Ray Burst', 'Cosmic Collapse', 'Critical Mass', 'Eternity', 'Nothing', 'Primordial Soup', 'Severe Thunderstorm', 'Tornadic Flood']"
+ ],
+ "Fireball": [
+  "['Cosmic Tornado', 'Lightning Storm', 'Ocean Storm', 'Saturated Sky', 'Thunderstorm', 'Total Annihilation', 'fire', 'mountain']"
+ ],
+ "Total Annihilation": [
+  "['Armageddon', 'Fierce Storm', 'Lightning', 'Ocean Storm', 'Total Annihilation', 'Volcano', 'Waterfall', 'thunder']",
+  "['All Consuming Void', 'Atomic Explosion', 'Complete Annihilation', 'Cosmic Tornado', 'Nuclear Reaction', 'Steam Explosion', 'Total Destruction', 'storm']",
+  "['Complete Destruction', 'Fierce Storm', 'Hurricane', 'Ocean Storm', 'Pyroclastic', 'Steam', 'Turbulent Ocean', 'Volcanic Eruption']",
+  "['Dust', 'Mammoth Mountain', 'N/A', 'Nuclear Reaction', 'Pyroclastic', 'Tidal Wave', 'Tornado', 'Total Annihilation']",
+  "['Complete Destruction', 'Dust Storm', 'Exploded', 'Intensified Electricity', 'Magnitude', 'Overload', 'Thunderstorm', 'Wild Thunder']",
+  "['Armageddon', 'Astrophysical Expulsion', 'Nothing', 'Ocean Storm', 'Superheated Water', 'Total Annihilation', 'Total Chaos', 'Volcanic Eruption']"
+ ],
+ "Paradoxical Singularity": [
+  "['Complete Annihilation', 'Eternity', 'Exploded', 'Intense Lightning Storm', 'Magnitude', 'Paradox', 'Singularity', 'saturated lake']",
+  "['Astrophysical Explosion', 'Complete Annihilation', 'Exploded', 'Flooding', 'Oceanic Catastrophe', 'Overwhelming Explosion', 'Paradoxical Singularity', 'Tornado']",
+  "['A Cosmic Black Hole', 'A Storm', 'Critical Mass', 'Emptiness', 'Nothing', 'Paradoxical Singularity', 'Wildcard', 'sky']",
+  "['Cosmic Expansion', 'Existential Collapse', 'Fierce Storm', 'Maelstrom', 'Nothingness', 'Nuclear Reactor', 'Nuclear Waste', 'Paradoxical Singularity']",
+  "['Astounding Chaos', 'Big Bang', 'Catastrophic Inferno', 'Cosmic Vortex', 'Extreme Energy', 'Paradoxical Singularity', 'Water Storm', 'sky']"
+ ],
+ "End of the World": [
+  "['Apocalypse', 'Astral Disintegration', 'Exploded', 'Ocean Tsunami', 'Pyroclastic', 'Sandstorm', 'Saturated Sky', 'Volcanic Eruption']"
+ ],
+ "Nuclear Magma": [
+  "['Fury', 'Intensified Electricity', 'Nuclear Explosion', 'Nuclear Reactor', 'Ocean', 'Plasma', 'Turbulent Sea', 'earth']",
+  "['Absolute Void', 'Astrophysical Catastrophe', 'Intense Inferno', 'Lava', 'Nuclear Magma', 'Nuclear Reactor', 'Thunderstorm', 'fire']"
+ ],
+ "Supercritical Steam": [
+  "['Full Destruction', 'Intensified Electricity', 'Nothing', 'Nuclear Waste', 'Pyroclastic', 'Turmoil', 'Vortex', 'water']"
+ ],
+ "Nuclear Annihilation": [
+  "['Ash', 'Catastrophic Inferno', 'Cosmic Void', 'Galactic Annihilation', 'Nothingness', 'Nuclear Annihilation', 'Singular Point', 'Turbulent Sea']",
+  "['Cosmic Explosion', 'Maelstrom', 'Molten Lava', 'Nothing', 'Nothingness', 'Nuclear Storm', 'Pyroclastic Flow', 'fire']",
+  "['Cosmic Vortex', 'Gamma-ray burst', 'Mega Explosion', 'Neutron Star', 'Nuclear Storm', 'Turmoil', 'Universal Collapse', 'storm']",
+  "[' Destruction', 'Blast', 'Existential Annihilation', 'Nuclear Reaction', 'Pretty much N/A', 'Steam', 'Steam Explosion', 'Wormhole']"
+ ],
+ "N/A": [
+  "['Blast', 'Cosmic Tornado', 'Extreme Fire', 'Fierce Storm', 'Overcharged', 'Saturated Sky', 'Supernova', 'Violent Storm']",
+  "['Armageddon', 'Cosmic Annihilation', 'Explosive Inferno', 'Infinite Lava', 'Magnitude', 'Stormy Ocean', 'Supernova', 'Turmoil']",
+  "['Cosmic Annihilation', 'Exploded', 'Explosion', 'Maelstrom', 'Perfect Storm', 'Sandstorm', 'Wild Thunder', 'storm']",
+  "['Complete Annihilation', 'Cosmic Tornado', 'Extreme Fire', 'Lightning Storm', 'Maelstrom', 'Ocean Tsunami', 'mountain', 'wind']",
+  "['Absolute Annihilation', 'Absolute Void', 'Astral Disintegration', 'Black Hole', 'Dust Storm', 'Supernova', 'Total Annihilation', 'Waterfall']",
+  "['Cloud', 'Cosmic Annihilation', 'Maelstrom', 'Overcharged', 'Sand', 'Tidal Wave', 'Volcano', 'Waterfall']",
+  "['Astrophysical Expulsion', 'Flooding', 'Magnitude', 'Nuclear', 'Nuclear Explosion', 'Overload', 'Saturated Sky', 'Tornado']",
+  "['Cosmic Tornado', 'Disintegration', 'Harsh Sandstorm', 'Lightning Storm', 'Overwhelming Explosion', 'Wildcard', 'chaos', 'saturated lake']",
+  "['Ash cloud', 'Catastrophic Inferno', 'Intense Lightning Storm', 'Magnitude', 'Neutron Star', 'Nuclear', 'Turbulence', 'wind']",
+  "['Dust', 'Infinite Lava', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Nothing', 'Pyroclastic', 'Stormy Sea', 'lake', 'saturated lake']",
+  "['Atomic Explosion', 'Cosmic Void', 'Dust', 'Fierce Explosion', 'Oceanic Catastrophe', 'Overwhelming Explosion', 'Pyroclastic', 'wind']",
+  "['Gamma Ray Burst', 'Hyperstorm', 'Magma', 'Plasma', 'Primordial Soup', 'Superheated Water', 'Wildcard', 'wind']",
+  "['Ash cloud', 'Astrophysical Explosion', 'Astrophysical Expulsion', 'Cosmic Void', 'Dust Devastation', 'Emptiness', 'Extreme Fire', 'Saturated Sky']",
+  "['All Consuming Void', 'Cloudy Plains', 'Flood', 'Lava', 'Nothing', 'Nuclear Magma', 'Pyroclastic', 'Volcanic Eruption']",
+  "['Absolute Void', 'Complete Annihilation', 'Cosmic Void', 'Magma', 'Primordial Singularity', 'Tornadic Flood', 'Whirlwind', 'earth']",
+  "['A Gamma Ray Burst', 'Absolute Void', 'All Consuming Void', 'Apocalypse', 'Disintegration', 'Explosive Inferno', 'Fierce Explosion', 'None']",
+  "['All Consuming Void', 'Canyon', 'Cosmic Tornado', 'Existential Collapse', 'Extinction', 'Frenzied Torrent', 'Fury', 'chaos']",
+  "['Absolute Nothingness', 'Big Bang', 'End of the World', 'Global Catastrophe', 'Inferno', 'Nuclear', 'Perfect Storm', 'Saturated Sky']",
+  "['Emptiness', 'Mammoth Mountain', 'Nothingness', 'Primordial Soup', 'Stormy Ocean', 'Stormy Sea', 'Thermal Explosion', 'Turmoil']",
+  "['Cloud', 'Cloudy Plains', 'End of the World', 'Hurricane', 'Molten Lava', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Neutron Star', 'Vacuum']",
+  "['Absolute Nothingness', 'Astral Disintegration', 'Creation', 'Electricity', 'Fierce Thunder', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Sandstorm', 'Total Destruction']",
+  "['Black Hole', 'Critical Mass', 'Destructive Chaos', 'Intense Lightning Storm', 'Superheated Water', 'Total Void', 'Volcano', 'storm']",
+  "['Darkness', 'Existential Collapse', 'Lava', 'Mist', 'Nothingness', 'Paradox', 'Paradoxical Singularity', 'Turbulent Waters']",
+  "[' Extreme Chaos ', 'Absolute Obstruction', 'Canyon', 'Perfect Storm', 'Primordial Singularity', 'Tornado', 'Tremendous Explosion', 'Tsunami']",
+  "[' Void', 'Ash cloud', 'Astral Catastrophe', 'Black Hole', 'Cosmic Expansion', 'Emptiness', 'Singular Point', 'chaos']",
+  "['Absolute Nothingness', 'Astral Vortex', 'Cloudy Plains', 'Exploded', 'Harsh Sandstorm', 'Singularity', 'Total Destruction', 'Volcanic Eruption']",
+  "['Absolute Void', 'Blackhole', 'Extreme Energy', 'Galactic Vortex', 'Global Annihilation', 'Paradox', 'Paradoxical Singularity', 'Primordial Singularity']",
+  "['A Black Hole', 'Astral Disaster', 'Astrophysical Explosion', 'Cloud', 'Cosmic Cycle', 'Fusion', 'Perfect Storm', 'Turbulent Ocean']",
+  "['Astral Vortex', 'Canyon', 'Disaster', 'Dust Devastation', 'Electricity', 'Extinction', 'Super Storm', 'Wildcard']",
+  "[' Primordial Singularity ', 'Apocalypse', 'Astral Vortex', 'Cosmic Annihilation', 'Extreme Weather', 'Nuclear Magma', 'Turbulent Sea', 'Whirlwind']",
+  "['Absolute Nothingness', 'Absolute Void', 'Annihilation', 'Black Hole', 'Existential Destruction', 'Neutron Star', 'Vacuum', 'earth']",
+  "['Absolute Nothingness', 'Astrophysical Event', 'Cosmic Tornado', 'Dark Maelstrom', 'Darkness', 'Fierce Thunderstorm', 'None', 'Supercritical Steam']",
+  "['Annihilation', 'Astral Catastrophe', 'Complete Devastation', 'Full Destruction', 'Infinite Lava', 'Nebula', 'Ocean Storm', 'wind']",
+  "['Absolute Zero', 'Cloudy Plains', 'Cosmic Disaster', 'Frenzied Torrent', 'Mega Explosion', 'Nuclear Winter', 'Steam Explosion', 'saturated lake']",
+  "['Astrophysical Catastrophe', 'Disintegration', 'Galactic Vortex', 'Molten Lava', 'Neutron Star', 'Nuclear Winter', 'Pyroclastic', 'Turbulent Annihilation']",
+  "[' Fireball', 'Absolute Nothingness', 'Blackhole', 'Cosmic Catastrophe', 'Extreme Vortex', 'Extreme Weather', 'Molten Lava', 'Volcano']",
+  "[' Extreme Chaos ', 'Astral Vortex', 'Desolate Void', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Overcharged', 'Primordial Explosion', 'lake', 'thunder']",
+  "['A Singularity', 'Astrophysical Catastrophe', 'Astrophysical Expulsion', 'Glacier', 'Singular Point', 'Stormy Sea', 'Super Nova', 'Turbulent Waters']",
+  "['Astral Disintegration', 'Cataclysmic Explosion', 'Earthstorm', 'Fury', 'Quantum Void', 'Total Void', 'Turbulence', 'Volcanic Eruption']",
+  "['Absolute Zero', 'Astrophysical Explosion', 'Cosmic Disaster', 'Dark Maelstrom', 'Disintegration', 'Global Annihilation', 'Nuclear Void', 'Waterfall']",
+  "['Absolute Zero', 'Cosmic Collapse', 'Earthstorm', 'Fierce Thunder', 'Flood', 'Fury', 'Galactic Annihilation', 'Ocean Storm']",
+  "['A Gamma Ray Burst', 'Absolute Zero', 'Astronomical Singularity', 'Cosmic Explosion', 'Desolate Void', 'Desolate Wasteland', 'Mammoth Black Hole', 'Total Destruction']",
+  "['Creation Event', 'Dust', 'Flood', 'Hyperstorm', 'Neutron Star', 'Super Nova', 'Tsunami', 'Vapor']",
+  "['An Eternal Singularity', 'Galactic Explosion', 'Great Void', 'Inferno', 'Lightning Storm', 'Nothingness', 'Oceanic Catastrophe', 'Vacuum.']",
+  "['Absolute Zero', 'Astrophysical Catastrophe', 'Explosive Inferno', 'Matterless Void', 'Molten Earth', 'New Universe', 'Paradoxical Singularity', 'water']",
+  "['Cosmic Void', 'Dust Storm', 'Empty Sky', 'Lightning', 'Nuclear Winter', 'Quantum Fluctuation', 'Total Annihilation', 'Wreckage']",
+  "['Absolute Everythingness', 'Astral Catastrophe', 'Dust Devastation', 'Extreme Singularity', 'Gamma Ray', 'Maelstrom', 'Quantum Fluctuation', '\u2631']"
+ ],
+ "Supernova": [
+  "['All Consuming Void', 'Intensified Electricity', 'Lightning', 'N/A', 'Nuclear Reactor', 'Oceanic Catastrophe', 'Stormy Ocean', 'fire']",
+  "['Cosmic Tornado', 'Explosive Inferno', 'Fierce Storm', 'Flood', 'Mammoth Mountain', 'Saturated Sky', 'Stormy Sea', 'Superheated Water']",
+  "['Astrophysical Catastrophe', 'Black Hole', 'Exploded', 'Glacier', 'Hypernova', 'Nuclear Magma', 'Ocean Storm', 'Tsunami']",
+  "['Apocalypse', 'Blast', 'Complete Annihilation', 'Extreme Catastrophe', 'Global Devastation', 'Magnitude', 'Nothingness', 'Supernova']"
+ ],
+ "None": [
+  "['Catastrophic Inferno', 'Complete Annihilation', 'Cosmic Explosion', 'Oceanic Catastrophe', 'Superheated Water', 'Turbulent Ocean', 'Volcanic Eruption', 'Wildfire']"
+ ],
+ "Blast": [
+  "['Extreme Fire', 'Hurricane', 'Intensified Electricity', 'Overcharged', 'Singularity', 'earth', 'storm', 'thunder']"
+ ],
+ "Eternity": [
+  "['Absolute Annihilation', 'Ash cloud', 'Electricity', 'Intensified Electricity', 'Lightning', 'Nothing', 'Nuclear Explosion', 'Perfect Storm']",
+  "['Cloudy Plains', 'Eternity', 'Frenzied Torrent', 'Mammoth Mountain', 'Perfect Storm', 'Primordial Singularity', 'Singularity', 'Stormy Ocean']"
+ ],
+ "A black hole": [
+  "['A gamma-ray burst', 'Ash cloud', 'Astral Catastrophe', 'Extreme Thunder', 'Flooding', 'Glacier', 'Overload', 'Steam Explosion']"
+ ],
+ "Thunderstorm": [
+  "['Dust Storm', 'Electricity', 'Molten Lava', 'Sand', 'Turbulent Ocean', 'Turmoil', 'mountain', 'storm']",
+  "['Dust Storm', 'Intense Lightning Storm', 'Magnitude', 'Nothing', 'Ocean Storm', 'Stormy Ocean', 'Void', 'saturated lake']",
+  "['A Storm', 'Natural Disaster', 'Nothingness', 'Super Storm', 'Turbulent Sea', 'fire', 'thunder', 'water']",
+  "['A Storm', 'Fierce Storm', 'Fog', 'Maelstrom', 'Nothing', 'Overcharged', 'Stormy Sea', 'Thunderstorm']",
+  "['A Storm', 'Exploded', 'Sand', 'Sandstorm', 'Saturated Sky', 'Stormy Sea', 'Super Storm', 'Turbulent Tempest']",
+  "['A Storm', 'Desolate Wasteland', 'Extreme Vortex', 'Gravity Well', 'Mammoth Mountain', 'New Reality', 'Unstable Energy', 'Wild Fire']"
+ ],
+ "Overload": [
+  "['Canyon', 'Complete Annihilation', 'Explosion', 'Flooding', 'Hurricane', 'Magnitude', 'Overload', 'Violent Storm']"
+ ],
+ "Absolute Annihilation": [
+  "['All Consuming Void', 'Infinite Lava', 'Intense Lightning Storm', 'Ocean Tsunami', 'Perfect Storm', 'Violent Storm', 'mountain', 'saturated lake']",
+  "['All Consuming Void', 'Explosion', 'Nuclear Explosion', 'Ocean Storm', 'Superheated Water', 'Thunderstorm', 'Tornado', 'Turbulent Ocean']",
+  "['Absolute Annihilation', 'Cosmic Annihilation', 'Dust', 'Extreme Fire', 'Steam', 'Turmoil', 'Waterfall', 'wind']",
+  "['All Consuming Void', 'Apocalypse', 'Complete Annihilation', 'Fireball', 'Fog', 'Hyperstorm', 'N/A', 'Nothing']",
+  "['Absolute Annihilation', 'Absolute Void', 'Cosmic Explosion', 'Emptiness', 'Hurricane', 'Mammoth Black Hole', 'Sandstorm', 'Thunderstorm']",
+  "['Absolute Annihilation', 'Dust Storm', 'Extreme Energy', 'Extreme Thunder', 'Hurricane', 'Nuclear Reactor', 'Superheated Water', 'Tsunami']"
+ ],
+ "Volcano": [
+  "['Ash cloud', 'Extreme Thunder', 'Fury', 'Mist', 'Nuclear Explosion', 'Whirlwind', 'fire', 'thunder']"
+ ],
+ "Nothing": [
+  "['Absolute Void', 'Armageddon', 'Nothing', 'Oceanic Catastrophe', 'Severe Thunderstorm', 'Stormy Sea', 'Wild Thunder', 'water']",
+  "['Canyon', 'Complete Annihilation', 'Cosmic Tornado', 'Dust Storm', 'Nothing', 'Total Annihilation', 'Wild Thunder', 'sky']",
+  "['All Consuming Void', 'Ash cloud', 'Explosive Inferno', 'Fury', 'Severe Thunderstorm', 'Steam Explosion', 'mountain', 'water']",
+  "['All Consuming Void', 'Astral Disintegration', 'Astrophysical Explosion', 'Atomic Explosion', 'Ocean Storm', 'Singularity', 'Turbidity', 'Void']",
+  "['All Consuming Void', 'Cloud', 'Emptiness', 'Global Catastrophe', 'Overcharged', 'Plasma', 'Quantum Fluctuation', 'Thuder']",
+  "[' Primordial Singularity ', \"A Black Hole is implied as a physical element, combining sky would be 'N/A'.\", 'Disintegration', 'Existential Collapse', 'Hypernova', 'Magnitude', 'No solution', 'Turbulent Storm']",
+  "['Astral Vortex', 'Complete Void', 'Eternity', 'Glacier', 'Mountaintop', 'Perfect Storm', 'chaos', 'water']"
+ ],
+ "Quantum Singularity": [
+  "['Complete Devastation', 'Cosmic Tornado', 'Earthquake', 'Flood', 'Mammoth Mountain', 'Primordial Singularity', 'Quantum Void', 'Thuder']"
+ ],
+ "Nothingness": [
+  "['All Consuming Void', 'Cosmic Tornado', 'Duststorm', 'Natural Disaster', 'Nuclear Reaction', 'Sand', 'Steam', 'water']",
+  "['Absolute Void', 'Flooding', 'Intensified Electricity', 'Perfect Storm', 'Tidal Wave', 'Total Annihilation', 'Wildcard', 'mountain']",
+  "['All Consuming Void', 'Apocalypse', 'Nothingness', 'Paradox', 'Tidal Wave', 'Turbulent Ocean', 'Waterfall', 'saturated lake']",
+  "['Armageddon', 'Fierce Explosion', 'Molten Lava', 'Nothingness', 'Stormy Ocean', 'Stormy Sea', 'Turmoil', 'Wild Thunder']",
+  "['Absolute Void', 'Complete Annihilation', 'Extreme Fire', 'Fierce Explosion', 'Mammoth Mountain', 'Paradox', 'Sandstorm', 'Singularity']",
+  "['All Consuming Void', 'Apocalypse', 'Catastrophic Inferno', 'Dust Storm', 'Fierce Explosion', 'Magnitude', 'Overwhelming Explosion', 'Total Destruction']",
+  "['Absolute Annihilation', 'All Consuming Void', 'Canyon', 'Explosive Inferno', 'Extreme Energy', 'Extreme Fire', 'Intense Lightning Storm', 'Nothingness']",
+  "['All Consuming Void', 'Blast', 'Explosive Inferno', 'Extreme Energy', 'Fierce Storm', 'Singular Point', 'Stormy Ocean', 'Turbulent Sea']",
+  "['Emptiness', 'Fierce Thunder', 'Magnitude', 'Mammoth Black Hole', 'Primordial Explosion', 'Singularity', 'Turbidity', 'fire']",
+  "['All Consuming Void', 'Apocalypse', 'Ash cloud', 'Cosmic Void', 'Extreme Thunder', 'Intensified Electricity', 'Primordial Soup', 'Super Storm']",
+  "['Absolute Void', 'Cosmic Event', 'Dark Maelstrom', 'Galactic Annihilation', 'Haze', 'Nuclear Explosion', 'Thermal Explosion', 'Torrential Downpour']",
+  "['All Consuming Void', 'Ash cloud', 'Empty Sky', 'Explosion', 'Nuclear', 'Paradox', 'Paradoxical Singularity', 'Total Annihilation']",
+  "['Absolute Void', 'Disaster', 'Eternity', 'Extreme Fire', 'Mega Explosion', 'Nothingness', 'Nuclear Explosion', 'Singular Black Hole']",
+  "[' Primordial Singularity ', 'Complete Void', 'Extreme Storm', 'Gamma Ray Burst', 'Nebula', 'Nuclear Catastrophe', 'Total Annihilation', 'mountain']",
+  "['Absolute Void', 'Complete Annihilation', 'Cosmic Void', 'Exploded', 'Intense Fire', 'Magnitude', 'Oblivion', 'Total Annihilation']",
+  "['All Consuming Void', 'Catastrophe', 'Creation Event', 'Gravitational Collapse', 'Intense Fire', 'New Reality', 'Singularity', 'Total Destruction']"
+ ],
+ "Torrential Downpour": [
+  "['Fierce Thunder', 'Firestorm', 'Overload', 'Saturated Sky', 'Turbulent Ocean', 'mountain', 'storm', 'thunder']"
+ ],
+ "Total Destruction": [
+  "['A Storm', 'Blast', 'Overcharged', 'Perfect Storm', 'Steam Explosion', 'Total Annihilation', 'Total Chaos', 'Volcano']",
+  "['Infinite Lava', 'N/A', 'None', 'Nuclear Reactor', 'Saturated Sky', 'Super Storm', 'Total Destruction', 'Wild Thunder']",
+  "['Apocalypse', 'Armageddon', 'Glacier', 'Steam', 'Tidal Wave', 'Total Destruction', 'Turbidity', 'Wildcard']",
+  "[' Extreme Chaos ', 'Dust Devil', 'Electricity', 'Emptiness', 'Fierce Storm', 'Total Destruction', 'Turbulent Tempest', 'saturated lake']"
+ ],
+ "Dark Maelstrom": [
+  "['Black Hole', 'Nothingness', 'Primordial Chaos', 'Torrential Downpour', 'Total Chaos', 'Violent Storm', 'thunder', 'wind']"
+ ],
+ "Universal Oblivion": [
+  "['A gamma-ray burst', 'Ash cloud', 'Astral Vortex', 'Expansion', 'Nuclear Catastrophe', 'Quantum Fluctuation', 'Turbidity', 'Universal Collapse']"
+ ],
+ "Neutron Star": [
+  "['Black Hole', 'Flood', 'Overload', 'Sand', 'Stormy Sea', 'Turbulent Sea', 'Violent Storm', 'sky']"
+ ],
+ "Vacuum": [
+  "['Complete Annihilation', 'Flood', 'Fog', 'Lightning', 'Nothing', 'mountain', 'thunder', 'wind']",
+  "['Cosmic Explosion', 'Maelstrom', 'Overwhelming Explosion', 'Saturated Sky', 'Steam Explosion', 'Super Storm', 'Total Annihilation', 'wind']",
+  "['A Big Bang', 'A Gamma Ray Burst', 'An Eternal Singularity', 'Ash', 'Galactic Destruction', 'Global Catastrophe', 'Nuclear Inferno', 'Total Destruction']"
+ ],
+ "Complete Void": [
+  "['Absolute Annihilation', 'Darkness', 'Explosion', 'Magma', 'Overcharged', 'Overwhelming Explosion', 'Primordial Singularity', 'Volcano']"
+ ],
+ "Intense Inferno": [
+  "['Cosmic Explosion', 'Desolate Wasteland', 'Earthstorm', 'Haze', 'Hyperstorm', 'Mist', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'fire']"
+ ],
+ "Gamma-ray Burst": [
+  "['A gamma-ray burst', 'Cosmic Singularity', 'Frenzied Torrent', 'Nuclear Reactor', 'Tsunami', 'Water Storm', 'Wild Thunder', 'saturated earth']"
+ ],
+ "Galactic Vortex": [
+  "['A Cosmic Black Hole', 'Ash', 'Frenzied Plasma Discharge', 'Galactic Vortex', 'Magma', 'Nothing', 'Overwhelming Explosion', 'Turbulent Sea']"
+ ],
+ "Astral Disaster": [
+  "['Explosion', 'Frenzied Plasma Discharge', 'Intensified Electricity', 'Nuclear Reactor', 'Steam', 'Stormy Ocean', 'Turmoil', 'Volcanic Eruption']",
+  "[' Extreme Storm', 'All Consuming Void', 'Astral Disaster', 'Extreme Thunder', 'Primordial Energy', 'Quantum Fluctuation', 'Turbid Maelstrom', 'chaos']"
+ ],
+ "Annihilation": [
+  "['Absolute Nothingness', 'Dust Storm', 'Existential Destruction', 'Neutron Star', 'Super Nova', 'Thunderstorm', 'Tornado', 'Turbulent Annihilation']"
+ ],
+ "Extreme Storm": [
+  "['Astrophysical Expulsion', 'Canyon', 'Extreme Thunder', 'Floods', 'Ocean Storm', 'Thunderstorm', 'Void', 'Volcanic Eruption']",
+  "['Extreme Fire', 'Fury', 'Glacier', 'Magma', 'Mammoth Black Hole', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Turbulent Sea', 'sky']"
+ ],
+ "Explosion": [
+  "['Armageddon', 'Black Hole', 'Cloud', 'Duststorm', 'Lightning Storm', 'Violent Storm', 'fire', 'lake']",
+  "['Astrophysical Catastrophe', 'Astrophysical Expulsion', 'Fierce Thunder', 'Firestorm', 'Lightning Storm', 'Moon', 'Nuclear Storm', 'Steam']"
+ ],
+ "Catastrophe": [
+  "['Complete Devastation', 'Critical Mass', 'Extreme Storm', 'Fog', 'Overload', 'Pretty much N/A', 'Tidal Wave', 'storm']"
+ ],
+ "Intense Fire": [
+  "['A Storm', 'Armageddon', 'Desolate Wasteland', 'Nuclear Reactor', 'Thuder', 'Violent Storm', 'Volcano', 'sky']"
+ ],
+ "Disaster": [
+  "['Atomic Explosion', 'Blast', 'Earthquake', 'Flood', 'Glacier', 'Mega Explosion', 'Mist', 'Volcano']"
+ ],
+ "Fierce Explosion": [
+  "['All Consuming Void', 'Complete Destruction', 'Dust Devil', 'Explosion', 'Flood', 'Plasma', 'Stormy Sea', 'sky']",
+  "['Armageddon', 'Catastrophic Inferno', 'Fierce Explosion', 'Fog', 'Fury', 'Glacier', 'Violent Storm', 'fire']",
+  "['Apocalypse', 'Destructive Chaos', 'Dust', 'Fierce Explosion', 'Frenzied Plasma Discharge', 'Pandemonium', 'Pure Chaos', 'thunder']"
+ ],
+ "Cosmic Vortex": [
+  "['Canyon', 'Cosmic Tornado', 'Dust Devil', 'Global Catastrophe', 'Ocean Storm', 'Sand', 'Supernova', 'Vacuum']",
+  "['Cataclysm', 'Neutron Star', 'None', 'Nuclear Reaction', 'Singular Black Hole', 'Supernova', 'Tornadic Flood', 'Wild Fire']"
+ ],
+ "Ash Cloud": [
+  "['Explosion', 'Explosive Inferno', 'Harsh Sandstorm', 'Mammoth Mountain', 'Molten Lava', 'Ocean Tsunami', 'Turbulent Ocean', 'Wild Thunder']"
+ ],
+ "Nuclear Waste": [
+  "['Canyon', 'Cosmic Void', 'Nothing', 'Nuclear', 'Paradox', 'Saturated Sky', 'Superheated Water', 'lake']"
+ ],
+ "Astral Catastrophe": [
+  "['A Gamma Ray Burst', 'Absolute Annihilation', 'Atomic Explosion', 'Hyperstorm', 'Intensified Electricity', 'Super Nova', 'Tsunami', 'Turbulent Sea']"
+ ],
+ "Vapor": [
+  "['Canyon', 'Disintegration', 'Dust', 'Fury', 'Overcharged', 'Singularity', 'Superheated Water', 'thunder']",
+  "['Cataclysmic Explosion', 'Complete Annihilation', 'Cosmic Event', 'Overcharged', 'Primordial Explosion', 'Sandstorm', 'Steam', 'Stormy Sea']"
+ ],
+ "Dust Storm": [
+  "['A Black Hole', 'Dust Devil', 'Nothingness', 'Ocean Storm', 'Oceanic Catastrophe', 'Sandstorm', 'Total Annihilation', 'fire']"
+ ],
+ "A Gamma Ray Burst": [
+  "['A Black Hole', 'Astrophysical Expulsion', 'Emptiness', 'Extreme Weather', 'Lightning', 'None', 'Sandstorm', 'Steam']"
+ ],
+ "Hurricane": [
+  "['Flooding', 'Fog', 'N/A', 'Paradox', 'Supernova', 'Turbulence', 'storm', 'water']",
+  "['Extreme Fire', 'Extreme Storm', 'Fierce Thunder', 'Overload', 'Total Destruction', 'Turbidity', 'Violent Storm', 'wind']"
+ ],
+ "A Singularity": [
+  "[' Primordial Singularity ', 'An Eternal Singularity', 'Galactic Vortex', 'Mega Explosion', 'Moon', 'Nuclear Storm', 'Turbulent Sea', 'Wild Thunder']"
+ ],
+ "Fog": [
+  "['Canyon', 'Complete Destruction', 'Electricity', 'Explosive Inferno', 'Fog', 'Magnitude', 'Waterfall', 'earth']"
+ ],
+ "Planet Formation": [
+  "['Astrophysical Expulsion', 'Big Bang', 'Fierce Explosion', 'Magnitude', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Nuclear Void', 'Vapor', 'mountain']"
+ ],
+ "Water": [
+  "['Cosmic Tornado', 'Molten Lava', 'Perfect Storm', 'Tornado', 'Total Destruction', 'Turbidity', 'Turbulent Ocean', 'storm']"
+ ],
+ "Pyroclastic": [
+  "['Explosion', 'Fury', 'Lightning', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Nuclear Reaction', 'Pyroclastic', 'Turbidity', 'saturated lake']",
+  "['Cataclysmic Explosion', 'Dust', 'End of the World', 'Fusion', 'Intense Firestorm', 'Primordial Fire', 'Pyroclastic', 'Violent Storm']"
+ ],
+ "Singular Void Black Hole": [
+  "[' Void', 'Asteroid Impact', 'Fierce Thunder', 'Molten Lava', 'Severe Thunderstorm', 'Singular Black Hole', 'Turbid Maelstrom', 'mountain']"
+ ],
+ "Mist": [
+  "['Cloud', 'Dust Storm', 'Earthstorm', 'Eternity', 'Nuclear Reactor', 'Turbulence', 'Turbulent Waters', 'Vapor']"
+ ],
+ "Fusion": [
+  "['Ash', 'Eternity', 'Frenzied Plasma Discharge', 'Infinite Lava', 'Super Nova', 'Tornado', 'fire', 'sky']"
+ ],
+ "Inferno": [
+  "['Apocalypse', 'Dust', 'Flooding', 'Infinite Lava', 'Magnitude', 'Plasma', 'Sandstorm', 'Wild Fire']"
+ ],
+ "A Cosmic Black Hole": [
+  "['A Cosmic Black Hole', 'Absolute Void', 'Catastrophic Inferno', 'Cosmic Vortex', 'Magma', 'Molten Earth', 'Neutron Star', 'Thuder']"
+ ],
+ "Mammoth Black Hole": [
+  "[' Extreme Chaos ', 'Big Bang', 'Desolate Wasteland', 'End of the World', 'Gravity Well', 'Mammoth Black Hole', 'Singular Point', 'saturated earth']",
+  "['Astral Storm', 'Cosmic Vortex', 'Eclipse', 'Frenzied Plasma Discharge', 'Infinite Fire', 'Mammoth Black Hole', 'Quantum Void', 'Thuder']"
+ ],
+ "Ash": [
+  "['Exploded', 'Fury', 'Hurricane', 'Lightning', 'Lightning Storm', 'Overcharged', 'Overwhelming Explosion', 'mountain']",
+  "[' Void', 'A Cosmic Black Hole', 'Apocalypse', 'Ash', 'Emptiness', 'Lightning', 'Pretty much N/A', 'mountain']",
+  "['Eruption', 'Exploded', 'Fog', 'Frenzied Fire', 'None', 'Supernova', 'Turbulent Waters', 'Vapor']"
+ ],
+ "Nuclear Winter": [
+  "['Explosive Inferno', 'Flood', 'Global Devastation', 'Harsh Sandstorm', 'Nuclear Reaction', 'Turmoil', 'Vapor', 'Wild Fire']"
+ ],
+ "Smoke": [
+  "['Ash cloud', 'Cosmic Void', 'Eternity', 'Nothing', 'Nuclear Explosion', 'Nuclear Reactor', 'Vortex', 'fire']",
+  "['Ash cloud', 'Astrophysical Catastrophe', 'Cloudy Plains', 'Full Destruction', 'Nuclear Void', 'Quantum Fluctuation', 'Smoke', 'Total Void']"
+ ],
+ "Frenzied Torrent": [
+  "['Electricity', 'Fury', 'Glacier', 'Perfect Storm', 'Tidal Wave', 'Turbulent Sea', 'Turmoil', 'lake']",
+  "['Blast', 'Flooding', 'Frenzied Torrent', 'Sand', 'Superheated Water', 'Volcano', 'Vortex', 'storm']"
+ ],
+ "Apocalypse": [
+  "['Armageddon', 'Blast', 'Complete Destruction', 'Extreme Fire', 'Hurricane', 'Steam', 'earth', 'thunder']",
+  "['Armageddon', 'Extreme Energy', 'Intensified Electricity', 'Lightning', 'Nuclear', 'Oceanic Catastrophe', 'Thunderstorm', 'Volcanic Eruption']",
+  "['Armageddon', 'Atomic Explosion', 'Black Hole', 'Complete Destruction', 'Fury', 'Overwhelming Explosion', 'Sandstorm', 'Steam']",
+  "['Apocalypse', 'Blast', 'Canyon', 'Electricity', 'Fog', 'Steam Explosion', 'Thunderstorm', 'Wild Thunder']",
+  "['Atomic Explosion', 'Critical Mass', 'End of the World', 'Frenzied Torrent', 'Harsh Sandstorm', 'Saturated Sky', 'Thunderstorm', 'Turbulent Sea']",
+  "['A Storm', 'Apocalypse', 'Astrophysical Explosion', 'Cloudy Plains', 'Dust Devastation', 'Nuclear Annihilation', 'Superheated Water', 'Total Chaos']",
+  "['Abyss', 'Armageddon', 'Ash cloud', 'Haze', 'Magma', 'Nuclear Explosion', 'Overload', 'Wildfire']"
+ ],
+ "Global Devastation": [
+  "[' Void', 'Canyon', 'Fury', 'Global Catastrophe', 'Molten Lava', 'N/A', 'Total Annihilation', 'Turbidity']"
+ ],
+ "Absolute Singularity": [
+  "[\"A Black Hole is implied as a physical element, combining sky would be 'N/A'.\", 'Absolute Everythingness', 'Extinction', 'Hypernova', 'Nuclear Reactor', 'Overwhelming Explosion', 'Singularity', 'Temporal Singularity']"
+ ],
+ "Black Hole": [
+  "['Extreme Weather', 'Nuclear', 'Saturated Sky', 'Severe Thunderstorm', 'Supernova', 'Total Chaos', 'Waterfall', 'water']",
+  "['A Black Hole', 'All Consuming Void', 'Dust Storm', 'Duststorm', 'Supernova', 'Total Annihilation', 'Turbulent Sea', 'fire']",
+  "['Nothing', 'Overwhelming Explosion', 'Plasma', 'Super Storm', 'Tornado', 'Turbulent Sea', 'Volcanic Eruption', 'thunder']",
+  "['Astral Disintegration', 'Complete Destruction', 'Hurricane', 'Intense Lightning Storm', 'Nuclear', 'Ocean Tsunami', 'Overload', 'Total Destruction']",
+  "['Black Hole', 'Dust', 'Fierce Storm', 'Fog', 'Nuclear Reactor', 'Plasma', 'Stormy Ocean', 'Wild Thunder']",
+  "['A Black Hole', 'Canyon', 'Duststorm', 'Exploded', 'Explosion', 'Harsh Sandstorm', 'Infinite Lava', 'Waterfall']",
+  "['Apocalypse', 'Armageddon', 'Black Hole', 'Fierce Thunder', 'Fog', 'Intense Lightning Storm', 'Tidal Wave', 'Turbulent Sea']",
+  "['Black Hole', 'Electricity', 'Fury', 'Infinite Lava', 'Intense Lightning Storm', 'Natural Disaster', 'Void', 'earth']",
+  "['Black Hole', 'Cloud', 'Dust', 'Fury', 'Perfect Storm', 'Pyroclastic', 'Severe Thunderstorm', 'Tidal Wave']",
+  "['A Black Hole', 'Apocalypse', 'Cosmic Tornado', 'Lava', 'Overload', 'Thunderstorm', 'Wild Fire', 'wind']",
+  "['Black Hole', 'Catastrophic Inferno', 'Extreme Weather', 'Natural Disaster', 'Nuclear', 'Nuclear Reaction', 'Oceanic Catastrophe', 'Waterfall']",
+  "['Astrophysical Expulsion', 'Blast', 'Critical Mass', 'Duststorm', 'End of the World', 'Overcharged', 'Total Chaos', 'Vortex']",
+  "['Black Hole', 'Canyon', 'Catastrophic Inferno', 'Cosmic Explosion', 'Dust Devil', 'Molten Lava', 'Oceanic Catastrophe', 'thunder']",
+  "['Astral Vortex', 'Catastrophic Inferno', 'Exploded', 'Harsh Sandstorm', 'Nuclear', 'Steam Explosion', 'chaos', 'water']",
+  "['Canyon', 'Emptiness', 'Extreme Energy', 'Flood', 'Neutron Star', 'Total Destruction', 'thunder', 'water']",
+  "['Explosive Inferno', 'Frenzied Torrent', 'Mega Explosion', 'Sand', 'Sandstorm', 'Severe Thunderstorm', 'Singularity', 'Total Annihilation']",
+  "['Cosmic Void', 'Dust', 'Existential Collapse', 'Fury', 'Neutron Star', 'Singular Point', 'Tornadic Flood', 'fire']",
+  "['Cosmic Explosion', 'Hurricane', 'Nothingness', 'Ocean Tsunami', 'Singular Point', 'Supernova', 'Turbidity', 'Turbulent Sea']",
+  "['A Black Hole', 'Complete Destruction', 'Plasma', 'Primordial Explosion', 'Sand', 'Singularity', 'Stormy Ocean', 'storm']",
+  "['Astrophysical Explosion', 'Disintegration', 'Molten Lava', 'Nuclear Explosion', 'Super Nova', 'Thunderstorm', 'Tidal Wave', 'Total Annihilation']",
+  "['Black Hole', 'Exploded', 'Extreme Thunder', 'Haze', 'None', 'Violent Storm', 'Wild Thunder', 'storm']",
+  "['A Cosmic Black Hole', 'Dust Devil', 'Fierce Thunder', 'Gamma Ray Burst', 'Global Catastrophe', 'Thrust', 'Total Chaos', 'Total Destruction']",
+  "['A Black Hole', 'Cloud', 'Cosmic Event', 'Dust Devastation', 'Fierce Storm', 'Global Catastrophe', 'Nothingness', 'Ocean Storm']",
+  "['Catastrophic Inferno', 'Cosmic Event', 'Mammoth Black Hole', 'N/A', 'Nothingness', 'Sandstorm', 'Total Annihilation', 'Volcano']",
+  "['Abyss', 'Black Hole', 'Dust', 'Extreme Energy', 'Nuclear Void', 'Severe Thunderstorm', 'Thuder', 'Turbulence']",
+  "['A Black Hole', 'Explosive Inferno', 'Extreme Energy', 'Flooding', 'Hurricane', 'Maelstrom', 'Paradox', 'earth']",
+  "['Astral Disintegration', 'Catastrophic Inferno', 'Extreme Weather', 'Gamma Ray Burst', 'Intense Lightning Storm', 'Nuclear Void', 'Sandstorm', 'wind']",
+  "['Cosmic Tornado', 'Natural Disaster', 'Overwhelming Explosion', 'Sand', 'Singular Point', 'Tornado', 'Void', 'wind']",
+  "['A Cosmic Black Hole', 'Blast', 'Canyon', 'Explosion', 'Intense Firestorm', 'Nuclear Reactor', 'Thuder', 'Tornadic Flood']",
+  "['Abyss', 'Astrophysical Expulsion', 'Extreme Weather', 'Gravity Well', 'Hurricane', 'Singularity', 'Stormy Ocean', 'Thrust']",
+  "['A Cosmic Black Hole', 'Catastrophic Inferno', 'Complete Devastation', 'Global Catastrophe', 'Pyroclastic Firestorm', 'Thrust', 'Thunderstorm', 'mountain']",
+  "['Canyon', 'End of the World', 'Explosion', 'Maelstrom', 'Magnitude', 'Neutron Star', 'Stormy Ocean', 'Wild Thunder']",
+  "['Black Hole', 'Complete Void', 'Explosive Inferno', 'Fierce Explosion', 'Primordial Chaos', 'Sand', 'Torrential Downpour', 'Vortex']",
+  "['Fusion', 'Global Catastrophe', 'Mega Explosion', 'Paradoxical Singularity', 'Supernova', 'Turbidity', 'Void', 'lake']",
+  "['A Black Hole', 'Cosmic Tornado', 'Oceanic Catastrophe', 'Perfect Storm', 'Singularity', 'Super Storm', 'Tornado', 'water']",
+  "['A Black Hole', 'Cosmic Tornado', 'Nuclear Magma', 'Perfect Storm', 'Pretty much N/A', 'Pyroclastic Flow', 'Stormy Sea', 'fire']",
+  "['Astral Vortex', 'Firestorm', 'Global Catastrophe', 'Intense Inferno', 'Nuclear', 'Singular Point', 'Super Nova', 'Thunderstorm']",
+  "['A Black Hole', 'Cosmic Collapse', 'Dust Devastation', 'Nothing', 'Nuclear Waste', 'Primordial Chaos', 'Superheated Water', 'Turbulent Waters']",
+  "['All Consuming Void', 'Ash', 'Black Hole', 'Harsh Sandstorm', 'Magma', 'Total Annihilation', 'Total Void', 'Turbulent Tempest']",
+  "['A Black Hole', 'Complete Devastation', 'Cosmic Expansion', 'Duststorm', 'Fireball', 'Hyperstorm', 'Molten Earth', 'Natural Disaster']",
+  "['Canyon', 'Explosion', 'Fireball', 'Firestorm', 'Intense Inferno', 'Natural Disaster', 'Nuclear Annihilation', 'Saturated Sky']",
+  "['A Cosmic Black Hole', 'Fusion', 'Global Catastrophe', 'Nebula', 'Supernova', 'Wild Fire', 'chaos', 'storm']",
+  "['Flood', 'Maelstrom', 'N/A', 'Nuclear Reactor', 'Primordial Fire', 'Singular Point', 'Singularity', 'Total Chaos']",
+  "['Canyon', 'Extreme Energy', 'Nuclear Reaction', 'Ocean Tsunami', 'Pretty much N/A', 'Total Destruction', 'Tremendous Explosion', 'storm']",
+  "['Electricity', 'Fierce Explosion', 'Magma', 'Nebula', 'Pretty much N/A', 'Primordial Force', 'Total Destruction', 'Void']",
+  "['A Cosmic Black Hole', 'Complete Devastation', 'Lava', 'Perfect Storm', 'Pretty much N/A', 'Pyroclastic Flow', 'Saturated Sky', 'Thunderstorm']",
+  "['A Singularity', 'Canyon', 'Cataclysm', 'Complete Devastation', 'Destructive Chaos', 'Ocean Tsunami', 'Superheated Water', 'Whirlwind']",
+  "['Black Hole', 'Inferno', 'Thermal Explosion', 'Total Void', 'Turbidity', 'Turbulent Waters', 'Violent Storm', 'Whirlwind']",
+  "['Disaster', 'Duststorm', 'Extreme Earthquake', 'Extreme Energy', 'N/A', 'Planet', 'Plasma', 'Quantum Turbulence']",
+  "['A Cosmic Black Hole', 'Asteroid Impact', 'Disaster', 'Galactic Vortex', 'Thuder', 'Tremendous Explosion', 'Waterfall', 'saturated lake']",
+  "['Cosmic Tornado', 'Dust Storm', 'Hypernova', 'Maelstrom', 'Nothing', 'Smoke', 'Thuder', 'earth']",
+  "['Cold Darkness', 'Complete Chaos', 'Dust Devastation', 'Fury', 'Gamma Ray Burst', 'Lightning Storm', 'Mammoth Black Hole', 'Sand']",
+  "['A Singularity', 'Black Hole', 'Blackhole', 'Plasma', 'Steam', 'Steam Explosion', 'Total Void', 'Turbulent Sea']",
+  "['A Cosmic Black Hole', 'Cosmic Catastrophe', 'Fierce Storm', 'Mega Explosion', 'Mist', 'Ocean Tsunami', 'Tsunami', 'sky']",
+  "['A Cosmic Black Hole', 'Empty Sky', 'Explosion', 'Gravity Well', 'Hurricane', 'Hypernova', 'lake', 'storm']",
+  "[' Primordial Singularity ', 'Astounding Chaos', 'Dark Maelstrom', 'Fierce Thunderstorm', 'Frenzied Torrent', 'Paradox', 'Stormy Ocean', 'thunder']",
+  "['A Quantum Singularity', 'A gamma-ray burst', 'Cosmic Tornado', 'Dust Devastation', 'Hypernova', 'Infinite Lava', 'Torrential Downpour', 'earth']",
+  "['Dark Maelstrom', 'Fury', 'Gravity Well', 'Lightning', 'Natural Disaster', 'Quantum Fluctuation', 'Quantum Turbulence', 'Volcanic Eruption']",
+  "['A Cosmic Black Hole', 'Astrophysical Expulsion', 'Desolate Wasteland', 'Frenzied Fire', 'Intense Fire', 'Steam', 'Thermal Explosion', 'Turbulent Ocean']",
+  "['Astral Vortex', 'Cosmic Annihilation', 'Magma', 'Oceanic Catastrophe', 'Quantum Turbulence', 'Thunderstorm', 'Void', 'Water Storm']",
+  "['A Quantum Singularity', 'Astrophysical Expulsion', 'Dust Devastation', 'Paradox', 'Pyroclastic Storm', 'Vacuum.', 'Volcanic Eruption', 'thunder']",
+  "['Fierce Explosion', 'Nuclear Disintegration', 'Pandemonium', 'Planet', 'Supernova', 'Time Dilation', 'Turbidity', 'Waterfall']",
+  "['Black Hole', 'Cosmic Tornado', 'Flood', 'Floods', 'Full Destruction', 'Infinite Lava', 'No solution', 'Super Storm']",
+  "['Astrophysical Expulsion', 'Creation Event', 'Existential Destruction', 'Exploded', 'Extreme Fusion', 'No solution', 'Nuclear Winter', 'Pandemonium']",
+  "['A Quantum Singularity', 'Astrophysical Catastrophe', 'Extreme Catastrophe', 'Lightning', 'Thermal Explosion', 'Total Chaos', 'Water Storm', 'Whirlwind']",
+  "['Molten Lava', 'Planet', 'Singular Point', 'Stormy Sea', 'Time Dilation', 'Total Annihilation', 'Turbulent Sea', 'Void']"
+ ],
+ "Tornado": [
+  "['Dust Storm', 'Fierce Storm', 'Flood', 'Lightning', 'Mammoth Mountain', 'Molten Lava', 'Void', 'Volcanic Eruption']",
+  "['Extreme Weather', 'Harsh Sandstorm', 'Magnitude', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'Stormy Ocean', 'Tornado', 'Turbidity', 'earth']",
+  "['Cloudy Plains', 'Destructive Chaos', 'Extinction', 'Mountain|Fire|Fire|Water|Fire|Wind|Water|Wind', 'N/A', 'Natural Disaster', 'Turbidity', 'Vortex']"
+ ],
+ "Lava": [
+  "['Canyon', 'Mammoth Mountain', 'Nuclear', 'Ocean Storm', 'Overcharged', 'Steam Explosion', 'Stormy Ocean', 'Volcanic Eruption']",
+  "['Ash cloud', 'Duststorm', 'Earthstorm', 'Explosion', 'Neutron Star', 'Nuclear Magma', 'Vapor', 'lake']",
+  "['Atomic Explosion', 'Blast', 'Earthstorm', 'Existential Destruction', 'Sandstorm', 'Singular Point', 'Steam', 'lake']"
+ ],
+ "Turbulent Sea": [
+  "['A Storm', 'Dust', 'Exploded', 'Hyperstorm', 'Intense Lightning Storm', 'Molten Lava', 'Turbulent Sea', 'Volcano']",
+  "['Canyon', 'Complete Destruction', 'Extinction', 'Harsh Sandstorm', 'Steam Explosion', 'Super Storm', 'Turbulence', 'Turbulent Sea']"
+ ],
+ "Destructive Chaos": [
+  "['Explosive Inferno', 'Fierce Storm', 'Harsh Sandstorm', 'Supernova', 'Turmoil', 'Vacuum', 'Wild Thunder', 'sky']"
+ ],
+ "Oblivion": [
+  "[' Extreme Chaos ', ' Extreme Storm', 'Absolute Nothingness', 'Cosmic Annihilation', 'Overwhelming Explosion', 'Primordial Energy', 'Singular Point', 'Super Nova']"
+ ],
+ "Frenzied Plasma Discharge": [
+  "['A Gamma Ray Burst', 'Cosmic Void', 'Eternity', 'Floods', 'Frenzied Torrent', 'Plasma', 'Total Chaos', 'Tsunami']"
+ ],
+ "Wild Fire": [
+  "['Atomic Explosion', 'Dust', 'Stormy Ocean', 'Stormy Sea', 'Wild Thunder', 'storm', 'thunder', 'wind']",
+  "['Eternity', 'Flood', 'Frenzied Torrent', 'Singularity', 'Total Chaos', 'Wild Fire', 'Wildcard', 'fire']"
+ ],
+ "Nuclear Void": [
+  "['Absolute Obstruction', 'Ash cloud', 'Astral Disintegration', 'Cosmic Collapse', 'End of the World', 'None', 'Nuclear Void', 'Total Chaos']"
+ ],
+ "Chaos": [
+  "['Critical Mass', 'Flood', 'Lightning Storm', 'Nuclear Reactor', 'Oceanic Catastrophe', 'Saturated Sky', 'Tidal Wave', 'Void']",
+  "['Asteroid Impact', 'Cataclysmic Explosion', 'Earthquake', 'Existential Collapse', 'Magnitude', 'Massive Explosion', 'Nuclear Void', 'Ocean Tsunami']"
+ ],
+ "Earthquake": [
+  "['Catastrophe', 'Cloudy Plains', 'Cold Darkness', 'Extreme Fire', 'Nuclear Reaction', 'Severe Thunderstorm', 'Tidal Wave', 'Tsunami']"
+ ],
+ "Astral Vortex": [
+  "['Astrophysical Expulsion', 'Extreme Energy', 'Inferno', 'Ocean Tsunami', 'Oceanic Catastrophe', 'Superheated Water', 'Supernova', 'Turbidity']",
+  "['A Gamma Ray Burst', 'Astral Vortex', 'Disintegration', 'Maelstrom', 'Severe Thunderstorm', 'Steam Explosion', 'Vapor', 'thunder']",
+  "['Astral Vortex', 'Complete Destruction', 'Expansion', 'Extreme Vortex', 'Fireball', 'Flooding', 'Full Destruction', 'Torrential Downpour']"
+ ],
+ "Desolate Void": [
+  "[' Void', 'Desolate Wasteland', 'Maelstrom', 'Oceanic Catastrophe', 'Quantum Fluctuation', 'Torrential Downpour', 'Total Chaos', 'sky']"
+ ],
+ "A singularity": [
+  "['Absolute Annihilation', 'Ash cloud', 'Hypernova', 'Natural Disaster', 'Neutron Star', 'Nuclear', 'Pyroclastic Firestorm', 'Turbulent Sea']"
+ ],
+ "Extreme Energy": [
+  "['Black Hole', 'Dust Storm', 'Extreme Weather', 'Intense Lightning Storm', 'Molten Lava', 'Pyroclastic', 'Wild Thunder', 'thunder']"
+ ],
+ "Paradox": [
+  "['Astral Disintegration', 'Canyon', 'Complete Destruction', 'Flooding', 'Fog', 'Hurricane', 'Lightning', 'Natural Disaster']",
+  "['Absolute Void', 'Cosmic Explosion', 'Hyperstorm', 'Ocean', 'Overcharged', 'Paradox', 'Thunderstorm', 'lake']",
+  "['Absolute Obstruction', 'Cosmic Deluge', 'Cosmic Expansion', 'Dust Devil', 'Dust Storm', 'Massive Explosion', 'Nuclear Reaction', 'Temporal Singularity']"
+ ],
+ "Waterfall": [
+  "['Fierce Storm', 'Flooding', 'Maelstrom', 'Neutron Star', 'None', 'Superheated Water', 'Turbulent Sea', 'Volcano']"
+ ],
+ "Nuclear explosion": [
+  "['All Consuming Void', 'Earthquake', 'Gamma Ray', 'Intensified Electricity', 'Nuclear', 'Pretty much N/A', 'Singular Point', 'Smoke']"
+ ],
+ "Disintegration": [
+  "['Astral Disintegration', 'Blast', 'Dust Storm', 'Duststorm', 'Fierce Thunder', 'Lightning Storm', 'Ocean Storm', 'Thunderstorm']"
+ ]
+}

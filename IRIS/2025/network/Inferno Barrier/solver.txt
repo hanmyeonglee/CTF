@@ -1,0 +1,25 @@
+nc inferno-barrier.chal.irisc.tf 10500
+
+4500 003c 1c46 0000 4001 a6ec c0a8 01fd
+c0a8 0101 
+0800 4dcb 1f2b 0001 6162 6364 6566 6768
+696a 6b6c 6d6e 6f70 7172 7374 7576 7761
+
+설명
+IP 헤더
+
+4500 003c: IPv4, 헤더 길이 20 bytes, 총 길이 60 bytes.
+1c46 0000: ID와 플래그 필드.
+4001: TTL (64), 프로토콜 (ICMP = 1).
+a6ec: IP 체크섬.
+c0a8 0102: 출발지 IP (192.168.1.2).
+c0a8 0101: 목적지 IP (192.168.1.1).
+ICMP 헤더
+
+0800: Type (8)과 Code (0).
+4dcb: 체크섬 (ICMP 헤더와 데이터를 합산).
+1f2b: Identifier (프로세스 ID 예: 0x1f2b).
+0001: Sequence Number.
+데이터
+
+6162 6364 ...: "abcdefghijklmno..."의 ASCII 코드.

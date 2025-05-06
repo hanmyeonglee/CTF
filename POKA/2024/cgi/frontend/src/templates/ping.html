@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Report</title>
+	{% include 'head_nav.html' %}
+</head>
+<body>
+	{% include 'nav.html' %}
+    <div style="margin-top:50px;text-align: center;">
+        <div style="display:inline-block;width: 60%;text-align:left;">
+            <h1>ping</h1><br>
+            <form method="POST" action="/ping">
+		    Host : <input type="text" name="host" placeholder="host"><br><br>
+		    Port : <input type="text" name="port" placeholder="port"><br><br>
+                <textarea style="width:500px;height:300px;" placeholder="TEST HTTP Packet" name="packet"></textarea>
+		<input type="submit" name="submit">
+            </form>
+            <hr>
+            {% if message %}
+                {{ message }}
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

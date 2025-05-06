@@ -1,0 +1,25 @@
+{
+  "Hendrix would have had it... ": "xx0232 022100 x32010 x02220 xx0232 022100", # Guiter code
+  "1337 ...": "0r4N63", # LEET
+  "He can snap his toes, and has already counted to infinity twice ...": "0 00 00 0000 0 000 00 000 0 0 00 0 0 00 00 00 0 0 00 0 0 000 00 0 0 0 00 00 0 000 00 0 0 00 00 00 0 00 00 0 0 00 00 00 0 00 00 00 0 0 00 0 0 0", # Chuck Norris Unary
+  "Did you realy see slumdog millionaire ?": "NZMJQI", # Shanker Speech Defect
+  "Born in 1462 in Germany...": "sewgwtdsp", # Trithemius Cipher
+  "It looks like Morse code, but ... ": ".-... l .- v -.---", # Wabun Code
+  "": "Quebec Uniform Alfa Romeo Tango Zulu", # NATO phonetic alphabet
+  "what is this charabia ???": "oozit", # Latin Gibberish
+  "He can't imagine finding himself in CTF 150 years later...": "01011 00011 11100 11001 11000 01100", # Baudot Code
+  "A code based on pairs of dots and dashes. Think of a mix of Morse code and numbers... (AZERTYUIO)": "96367973" # Latin Gibberish
+}
+
+{
+  "Hendrix would have had it... ": "Guiter code"
+  "1337 ...": "LEET"
+  "He can snap his toes, and has already counted to infinity twice ...": "Chuck Norris Unary"
+  "Did you realy see slumdog millionaire ?": "Shanker Speech Defect"
+  "Born in 1462 in Germany...": "Trithemius Cipher"
+  "It looks like Morse code, but ... ": "Wabun Code"
+  "": "NATO phonetic alphabet"
+  "what is this charabia ???": "Latin Gibberish"
+  "He can't imagine finding himself in CTF 150 years later...": "Baudot Code"
+  "A code based on pairs of dots and dashes. Think of a mix of Morse code and numbers... (AZERTYUIO)": "Latin Gibberish"
+}

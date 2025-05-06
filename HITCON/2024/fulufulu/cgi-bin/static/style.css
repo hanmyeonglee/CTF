@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    padding: 0.5em;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('/static/background.png');
+    background-color: oklch(0.498152 0.039599 212.297);
+    color: white;
+
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+hr {
+    border-color: white;
+}
+
+table {
+    font-size: 20px;
+}

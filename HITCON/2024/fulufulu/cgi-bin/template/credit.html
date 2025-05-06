@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Rejoice In Merit</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <h1>Rank</h1>
+        
+        <table style="display: inline-table;">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                {}
+            </tbody>
+        </table>
+
+        <hr />
+
+        <h1>Rejoice In Merit</h1>
+        <p>Donate more than {}, we'll offer you the <a href="/credit/flag">flag</a>!</p>
+
+        <form action="/credit" method="POST" enctype="application/x-www-form-urlencoded">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="{}" readonly="readonly">
+    
+            <label for="money">Money</label>
+            <input type="number" name="money" id="money">
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

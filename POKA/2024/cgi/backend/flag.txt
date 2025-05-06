@@ -1,0 +1,11 @@
+pokactf2024{fake_flag}
+
+packet = 'GET /admin HTTP/1.1\nHost: 127.0.0.1:80\n\n'
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.settimeout(5)
+    s.connect((127.0.0.1, 80))
+    s.sendall(packet.encode())
+    while True:
+        tmp = s.recv(1024)
+        result += tmp.decode()
+        if not tmp: break

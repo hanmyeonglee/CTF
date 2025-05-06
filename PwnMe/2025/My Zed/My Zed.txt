@@ -1,0 +1,5 @@
+flag : PWNME{49e531f28d1cedef03103af6cec79669_th4t_v3Ct0r_k1nd4_l3aky}
+
+key가 password hash인데
+업데이트를 안해서
+걍 metadata에 있는거 쓰면 됨

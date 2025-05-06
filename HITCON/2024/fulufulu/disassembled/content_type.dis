@@ -1,0 +1,167 @@
+0:
+  1:
+    (var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383, e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383)
+  value = (
+    131:
+      dict(
+        (
+          131:
+        ),
+      )
+  )
+  var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383 = value
+139:
+  140:
+    obj = (
+      140:
+        (var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383, e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383)
+    )
+    idx = (
+      271:
+        ("png", None)
+    )
+    return (obj[idx], None)
+  value = (
+    279:
+      ("image/png", None)
+  )
+  0[png] = value
+292:
+  293:
+    obj = (
+      293:
+        (var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383, e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383)
+    )
+    idx = (
+      424:
+        ("jpg", None)
+    )
+    return (obj[idx], None)
+  value = (
+    432:
+      ("image/jpg", None)
+  )
+  0[jpg] = value
+445:
+  446:
+    obj = (
+      446:
+        (var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383, e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383)
+    )
+    idx = (
+      577:
+        ("txt", None)
+    )
+    return (obj[idx], None)
+  value = (
+    585:
+      ("text/plain", None)
+  )
+  0[txt] = value
+599:
+  600:
+    obj = (
+      600:
+        (var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383, e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383)
+    )
+    idx = (
+      731:
+        ("html", None)
+    )
+    return (obj[idx], None)
+  value = (
+    740:
+      ("text/html", None)
+  )
+  0[html] = value
+753:
+  754:
+    obj = (
+      754:
+        (var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383, e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383)
+    )
+    idx = (
+      885:
+        ("css", None)
+    )
+    return (obj[idx], None)
+  value = (
+    893:
+      ("text/css", None)
+  )
+  0[css] = value
+905:
+  906:
+    obj = (
+      906:
+        (var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383, e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383)
+    )
+    idx = (
+      1037:
+        ("js", None)
+    )
+    return (obj[idx], None)
+  value = (
+    1044:
+      ("text/javascript", None)
+  )
+  0[js] = value
+1063:
+  1064:
+    (var_d34f0d0ee609560b4ee27cc02f0ba04eb408cc1a6cb80a2142d208a5abcfe62de8e5a03f552f1a99f79703ca005c46179b77feaad81343a45bcef33732ff6bef, d34f0d0ee609560b4ee27cc02f0ba04eb408cc1a6cb80a2142d208a5abcfe62de8e5a03f552f1a99f79703ca005c46179b77feaad81343a45bcef33732ff6bef)
+  value = (
+    1194:
+      ("application/octet-stream", None)
+  )
+  var_d34f0d0ee609560b4ee27cc02f0ba04eb408cc1a6cb80a2142d208a5abcfe62de8e5a03f552f1a99f79703ca005c46179b77feaad81343a45bcef33732ff6bef = value
+1222:
+  1223:
+    (var_9f3eb4f387dfc7addc9f11f98c57a20599d827fe8a77d49ea7bac445fc412d6c6d6fa285149ec59af3fa5d68595f3efa24189a5ab8b3a91daf76fc4062610b2b, 9f3eb4f387dfc7addc9f11f98c57a20599d827fe8a77d49ea7bac445fc412d6c6d6fa285149ec59af3fa5d68595f3efa24189a5ab8b3a91daf76fc4062610b2b)
+  value = (
+    1353:
+      1353:
+        (arg1, None)
+      arg1.split(
+        (
+          1354:
+            (".", None)
+        ),
+      )
+  )
+  var_9f3eb4f387dfc7addc9f11f98c57a20599d827fe8a77d49ea7bac445fc412d6c6d6fa285149ec59af3fa5d68595f3efa24189a5ab8b3a91daf76fc4062610b2b = value
+1368:
+  1369:
+    (var_0f4a0c84992ab9ffc77d9ccc841bddb02e056eaa08dbda543b0a8b8552a9821cdd2f98e24a5e66e6803172a9fff7f30535408fa565675a1703be6bfb0a48b124, 0f4a0c84992ab9ffc77d9ccc841bddb02e056eaa08dbda543b0a8b8552a9821cdd2f98e24a5e66e6803172a9fff7f30535408fa565675a1703be6bfb0a48b124)
+  value = (
+    1499:
+      obj = (
+        1499:
+          (var_9f3eb4f387dfc7addc9f11f98c57a20599d827fe8a77d49ea7bac445fc412d6c6d6fa285149ec59af3fa5d68595f3efa24189a5ab8b3a91daf76fc4062610b2b, 9f3eb4f387dfc7addc9f11f98c57a20599d827fe8a77d49ea7bac445fc412d6c6d6fa285149ec59af3fa5d68595f3efa24189a5ab8b3a91daf76fc4062610b2b)
+      )
+      idx = (
+        1630:
+          value = (
+            1630:
+              (1, None)
+          )
+          return (-value, None)
+      )
+      return (obj[idx], None)
+  )
+  var_0f4a0c84992ab9ffc77d9ccc841bddb02e056eaa08dbda543b0a8b8552a9821cdd2f98e24a5e66e6803172a9fff7f30535408fa565675a1703be6bfb0a48b124 = value
+1638:
+  return (
+    1638:
+      1638:
+        (var_e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383, e848400636cfa6e4e956922994c05adff52cd42a8fa2d932ebd8c362bd28084340c493395becf4c091a9689674153b1adfcd145e5170017b7532c39976859383)
+      0.get(
+        (
+          1767:
+            (var_0f4a0c84992ab9ffc77d9ccc841bddb02e056eaa08dbda543b0a8b8552a9821cdd2f98e24a5e66e6803172a9fff7f30535408fa565675a1703be6bfb0a48b124, 0f4a0c84992ab9ffc77d9ccc841bddb02e056eaa08dbda543b0a8b8552a9821cdd2f98e24a5e66e6803172a9fff7f30535408fa565675a1703be6bfb0a48b124)
+        ),
+        (
+          1896:
+            (var_d34f0d0ee609560b4ee27cc02f0ba04eb408cc1a6cb80a2142d208a5abcfe62de8e5a03f552f1a99f79703ca005c46179b77feaad81343a45bcef33732ff6bef, d34f0d0ee609560b4ee27cc02f0ba04eb408cc1a6cb80a2142d208a5abcfe62de8e5a03f552f1a99f79703ca005c46179b77feaad81343a45bcef33732ff6bef)
+        ),
+      )
+  )

@@ -1,0 +1,16 @@
+{
+  "name": "jsfull",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cookie-parser": "^1.4.6",
+    "puppeteer-core": "^23.1.1"
+  }
+}

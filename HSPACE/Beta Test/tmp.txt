@@ -1,0 +1,79 @@
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+   36     0  E >   RECV                                             $flag
+          1        RECV                                             $password
+          2        RECV                                             $salt
+          3        RECV_INIT                                        $size      16
+   37     4        ASSIGN                                                   $ret, ''
+   38     5        INIT_FCALL                                               'str_pad'
+          6        SEND_VAR                                                 $flag
+          7        INIT_FCALL                                               'ceil'
+          8        STRLEN                                           ~15     $flag
+          9        DIV                                              ~16     ~15, $size
+         10        SEND_VAL                                                 ~16
+         11        DO_ICALL                                         $17
+         12        MUL                                              ~18     $size, $17
+         13        SEND_VAL                                                 ~18
+         14        SEND_VAL                                                 '%00'
+         15        DO_ICALL                                         $19
+         16        ASSIGN                                                   $flag, $19
+   39    17        ASSIGN                                                   $tmp_salt, $salt
+   40    18        ASSIGN                                                   $tmp_pw, $password
+   42    19        ASSIGN                                                   $i, 0
+         20      > JMP                                                      ->72
+   43    21    >   INIT_FCALL                                               'substr'
+         22        SEND_VAR                                                 $flag
+         23        SEND_VAR                                                 $i
+         24        SEND_VAR                                                 $size
+         25        DO_ICALL                                         $24
+         26        ASSIGN                                                   $block, $24
+   44    27        INIT_FCALL                                               'a'
+         28        SEND_VAR                                                 $block
+         29        SEND_VAR                                                 $tmp_salt
+         30        DO_UCALL                                         $26
+         31        ASSIGN                                                   !9, $26
+   45    32        INIT_FCALL                                               'd'
+         33        SEND_VAR                                                 !9
+         34        DO_UCALL                                         $28
+         35        ASSIGN                                                   !10, $28
+   46    36        INIT_FCALL                                               'b'
+         37        SEND_VAR                                                 !10
+         38        MOD                                              ~30     $i, 8
+         39        ADD                                              ~31     ~30, 1
+         40        SEND_VAL                                                 ~31
+         41        DO_UCALL                                         $32
+         42        ASSIGN                                                   !11, $32
+   47    43        INIT_FCALL                                               'c'
+         44        SEND_VAR                                                 !11
+         45        INIT_FCALL                                               'ord'
+         46        STRLEN                                           ~34     $password
+         47        MOD                                              ~35     $i, ~34
+         48        FETCH_DIM_R                                      ~36     $password, ~35
+         49        SEND_VAL                                                 ~36
+         50        DO_ICALL                                         $37
+         51        ADD                                              ~38     $i, $37
+         52        MOD                                              ~39     ~38, 256
+         53        SEND_VAL                                                 ~39
+         54        DO_UCALL                                         $40
+         55        ASSIGN                                                   !12, $40
+   48    56        INIT_FCALL                                               'openssl_encrypt'
+         57        SEND_VAR                                                 !12
+         58        SEND_VAL                                                 'AES-128-ECB'
+         59        SEND_VAR                                                 $tmp_pw
+         60        SEND_VAL                                                 3
+         61        DO_ICALL                                         $42
+         62        ASSIGN                                                   $res, $42
+   49    63        INIT_FCALL                                               'substr'
+         64        SEND_VAR                                                 $res
+         65        SEND_VAL                                                 0
+         66        SEND_VAL                                                 16
+         67        DO_ICALL                                         $44
+         68        ASSIGN                                                   $tmp_pw, $44
+   50    69        ASSIGN_OP                                     8          $ret, $res
+   51    70        ASSIGN                                                   $tmp_salt, $res
+   42    71        ASSIGN_OP                                     1          $i, $size
+         72    >   STRLEN                                           ~49     $flag
+         73        IS_SMALLER                                       ~50     $i, ~49
+         74      > JMPNZ                                                    ~50, ->21
+   54    75    > > RETURN                                                   $ret
+   55    76*     > RETURN                                                   null

@@ -1,0 +1,249 @@
+0:
+  return (
+    0:
+      elts = (
+        0:
+          ("0", None)
+        0:
+          ("1", None)
+        0:
+          ("2", None)
+        0:
+          ("3", None)
+        0:
+          ("4", None)
+        0:
+          ("5", None)
+        0:
+          ("6", None)
+        0:
+          ("7", None)
+        0:
+          ("8", None)
+        0:
+          ("9", None)
+        0:
+          ("a", None)
+        0:
+          ("b", None)
+        0:
+          ("c", None)
+        0:
+          ("d", None)
+        0:
+          ("e", None)
+        0:
+          ("f", None)
+        0:
+          ("g", None)
+        0:
+          ("h", None)
+        0:
+          ("i", None)
+        0:
+          ("j", None)
+        0:
+          ("k", None)
+        0:
+          ("l", None)
+        0:
+          ("m", None)
+        0:
+          ("n", None)
+        0:
+          ("o", None)
+        0:
+          ("p", None)
+        0:
+          ("q", None)
+        0:
+          ("r", None)
+        0:
+          ("s", None)
+        0:
+          ("t", None)
+        0:
+          ("u", None)
+        0:
+          ("v", None)
+        0:
+          ("w", None)
+        0:
+          ("x", None)
+        0:
+          ("y", None)
+        0:
+          ("z", None)
+        0:
+          ("A", None)
+        0:
+          ("B", None)
+        0:
+          ("C", None)
+        0:
+          ("D", None)
+        0:
+          ("E", None)
+        0:
+          ("F", None)
+        0:
+          ("G", None)
+        0:
+          ("H", None)
+        0:
+          ("I", None)
+        0:
+          ("J", None)
+        0:
+          ("K", None)
+        0:
+          ("L", None)
+        0:
+          ("M", None)
+        0:
+          ("N", None)
+        0:
+          ("O", None)
+        0:
+          ("P", None)
+        0:
+          ("Q", None)
+        0:
+          ("R", None)
+        0:
+          ("S", None)
+        0:
+          ("T", None)
+        0:
+          ("U", None)
+        0:
+          ("V", None)
+        0:
+          ("W", None)
+        0:
+          ("X", None)
+        0:
+          ("Y", None)
+        0:
+          ("Z", None)
+        0:
+          ("!", None)
+        0:
+          (""", None)
+        0:
+          ("#", None)
+        0:
+          ("$", None)
+        0:
+          ("%", None)
+        0:
+          ("&", None)
+        0:
+          ("'", None)
+        0:
+          ("(", None)
+        0:
+          (")", None)
+        0:
+          ("*", None)
+        0:
+          ("+", None)
+        0:
+          (",", None)
+        0:
+          ("-", None)
+        0:
+          (".", None)
+        0:
+          ("/", None)
+        0:
+          (":", None)
+        0:
+          (";", None)
+        0:
+          ("<", None)
+        0:
+          ("=", None)
+        0:
+          (">", None)
+        0:
+          ("?", None)
+        0:
+          ("@", None)
+        0:
+          ("[", None)
+        0:
+          ("\", None)
+        0:
+          ("]", None)
+        0:
+          ("^", None)
+        0:
+          ("_", None)
+        0:
+          ("`", None)
+        0:
+          ("{", None)
+        0:
+          ("|", None)
+        0:
+          ("}", None)
+        0:
+          ("~", None)
+        0:
+          (" ", None)
+        0:
+          ("", None)
+        0:
+          ("
+", None)
+        0:
+          ("己", None)
+        0:
+          ("癸", None)
+        0:
+          ("庚", None)
+        0:
+          ("戊", None)
+        0:
+          ("未", None)
+        0:
+          ("寅", None)
+        0:
+          ("申", None)
+        0:
+          ("巳", None)
+        0:
+          ("符", None)
+        0:
+          ("咒", None)
+        0:
+          ("甲", None)
+        0:
+          ("丑", None)
+        0:
+          ("子", None)
+        0:
+          ("辛", None)
+        0:
+          ("丁", None)
+        0:
+          ("丙", None)
+        0:
+          ("辰", None)
+        0:
+          ("卯", None)
+        0:
+          ("乙", None)
+        0:
+          ("午", None)
+        0:
+          ("酉", None)
+        0:
+          ("亥", None)
+        0:
+          ("壬", None)
+        0:
+          ("戌", None)
+      )
+  )

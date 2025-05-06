@@ -1,0 +1,16 @@
+version: "3"
+services:
+  haproxy:
+    build:
+      context: ./haproxy
+      dockerfile: Dockerfile
+    ports:
+      - "0.0.0.0:443:443/tcp"
+      - "0.0.0.0:443:443/udp"
+    depends_on:
+      - backend-server
+  backend-server:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+

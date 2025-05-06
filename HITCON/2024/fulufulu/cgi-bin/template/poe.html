@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Poe Divination</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/style.css">
+        <style>
+            body {
+                text-align: center;
+            }
+
+            div.showcase {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            div.poe-container {
+                display: inline-flex;
+                gap: 10px;
+            }
+
+            div.poe {
+                height: 125px;
+                width: 50px;
+
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            div.poe.positive:first-child {
+                background-image: url('/static/poe_positive_left.png');
+            }
+
+            div.poe.positive:last-child {
+                background-image: url('/static/poe_positive_right.png');
+            }
+
+            div.poe.negative:first-child {
+                background-image: url('/static/poe_negative_left.png');
+            }
+
+            div.poe.negative:last-child {
+                background-image: url('/static/poe_negative_right.png');
+            }
+
+            div.poe:not(.positive, .negative) {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Poe Divination</h1>
+        <p>Throw the 聖笅 for consecutive 42 times for flag!</p>
+
+        <div class="showcase">
+            <div class="case">
+                <div class="poe-container">
+                    <div class="poe negative"></div>
+                    <div class="poe negative"></div>
+                </div>
+                <p>陰笅</p>
+            </div>
+            <div class="case">
+                <div>
+                    <div class="poe-container">
+                        <div class="poe positive"></div>
+                        <div class="poe negative"></div>
+                    </div>
+                    or
+                    <div class="poe-container">
+                        <div class="poe negative"></div>
+                        <div class="poe positive"></div>
+                    </div>
+                </div>
+                <p>聖笅</p>
+            </div>
+            <div class="case">
+                <div class="poe-container">
+                    <div class="poe positive"></div>
+                    <div class="poe positive"></div>
+                </div>
+                <p>笑笅</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <p>%s: %s times</p>
+        <div class="poe-container">
+            <div class="poe %s"></div>
+            <div class="poe %s"></div>
+        </div>
+
+        <p>%s</p>
+
+        <form action="/poe" method="POST" enctype="application/x-www-form-urlencoded">
+            <input type="submit" name="action" value="Throw">
+        </form>
+    </body>
+</html>

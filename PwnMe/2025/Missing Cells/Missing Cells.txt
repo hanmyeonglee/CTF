@@ -1,0 +1,12 @@
+flag : PWNME{t4kuZU_0R_b1n41r0_15_fUn!}
+
+우선 Takuzu라는 이진 스도쿠게임임
+근데 힌트로 준 헥스가 32바이트라서
+16 * 16 / 8이랑 딱 맞길래
+xor하는 stream cipher라고 생각했고
+
+PWNME{} 까지는 동일하기 떄문에
+그걸로 충분한 데이터를 준 후
+online solver를 돌린 다음
+bin으로 바꿔서 int로 전환한 후
+헥스와 xor 돌리면 flag

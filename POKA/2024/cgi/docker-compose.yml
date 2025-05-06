@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+
+  frontend: # PUBLIC Server
+    build:
+            context: ./frontend/
+            dockerfile: Dockerfile
+    ports:
+      - "3333:8080"
+    depends_on:
+      - backend
+
+  backend: # static admin page ( private server )
+    build:
+            context: ./backend/
+            dockerfile: Dockerfile
+    depends_on:
+      - mysql
+  mysql:
+          image: mysql:8.0
+          environment:
+                  MYSQL_ROOT_PASSWORD: password
+                  MYSQL_DATABASE: testdb
+          command: --default-authentication-plugin=mysql_native_password
+          volumes:
+                  - ./backend/init/dump.sql:/docker-entrypoint-initdb.d/dump.sql

@@ -1,0 +1,8 @@
+2020년 사이버-포카전을 기억하시나요?
+
+```
+$ sha1sum flag.txt
+7d36b2c6e1c5f4ade132f744ceb9d40e3bd5291b  flag.txt
+```
+
+flag format : `pokactf2024\{[0-9a-zA-Z]{4}\}`

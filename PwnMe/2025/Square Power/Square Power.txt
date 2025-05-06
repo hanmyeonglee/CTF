@@ -1,0 +1,11 @@
+flag : PWNME{Thi5_1s_H0w_pAl1ier_WorKs}
+
+g = kn+1일 때
+A = akn + 1 mod n**2
+B = bkn + 1 mod n**2
+이기에
+(A - 1) * (B - 1) = ab(kn)**2 mod n**2
+이고
+gcd(k, n) = 1이니깐
+저기에 k ** -1 mod n ** 2을 곱하고 n으로 나누어준 후 1을 더해주면
+g ** ab mod n ** 2 = abkn + 1이라는 값이 나옴

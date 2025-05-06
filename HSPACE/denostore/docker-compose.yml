@@ -1,0 +1,6 @@
+services:
+  deno-store:
+    build: .
+    ports:
+      - "23802:8000"
+    restart: always

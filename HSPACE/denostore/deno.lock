@@ -1,0 +1,53 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "jsr:@hono/hono@^4.6.2": "jsr:@hono/hono@4.6.2",
+      "jsr:@std/crypto": "jsr:@std/crypto@1.0.3",
+      "jsr:@std/encoding": "jsr:@std/encoding@1.0.5",
+      "npm:hono@^4.0.0": "npm:hono@4.6.3",
+      "npm:iron-webcrypto@0.10.1": "npm:iron-webcrypto@0.10.1"
+    },
+    "jsr": {
+      "@hono/hono@4.6.2": {
+        "integrity": "35fcf3be4687825080b01bed7bbe2ac66f8d8b8939f0bad459661bf3b46d916f"
+      },
+      "@std/crypto@1.0.3": {
+        "integrity": "a2a32f51ddef632d299e3879cd027c630dcd4d1d9a5285d6e6788072f4e51e7f"
+      },
+      "@std/encoding@1.0.5": {
+        "integrity": "ecf363d4fc25bd85bd915ff6733a7e79b67e0e7806334af15f4645c569fefc04"
+      }
+    },
+    "npm": {
+      "hono@4.6.3": {
+        "integrity": "sha512-0LeEuBNFeSHGqZ9sNVVgZjB1V5fmhkBSB0hZrpqStSMLOWgfLy0dHOvrjbJh0H2khsjet6rbHfWTHY0kpYThKQ==",
+        "dependencies": {}
+      },
+      "iron-webcrypto@0.10.1": {
+        "integrity": "sha512-QGOS8MRMnj/UiOa+aMIgfyHcvkhqNUsUxb1XzskENvbo+rEfp6TOwqd1KPuDzXC4OnGHcMSVxDGRoilqB8ViqA==",
+        "dependencies": {}
+      }
+    }
+  },
+  "redirects": {
+    "https://deno.land/x/hono_sessions/mod.ts": "https://deno.land/x/hono_sessions@v0.5.8/mod.ts",
+    "https://deno.land/x/hono_sessions/src/store/deno/DenoKvStore.ts": "https://deno.land/x/hono_sessions@v0.5.8/src/store/deno/DenoKvStore.ts"
+  },
+  "remote": {
+    "https://deno.land/x/hono_sessions@v0.5.8/deps.ts": "a86ee9f6d96c0dcc80380eaa3d1cef13ff972a56003d8e1d7f461cc32554fa34",
+    "https://deno.land/x/hono_sessions@v0.5.8/mod.ts": "67e89aebb3c0e87e7e6065aefb56606d2f1017dd8ed030ef742f5bb73398abda",
+    "https://deno.land/x/hono_sessions@v0.5.8/src/Crypto.ts": "dcbf1dc60d5c67426f3a25bcd56a38012336c2418ab1291550f2fa1f76b66e25",
+    "https://deno.land/x/hono_sessions@v0.5.8/src/Middleware.ts": "05879181e4f649098c05800a47c12c21649dde41f8d21aceefc7b2dbb91b261b",
+    "https://deno.land/x/hono_sessions@v0.5.8/src/Session.ts": "9de1c3661a9b713a4eded0457a60432a96118be59741cb32e43c39a437da33cd",
+    "https://deno.land/x/hono_sessions@v0.5.8/src/store/CookieStore.ts": "9175f9da3e555c0e07928db03bb26ad40b6b0c1f661bfccd9aeddad0a615ccc2",
+    "https://deno.land/x/hono_sessions@v0.5.8/src/store/MemoryStore.ts": "f702d81a948a775207f047b60e2dd6c903a4b25b041c827309486055be3103fd",
+    "https://deno.land/x/hono_sessions@v0.5.8/src/store/Store.ts": "8f26b96fa22c330846ccb318cb90d3d1135aec9078c0faa7b5dc39ceb49a0da4",
+    "https://deno.land/x/hono_sessions@v0.5.8/src/store/deno/DenoKvStore.ts": "0ad61bfd434c0cc2406ebfcd5744ab51c58d74d908ee8dbfee877a93d6fc8123"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono@^4.6.2"
+    ]
+  }
+}

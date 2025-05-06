@@ -1,0 +1,35 @@
+w, h = 18, 18
+background_color = (240, 232, 88)
+background_color_l = 218
+
+buildin_func = {'open': open, 'len': len, 'dict': dict, 'range': range, 'exit': exit, 'urlparse': urlparse, 'parse_qs': parse_qs, 'int': int, 'globals': buildin_globals, 'str':str, 'exec':buildin_exec, 'connect':connect}
+
+blank = '0f95db548dabac35f579cdc5f0666b7c126c05ad7382e12eea09ee29b22caf6242c9755fae3af452eea078b083475d80d8405bafc75cfbe46e7ad580799b94d9'
+
+shaBlock: 받은 row, col에서 w x h 부분의 이미지를 hash.blake2b 한 결과를 반환, balck2b는 exploit 포기
+getTile: row, col을 받아서 그 row, col 위치에서 w x h 부분의 이미지를 greyscale로 반환
+isContinue: image의 맨 오른쪽/왼쪽 타일들의 첫 번째 픽셀이 background_color_l과 다 같으면 false, 다르면 true -> background인지 아닌지 구분?
+addSymbol: symbol_table에 bhash가 있는지 보고 없으면 variables에 추가 후 b에 䊆 + bhash를 붙여서 반환, 있다면 b에 symbol_table의 값을 붙여서 반환
+Run: 받은 argument를 설정하고 self.pc < len(self.body) and not self.stop의 조건에 따라 _visit의 결과를 반환함
+_visit: 받은 buffer(string)의 첫 번째 값을 operation으로 하는 특정 동작을 수행함, 특정 op가 이용될 듯, _print/_call를 실행하는 op가 제일 중요할 것 같음
+_print: 適 ~buf1~ 瀳 ~buf2~ 適' 부분을 잘라 그 부분의 _visit 실행 결과를 모두 모아 출력함
+_call: buildin_func를 사용하는 함수, fulus에는 추가되지 않으면서도 buildin_func에는 있는 key를 찾아서 보내면 塺를 기준으로 split된 parameter buf의 각 요소가 _visit으로 가서, 그 중 None이 아닌 결과값이 buildin_func의 arg로 주어지는 함수 실행이 되게 됨
+만약 巜가 있고 위에서 모두 안 걸렸을 경우 IDX를 반환하는 op를 통해 function을 실행할 수 있긴 함
+
+main(args 검증 후 입력된 폴더의 모든 파일을 받음)
+-> Fulu __init__(각종 변수 생성, )
+
+
+韔open
+
+
+345925867b1dd3d60ac95ca8a4416a2bc671727369f7b3659248abcb3b56d47577e061fd192519961dc95519d8df2297c1f6ec18659e5b66f961abe7f8d5b5b5
+
+system巜䊆345925867b1dd3d60ac95ca8a4416a2bc671727369f7b3659248abcb3b56d47577e061fd192519961dc95519d8df2297c1f6ec18659e5b66f961abe7f8d5b5b5
+
+elif op == '䊆':
+    self.pc += 129
+    vhash = buf[1:129]
+    if vhash not in self.variables:
+        self.variables[vhash] = None
+    return (self.variables[vhash], vhash)

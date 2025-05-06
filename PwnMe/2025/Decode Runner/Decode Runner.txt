@@ -1,0 +1,5 @@
+flag : PWNME{d4m_y0U_4r3_F4st!_4nd_y0u_kn0w_y0ur_c1ph3rs!}
+
+걍 힌트보고 cipher 잘 찾아서
+decoder 만드는 문제임...
+개빡치네진짯ㅂ

@@ -1,0 +1,70 @@
+<?php
+    function a($x, $y){
+        $ret = '';
+        for($i = 0 ; $i < strlen($x) ; $i++){
+            $res = ord($x[$i]) ^ ord($y[$i]);
+            $ret .= chr($res);
+        }
+        return $ret;
+    }
+
+    function b($x, $y){
+        $ret = '';
+        for($i = 0 ; $i < strlen($x) ; $i++){
+            $tmp = ord($x[$i]);
+            $tmp1 = $tmp << $y;
+            $tmp2 = 8 - $y;
+            $tmp3 = $tmp >> $tmp2;
+            $tmp4 = $tmp1 | $tmp3;
+            $tmp5 = $tmp4 & 255;
+            $ret .= chr($tmp5);
+        }
+        return $ret;
+    }
+
+    function c($x, $y){
+        $ret = '';
+        for($i = 0 ; $i < strlen($x) ; $i++){
+            $tmp = ord($x[$i]);
+            $res = ($tmp + $y) % 256;
+            $ret .= chr($res);
+        }
+        return $ret;
+    }
+
+    function d($x){
+        return str_rot13($x);
+    }
+    
+
+    function encrypt($x, $y, $z, $size=16){
+        $ret = '';
+        $x = str_pad($x, ceil(strlen($x) / $size) * $size, '0');
+        $a = $z;
+        $b = $y;
+        $i = 0;
+
+        while($i < strlen($x)){
+            $block = substr($x, $i, $size);
+            $after_a = a($block, $a);
+            $after_d = d($after_a);
+            $after_b = b($after_d, ($i % 8) + 1);
+            $after_c = c($after_b, (ord($y[$i % strlen($y)]) + $i) % 256);
+
+            $res = openssl_encrypt($after_c, 'AES-128-ECB', $b, 3);
+            $ret .= $res;
+
+            $a = $res;
+            $b = substr($res, 0, 16);
+            $i += $size;
+        }
+
+        return $ret;
+    }
+
+    $var0 = 'vXR1VGYbvAEChVv+wQazyhyN9AXlTp2Kqoaz5Sm3FtxuJHJ+3BVRaeJ2PO+GmzZF';
+    $var1 = 'd7mXTONUOhWIVHgy';
+    $var2 = 'buNj#7]0~!<ua:>\\\\';
+    
+    echo base64_encode(encrypt('hspace{daac70f5b175fb4Z45G2', $var1, $var2));
+?>

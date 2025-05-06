@@ -1,0 +1,13 @@
+services:
+  fulu:
+    image: ad-fulu-image
+    ports:
+      - "8081:80"
+    volumes:
+      - ./apache2-log:/var/log/apache2
+      - ./cgi/.htaccess:/usr/lib/cgi-bin/.htaccess:ro
+      - ./cgi/interpreter.py:/usr/lib/cgi-bin/interpreter.py:ro
+      - ./fulu:/usr/lib/cgi-bin/fulu:ro
+      - ./flag:/flag:ro
+    stop_signal: SIGKILL
+    command: "/entrypoint.sh"

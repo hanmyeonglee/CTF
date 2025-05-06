@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Fortune Poetry</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/style.css">
+        <style>
+            body {
+                text-align: center;
+            }
+
+            div.result {
+                text-align: center;
+            }
+
+            div.result:not(.visible) {
+                display: none;
+            }
+
+            div.result > iframe {
+                width: 90vw;
+                height: 75vh;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Draw a Fortune Poetry</h1>
+
+        <form action="/poetry" method="POST" enctype="application/x-www-form-urlencoded">
+            <input type="submit" value="Draw">
+        </form>
+
+        <div class="result %s">
+            You have drawn %s
+            <br />
+            <iframe src="%s" title="%s"></iframe>
+            <br />
+            Data Source: <a href="http://www.ma-tsu.com.tw">http://www.ma-tsu.com.tw</a>
+        </div>
+    </body>
+</html>

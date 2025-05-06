@@ -1,0 +1,215 @@
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+    2     0  E >   ASSIGN                                                   $var0, 'vXR1VGYbvAEChVv%2BwQazyhyN9AXlTp2Kqoaz5Sm3FtxuJHJ%2B3BVRaeJ2PO%2BGmzZF'
+   57     1        ASSIGN                                                   $var1, 'd7mXTONUOhWIVHgy'
+   58     2        ASSIGN                                                   $var2, 'buNj%237%5D0%7E%21%3Cua%3A%3E%5C%5C'
+   60     3        INIT_FCALL                                               'base64_encode'
+          4        INIT_FCALL                                               'encrypt'
+          5        FETCH_R                      global              ~6      '_GET'
+          6        FETCH_DIM_R                                      ~7      ~6, 'flag'
+          7        SEND_VAL                                                 ~7
+          8        SEND_VAR                                                 $var1
+          9        SEND_VAR                                                 $var2
+         10        DO_UCALL                                         $8
+         11        SEND_VAR                                                 $8
+         12        DO_ICALL                                         $9
+         13        IS_IDENTICAL                                     ~10     $var0, $9
+         14      > JMPZ                                                     ~10, ->17
+   61    15    >   ECHO                                                     'You+made+it%21'
+         16      > JMP                                                      ->18
+   63    17    >   ECHO                                                     'try+hard'
+   68    18    > > RETURN                                                   1
+
+Function a:
+
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+    4     0  E >   RECV                                             $var0
+          1        RECV                                             $var1
+    5     2        ASSIGN                                                   $var2, ''
+    6     3        ASSIGN                                                   !3, 0
+          4      > JMP                                                      ->20
+    7     5    >   INIT_FCALL                                               'chr'
+          6        INIT_FCALL                                               'ord'
+          7        FETCH_DIM_R                                      ~6      $var0, !3
+          8        SEND_VAL                                                 ~6
+          9        DO_ICALL                                         $7
+         10        INIT_FCALL                                               'ord'
+         11        FETCH_DIM_R                                      ~8      $var1, !3
+         12        SEND_VAL                                                 ~8
+         13        DO_ICALL                                         $9
+         14        BW_XOR                                           ~10     $7, $9
+         15        SEND_VAL                                                 ~10
+         16        DO_ICALL                                         $11
+         17        ASSIGN_OP                                     8          $var2, $11
+    6    18        POST_INC                                         ~13     !3
+         19        FREE                                                     ~13
+         20    >   STRLEN                                           ~14     $var0
+         21        IS_SMALLER                                       ~15     !3, ~14
+         22      > JMPNZ                                                    ~15, ->5
+    9    23    > > RETURN                                                   $var2
+   10    24*     > RETURN                                                   null
+
+End of function a
+
+Function b:
+
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+   12     0  E >   RECV                                             $var0
+          1        RECV                                             $var1
+   13     2        ASSIGN                                                   $var2, ''
+   14     3        ASSIGN                                                   !3, 0
+          4      > JMP                                                      ->22
+   15     5    >   INIT_FCALL                                               'ord'
+          6        FETCH_DIM_R                                      ~8      $var0, !3
+          7        SEND_VAL                                                 ~8
+          8        DO_ICALL                                         $9
+          9        ASSIGN                                                   !4, $9
+   16    10        SL                                               ~11     !4, $var1
+         11        SUB                                              ~12     8, $var1
+         12        SR                                               ~13     !4, ~12
+         13        BW_OR                                            ~14     ~11, ~13
+         14        BW_AND                                           ~15     ~14, 255
+         15        ASSIGN                                                   !5, ~15
+   17    16        INIT_FCALL                                               'chr'
+         17        SEND_VAR                                                 !5
+         18        DO_ICALL                                         $17
+         19        ASSIGN_OP                                     8          $var2, $17
+   14    20        POST_INC                                         ~19     !3
+         21        FREE                                                     ~19
+         22    >   STRLEN                                           ~20     $var0
+         23        IS_SMALLER                                       ~21     !3, ~20
+         24      > JMPNZ                                                    ~21, ->5
+   19    25    > > RETURN                                                   $var2
+   20    26*     > RETURN                                                   null
+
+End of function b
+
+Function c:
+
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+   22     0  E >   RECV                                             $x
+          1        RECV                                             $y
+   23     2        ASSIGN                                                   $ret, ''
+   24     3        ASSIGN                                                   !3, 0
+          4      > JMP                                                      ->19
+   25     5    >   INIT_FCALL                                               'ord'
+          6        FETCH_DIM_R                                      ~8      $x, !3
+          7        SEND_VAL                                                 ~8
+          8        DO_ICALL                                         $9
+          9        ASSIGN                                                   !4, $9
+   26    10        ADD                                              ~11     !4, $y
+         11        MOD                                              ~12     ~11, 256
+         12        ASSIGN                                                   !5, ~12
+   27    13        INIT_FCALL                                               'chr'
+         14        SEND_VAR                                                 !5
+         15        DO_ICALL                                         $14
+         16        ASSIGN_OP                                     8          $ret, $14
+   24    17        POST_INC                                         ~16     !3
+         18        FREE                                                     ~16
+         19    >   STRLEN                                           ~17     $x
+         20        IS_SMALLER                                       ~18     !3, ~17
+         21      > JMPNZ                                                    ~18, ->5
+   29    22    > > RETURN                                                   $ret
+   30    23*     > RETURN                                                   null
+
+End of function c
+
+Function d:
+
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+   32     0  E >   RECV                                             $var0
+   33     1        INIT_FCALL                                               'str_rot13'
+          2        SEND_VAR                                                 $var0
+          3        DO_ICALL                                         $1
+          4      > RETURN                                                   $1
+   34     5*     > RETURN                                                   null
+
+End of function d
+
+Function encrypt:
+
+line      #* E I O op                           fetch          ext  return  operands
+-------------------------------------------------------------------------------------
+   36     0  E >   RECV                                             $x
+          1        RECV                                             $y
+          2        RECV                                             $z
+          3        RECV_INIT                                        $size      16
+   37     4        ASSIGN                                                   $ret, ''
+   38     5        INIT_FCALL                                               'str_pad'
+          6        SEND_VAR                                                 $x
+          7        INIT_FCALL                                               'ceil'
+          8        STRLEN                                           ~15     $x
+          9        DIV                                              ~16     ~15, !3
+         10        SEND_VAL                                                 ~16
+         11        DO_ICALL                                         $17
+         12        MUL                                              ~18     $size, $17
+         13        SEND_VAL                                                 ~18
+         14        SEND_VAL                                                 '%00'
+         15        DO_ICALL                                         $19
+         16        ASSIGN                                                   $x, $19
+   39    17        ASSIGN                                                   $a, $z
+   40    18        ASSIGN                                                   $b, $y
+   42    19        ASSIGN                                                   $i, 0
+         20      > JMP                                                      ->72
+   43    21    >   INIT_FCALL                                               'substr'
+         22        SEND_VAR                                                 $x
+         23        SEND_VAR                                                 $i
+         24        SEND_VAR                                                 $size
+         25        DO_ICALL                                         $24
+         26        ASSIGN                                                   $tmp, $24
+   44    27        INIT_FCALL                                               'a'
+         28        SEND_VAR                                                 $tmp
+         29        SEND_VAR                                                 $a
+         30        DO_UCALL                                         $26
+         31        ASSIGN                                                   $after_a, $26
+   45    32        INIT_FCALL                                               'd'
+         33        SEND_VAR                                                 $after_a
+         34        DO_UCALL                                         $28
+         35        ASSIGN                                                   $after_d, $28
+   46    36        INIT_FCALL                                               'b'
+         37        SEND_VAR                                                 $after_d
+         38        MOD                                              ~30     $i, 8
+         39        ADD                                              ~31     ~30, 1
+         40        SEND_VAL                                                 ~31
+         41        DO_UCALL                                         $32
+         42        ASSIGN                                                   $after_b, $32
+   47    43        INIT_FCALL                                               'c'
+         44        SEND_VAR                                                 $after_b
+         45        INIT_FCALL                                               'ord'
+         46        STRLEN                                           ~34     $y
+         47        MOD                                              ~35     $i, ~34
+         48        FETCH_DIM_R                                      ~36     $y, ~35
+         49        SEND_VAL                                                 ~36
+         50        DO_ICALL                                         $37
+         51        ADD                                              ~38     $i, $37
+         52        MOD                                              ~39     ~38, 256
+         53        SEND_VAL                                                 ~39
+         54        DO_UCALL                                         $40
+         55        ASSIGN                                                   $res, $40
+   48    56        INIT_FCALL                                               'openssl_encrypt'
+         57        SEND_VAR                                                 $res
+         58        SEND_VAL                                                 'AES-128-ECB'
+         59        SEND_VAR                                                 $b
+         60        SEND_VAL                                                 3
+         61        DO_ICALL                                         $42
+         62        ASSIGN                                                   $res, $42
+   49    63        INIT_FCALL                                               'substr'
+         64        SEND_VAR                                                 $res
+         65        SEND_VAL                                                 0
+         66        SEND_VAL                                                 16
+         67        DO_ICALL                                         $44
+         68        ASSIGN                                                   $b, $44
+   50    69        ASSIGN_OP                                     8          $ret, $res
+   51    70        ASSIGN                                                   $a, $res
+   42    71        ASSIGN_OP                                     1          $i, $size
+         72    >   STRLEN                                           ~49     $x
+         73        IS_SMALLER                                       ~50     $i, ~49
+         74      > JMPNZ                                                    ~50, ->21
+   54    75    > > RETURN                                                   $ret
+   55    76*     > RETURN                                                   null
+
+End of function encrypt

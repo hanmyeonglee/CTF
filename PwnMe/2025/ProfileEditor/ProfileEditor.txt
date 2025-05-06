@@ -1,0 +1,5 @@
+flag : PWNME{afb7daa3a595522882f6a9efae30c4ec}
+
+username을 기반으로 show_profile의 파일을 열어주는거 보니깐
+register에서 username에 ../flag.txt 입력하고
+로그인 후 /show_profile 접속하면 끝

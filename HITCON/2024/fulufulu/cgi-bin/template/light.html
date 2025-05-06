@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Fortune Light</title>
+        <link rel="stylesheet" href="/static/style.css">
+        <style>
+            body {
+                text-align: center;
+            }
+
+            div.light {
+                display: inline-block;
+                height: 84px;
+                width: 108px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-image: url('/static/light_off.png');
+            }
+            
+            div.light.enabled {
+                background-image: url('/static/light_on.png');
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Light the Fortune Light</h1>
+        <p>Keep the light for the fortune.</p>
+
+        <div class="light %s"></div>
+
+        <p class="label">%s</p>
+        <p id="time">%s</p>
+        <p id="delta">Lit for ...</p>
+
+        <p>%s</p>
+
+        <form action="/light" method="POST" enctype="application/x-www-form-urlencoded">
+            <input type="submit" name="action" value="Light!">
+            <input type="submit" name="action" value="Unlight QQ">
+        </form>
+
+        <script>
+            let $time = document.getElementById('time');
+            let litTime = Date.parse($time.textContent);
+
+            let $delta = document.getElementById('delta');
+            
+            // calculate the time difference
+            setInterval(() => {
+                let delta = Date.now() - litTime;
+                let year = Math.floor(delta / 31536000000) || 0;
+                delta -= year * 31536000000;
+                let month = Math.floor(delta / 2592000000) || 0;
+                delta -= month * 2592000000;
+                let day = Math.floor(delta / 86400000) || 0;
+                delta -= day * 86400000;
+                let hour = Math.floor(delta / 3600000) || 0;
+                delta -= hour * 3600000;
+                let minute = Math.floor(delta / 60000) || 0;
+                delta -= minute * 60000;
+                let second = Math.floor(delta / 1000) || 0;
+                delta -= second * 1000;
+
+                $delta.innerText = `Lit for ${year}y ${month}m ${day}d ${hour}h ${minute}m ${second}s`;
+            }, 1000);
+        </script>
+    </body>
+</html>

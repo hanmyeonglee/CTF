@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Page</h1>
+        <p><strong>Email:</strong> <%= user[:email] %></p>
+        <% if user[:can_edit_email] %>
+            <form action="/update_email" method="POST">
+                <input type="hidden" name="email" value="<%= user[:email] %>">
+                <input type="hidden" name="password" value="<%= user[:password] %>">
+                <label for="new_email">New Email:</label>
+                <input type="text" id="new_email" name="new_email" required>
+                <input type="submit" value="Update Email">
+            </form>
+        <% else %>
+            <p>You cannot change your email address.</p>
+        <% end %>
+        <% if locals[:message] %>
+            <p class="message"><%= locals[:message] %></p>
+        <% end %>
+        <div class="footer">
+            <p><a href="/">Back to home</a></p>
+        </div>
+    </div>
+</body>
+</html>

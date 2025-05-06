@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User List</h1>
+        <% if locals[:message] %>
+            <p class="message"><%= locals[:message] %></p>
+        <% end %>
+        <div class="user-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Domain</th>
+                        <th>Email</th>
+                        <% if locals[:user][:email].end_with?('포카칩.com') %>
+                            <th>Action</th>
+                        <% end %>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% users.each do |user| %>
+                        <tr>
+                            <td><%= user[:username] %></td>
+                            <td><%= user[:domain] %></td>
+                            <td><%= user[:email] %></td>
+                            <% if locals[:user][:email].end_with?('포카칩.com') && !user[:email].end_with?('포카칩.com') %>
+                                <td>
+                                    <form action="/update_email" method="POST" class="update-form">
+                                        <input type="hidden" name="email" value="<%= locals[:user][:email] %>">
+                                        <input type="hidden" name="password" value="<%= locals[:user][:password] %>">
+                                        <input type="hidden" name="target_username" value="<%= user[:username] %>">
+                                        <input type="text" name="new_email" placeholder="New Email" required>
+                                        <input type="submit" value="Update">
+                                    </form>
+                                </td>
+                            <% end %>
+                        </tr>
+                    <% end %>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+            <p><a href="/">Back to home</a></p>
+        </div>
+    </div>
+</body>
+</html>

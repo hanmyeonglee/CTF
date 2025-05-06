@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  "synergy":
+    build: .
+    container_name: synergy
+    ports:
+      - "39020:39020"
+    restart: unless-stopped

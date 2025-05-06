@@ -1,0 +1,267 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 04:03:16.160404 2024] [core:warn] [pid 76:tid 139892203313024] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 04:03:16.161114 2024] [mpm_event:notice] [pid 76:tid 139892203313024] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 04:03:16.161734 2024] [core:notice] [pid 76:tid 139892203313024] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 04:17:41.874234 2024] [core:warn] [pid 77:tid 139695177631616] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 04:17:41.875633 2024] [mpm_event:notice] [pid 77:tid 139695177631616] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 04:17:41.876043 2024] [core:notice] [pid 77:tid 139695177631616] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+Traceback (most recent call last):
+  File "/usr/lib/cgi-bin/interpreter.py", line 491, in <module>
+    main()
+  File "/usr/lib/cgi-bin/interpreter.py", line 488, in main
+    copy(fulus['main']).Run()
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 428, in _call
+    result[0] = buildin_func[func_name](*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 27, in buildin_exec
+    return fulus[target].Run()
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 439, in _call
+    result[0] = function(*args)
+  File "/usr/lib/python3.10/json/__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x88 in position 6: invalid start byte
+[Sat Nov 09 04:56:15.396294 2024] [cgid:error] [pid 79:tid 139694532712000] [client 172.18.0.1:57416] End of script output before headers: interpreter.py
+Traceback (most recent call last):
+  File "/usr/lib/cgi-bin/interpreter.py", line 491, in <module>
+    main()
+  File "/usr/lib/cgi-bin/interpreter.py", line 488, in main
+    copy(fulus['main']).Run()
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 428, in _call
+    result[0] = buildin_func[func_name](*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 27, in buildin_exec
+    return fulus[target].Run()
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 472, in _if
+    self._visit(buf[else_branch+1+delta:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 439, in _call
+    result[0] = function(*args)
+  File "/usr/lib/python3.10/json/__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x88 in position 6: invalid start byte
+[Sat Nov 09 04:56:22.933470 2024] [cgid:error] [pid 80:tid 139694616606272] [client 172.18.0.1:57420] End of script output before headers: interpreter.py
+Traceback (most recent call last):
+  File "/usr/lib/cgi-bin/interpreter.py", line 491, in <module>
+    main()
+  File "/usr/lib/cgi-bin/interpreter.py", line 488, in main
+    copy(fulus['main']).Run()
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 428, in _call
+    result[0] = buildin_func[func_name](*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 27, in buildin_exec
+    return fulus[target].Run()
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 189, in _visit
+    self._if(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 464, in _if
+    self._visit(buf[if_branch+delta:else_branch])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 423, in _call
+    result = copy(fulus[func_name]).Run(*args)
+  File "/usr/lib/cgi-bin/interpreter.py", line 133, in Run
+    result = self._visit(self.body[self.pc:])
+  File "/usr/lib/cgi-bin/interpreter.py", line 255, in _visit
+    v = self._visit(buf[split+1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 159, in _visit
+    return self._call(buf[1:end])
+  File "/usr/lib/cgi-bin/interpreter.py", line 439, in _call
+    result[0] = function(*args)
+  File "/usr/lib/python3.10/json/__init__.py", line 341, in loads
+    s = s.decode(detect_encoding(s), 'surrogatepass')
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x88 in position 6: invalid start byte
+[Sat Nov 09 04:56:26.505033 2024] [cgid:error] [pid 80:tid 139694599820864] [client 172.18.0.1:57424] End of script output before headers: interpreter.py
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:28:25.171640 2024] [cgid:error] [pid 78:tid 139767399925632] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.77
+[Sat Nov 09 05:28:25.172031 2024] [core:warn] [pid 77:tid 139767399925632] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:28:25.172848 2024] [mpm_event:notice] [pid 77:tid 139767399925632] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:28:25.173007 2024] [core:notice] [pid 77:tid 139767399925632] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 09 05:28:25.173435 2024] [cgid:crit] [pid 77:tid 139767399925632] AH01238: cgid daemon failed to initialize
+[Sat Nov 09 05:29:01.856793 2024] [cgid:error] [pid 80:tid 139767380956736] (2)No such file or directory: [client 172.18.0.1:57448] AH01257: unable to connect to cgi daemon after multiple tries: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:29:33.093561 2024] [cgid:error] [pid 79:tid 139767389349440] (2)No such file or directory: [client 172.18.0.1:57456] AH02833: ScriptSock /var/run/apache2/cgisock.77 does not exist: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:30:19.142126 2024] [cgid:error] [pid 79:tid 139767380956736] (2)No such file or directory: [client 172.18.0.1:57460] AH02833: ScriptSock /var/run/apache2/cgisock.77 does not exist: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:30:38.827057 2024] [cgid:error] [pid 79:tid 139767287113280] (2)No such file or directory: [client 172.18.0.1:57464] AH02833: ScriptSock /var/run/apache2/cgisock.77 does not exist: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:30:40.041692 2024] [cgid:error] [pid 80:tid 139767287113280] (2)No such file or directory: [client 172.18.0.1:57468] AH02833: ScriptSock /var/run/apache2/cgisock.77 does not exist: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:30:40.190290 2024] [cgid:error] [pid 80:tid 139767270327872] (2)No such file or directory: [client 172.18.0.1:57472] AH02833: ScriptSock /var/run/apache2/cgisock.77 does not exist: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:30:40.654973 2024] [cgid:error] [pid 79:tid 139767270327872] (2)No such file or directory: [client 172.18.0.1:57476] AH02833: ScriptSock /var/run/apache2/cgisock.77 does not exist: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:31:29.398850 2024] [core:warn] [pid 77:tid 140632958158720] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:31:29.399748 2024] [mpm_event:notice] [pid 77:tid 140632958158720] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:31:29.399931 2024] [core:notice] [pid 77:tid 140632958158720] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 09 05:31:32.194141 2024] [cgid:error] [pid 135:tid 140632958158720] (8)Exec format error: AH01241: exec of '/usr/lib/cgi-bin/interpreter.py' failed
+[Sat Nov 09 05:31:32.194962 2024] [cgid:error] [pid 79:tid 140632865633856] [client 172.18.0.1:57484] End of script output before headers: interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:31:33.624099 2024] [cgid:error] [pid 136:tid 140632958158720] (8)Exec format error: AH01241: exec of '/usr/lib/cgi-bin/interpreter.py' failed
+[Sat Nov 09 05:31:33.625194 2024] [cgid:error] [pid 80:tid 140632947582528] [client 172.18.0.1:57488] End of script output before headers: interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:31:34.103132 2024] [cgid:error] [pid 137:tid 140632958158720] (8)Exec format error: AH01241: exec of '/usr/lib/cgi-bin/interpreter.py' failed
+[Sat Nov 09 05:31:34.104039 2024] [cgid:error] [pid 79:tid 140632848848448] [client 172.18.0.1:57492] End of script output before headers: interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:31:34.262645 2024] [cgid:error] [pid 138:tid 140632958158720] (8)Exec format error: AH01241: exec of '/usr/lib/cgi-bin/interpreter.py' failed
+[Sat Nov 09 05:31:34.264167 2024] [cgid:error] [pid 80:tid 140632857241152] [client 172.18.0.1:57496] End of script output before headers: interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:31:34.473415 2024] [cgid:error] [pid 139:tid 140632958158720] (8)Exec format error: AH01241: exec of '/usr/lib/cgi-bin/interpreter.py' failed
+[Sat Nov 09 05:31:34.474338 2024] [cgid:error] [pid 80:tid 140632840455744] [client 172.18.0.1:57500] End of script output before headers: interpreter.py, referer: http://localhost:8081/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:32:05.626317 2024] [cgid:error] [pid 78:tid 139802711799680] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.77
+[Sat Nov 09 05:32:05.627028 2024] [core:warn] [pid 77:tid 139802711799680] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:32:05.628104 2024] [mpm_event:notice] [pid 77:tid 139802711799680] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:32:05.628414 2024] [core:notice] [pid 77:tid 139802711799680] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 09 05:32:05.628800 2024] [cgid:crit] [pid 77:tid 139802711799680] AH01238: cgid daemon failed to initialize
+[Sat Nov 09 05:32:39.966433 2024] [cgid:error] [pid 79:tid 139802701223488] (2)No such file or directory: [client 172.18.0.1:57508] AH01257: unable to connect to cgi daemon after multiple tries: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:41:50.474781 2024] [cgid:error] [pid 77:tid 140270570084224] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.76
+[Sat Nov 09 05:41:50.475450 2024] [core:warn] [pid 76:tid 140270570084224] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:41:50.476492 2024] [mpm_event:notice] [pid 76:tid 140270570084224] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:41:50.476843 2024] [core:notice] [pid 76:tid 140270570084224] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 09 05:41:50.477104 2024] [cgid:crit] [pid 76:tid 140270570084224] AH01238: cgid daemon failed to initialize
+[Sat Nov 09 05:42:53.354545 2024] [cgid:error] [pid 79:tid 140270559508032] (2)No such file or directory: [client 172.18.0.1:57516] AH02833: ScriptSock /var/run/apache2/cgisock.76 does not exist: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+[Sat Nov 09 05:43:44.032105 2024] [cgid:error] [pid 79:tid 140270452590144] (2)No such file or directory: [client 172.18.0.1:57524] AH02833: ScriptSock /var/run/apache2/cgisock.76 does not exist: /usr/lib/cgi-bin/interpreter.py

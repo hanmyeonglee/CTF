@@ -1,0 +1,533 @@
+0:
+  if (
+    1:
+      a = (
+        2:
+          2:
+            (var_345925867b1dd3d60ac95ca8a4416a2bc671727369f7b3659248abcb3b56d47577e061fd192519961dc95519d8df2297c1f6ec18659e5b66f961abe7f8d5b5b5, 345925867b1dd3d60ac95ca8a4416a2bc671727369f7b3659248abcb3b56d47577e061fd192519961dc95519d8df2297c1f6ec18659e5b66f961abe7f8d5b5b5)
+          <module 'os' (frozen)>.getenv(
+            (
+              131:
+                ("CONTENT_TYPE", None)
+            ),
+          )
+      )
+      b = (
+        156:
+          ("application/x-www-form-urlencoded", None)
+      )
+      return (a != b, None)
+  )
+  349:
+    return (
+      349:
+        send_status(
+          (
+            349:
+              (400, None)
+          ),
+          (
+            349:
+              (True, None)
+          ),
+        )
+    )
+  else
+  end
+225:
+  226:
+    (var_f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937, f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937)
+  value = (
+    356:
+      356:
+        (var_bde0e720b6926c23d37abbb10c2720760590d1df32ff4e3a1aa6f73baa0e9b5a9bf0dee672dca5c6c7e6bac63a4541368f6b6bcdd0141491ba1a0fd468b7d3dc, bde0e720b6926c23d37abbb10c2720760590d1df32ff4e3a1aa6f73baa0e9b5a9bf0dee672dca5c6c7e6bac63a4541368f6b6bcdd0141491ba1a0fd468b7d3dc)
+      <module 'sys' (built-in)>.stdin.buffer.read(
+        (
+          485:
+        ),
+      )
+  )
+  var_f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937 = value
+507:
+  508:
+    (var_f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937, f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937)
+  value = (
+    638:
+      638:
+        (var_f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937, f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937)
+      0.decode(
+        (
+          767:
+        ),
+      )
+  )
+  var_f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937 = value
+778:
+  779:
+    (var_70e9d231b0cb7468030f98b9d78405ea26c6e05b8fcae4decdd04b2fc45f69c90dc50a77f6fbc107cad160eeb960fce62e2335402becb7d0780d78b985d671f3, 70e9d231b0cb7468030f98b9d78405ea26c6e05b8fcae4decdd04b2fc45f69c90dc50a77f6fbc107cad160eeb960fce62e2335402becb7d0780d78b985d671f3)
+  value = (
+    909:
+      parse_qs(
+        (
+          909:
+            (var_f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937, f6dca0c420cfa5f4822c899652ba17f3929e519396b5c57f64045da1c7cf319d7bccc19dea3f7e7494ac4beba76900a7eeae5acc406bddf7023c62f26ea72937)
+        ),
+      )
+  )
+  var_70e9d231b0cb7468030f98b9d78405ea26c6e05b8fcae4decdd04b2fc45f69c90dc50a77f6fbc107cad160eeb960fce62e2335402becb7d0780d78b985d671f3 = value
+1050:
+  1051:
+    (var_4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61, 4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61)
+  value = (
+    1181:
+      obj = (
+        1181:
+          1181:
+            (var_70e9d231b0cb7468030f98b9d78405ea26c6e05b8fcae4decdd04b2fc45f69c90dc50a77f6fbc107cad160eeb960fce62e2335402becb7d0780d78b985d671f3, 70e9d231b0cb7468030f98b9d78405ea26c6e05b8fcae4decdd04b2fc45f69c90dc50a77f6fbc107cad160eeb960fce62e2335402becb7d0780d78b985d671f3)
+          0.get(
+            (
+              1310:
+                ("username", None)
+            ),
+            (
+              1310:
+                elts = (
+                  1310:
+                    (None, None)
+                )
+            ),
+          )
+      )
+      idx = (
+        1337:
+          (0, None)
+      )
+      return (obj[idx], None)
+  )
+  var_4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61 = value
+1343:
+  1344:
+    (var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51, 27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51)
+  value = (
+    1474:
+      obj = (
+        1474:
+          1474:
+            (var_70e9d231b0cb7468030f98b9d78405ea26c6e05b8fcae4decdd04b2fc45f69c90dc50a77f6fbc107cad160eeb960fce62e2335402becb7d0780d78b985d671f3, 70e9d231b0cb7468030f98b9d78405ea26c6e05b8fcae4decdd04b2fc45f69c90dc50a77f6fbc107cad160eeb960fce62e2335402becb7d0780d78b985d671f3)
+          0.get(
+            (
+              1603:
+                ("password", None)
+            ),
+            (
+              1603:
+                elts = (
+                  1603:
+                    (None, None)
+                )
+            ),
+          )
+      )
+      idx = (
+        1630:
+          (0, None)
+      )
+      return (obj[idx], None)
+  )
+  var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51 = value
+1636:
+  if (
+    1637:
+      value = (
+        1637:
+          (var_4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61, 4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61)
+      )
+      return (not value, None)
+  )
+  1900:
+    return (
+      1900:
+        send_status(
+          (
+            1900:
+              (400, None)
+          ),
+          (
+            1900:
+              (True, None)
+          ),
+        )
+    )
+  else
+  end
+1800:
+  if (
+    1801:
+      value = (
+        1801:
+          (var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51, 27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51)
+      )
+      return (not value, None)
+  )
+  2064:
+    return (
+      2064:
+        send_status(
+          (
+            2064:
+              (400, None)
+          ),
+          (
+            2064:
+              (True, None)
+          ),
+        )
+    )
+  else
+  end
+1964:
+  if (
+    1965:
+      value = (
+        1965:
+          1965:
+            (var_8e367ea2439ab41757d9f0e05127e8273550d5511304d339ec839c551ff66306ca233a890c7c203f9f11febf9f1682994a65eea7b787e3a166fa1dd6d792ae0d, 8e367ea2439ab41757d9f0e05127e8273550d5511304d339ec839c551ff66306ca233a890c7c203f9f11febf9f1682994a65eea7b787e3a166fa1dd6d792ae0d)
+          <module 're' from '/usr/lib/python3.12/re/__init__.py'>.fullmatch(
+            (
+              2094:
+                ("[a-zA-Z0-9_]+", None)
+            ),
+            (
+              2094:
+                (var_4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61, 4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61)
+            ),
+          )
+      )
+      return (not value, None)
+  )
+  2546:
+    return (
+      2546:
+        send_status(
+          (
+            2546:
+              (400, None)
+          ),
+          (
+            2546:
+              (True, None)
+          ),
+        )
+    )
+  else
+  end
+2287:
+  2288:
+    (var_fab528de4c68004e669a2bffb96f1aa839538270c763f3d09e6e36223842b30ea6504c9e2a06ea0199a81d9fabe4d323b39056a98ea0bb926e46dd19566fd424, fab528de4c68004e669a2bffb96f1aa839538270c763f3d09e6e36223842b30ea6504c9e2a06ea0199a81d9fabe4d323b39056a98ea0bb926e46dd19566fd424)
+  value = (
+    2418:
+      connect(
+        (
+          2418:
+        ),
+      )
+  )
+  var_fab528de4c68004e669a2bffb96f1aa839538270c763f3d09e6e36223842b30ea6504c9e2a06ea0199a81d9fabe4d323b39056a98ea0bb926e46dd19566fd424 = value
+2429:
+  2430:
+    (var_360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed, 360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed)
+  value = (
+    2560:
+      obj = (
+        2560:
+          (var_fab528de4c68004e669a2bffb96f1aa839538270c763f3d09e6e36223842b30ea6504c9e2a06ea0199a81d9fabe4d323b39056a98ea0bb926e46dd19566fd424, fab528de4c68004e669a2bffb96f1aa839538270c763f3d09e6e36223842b30ea6504c9e2a06ea0199a81d9fabe4d323b39056a98ea0bb926e46dd19566fd424)
+      )
+      idx = (
+        2691:
+          (0, None)
+      )
+      return (obj[idx], None)
+  )
+  var_360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed = value
+2697:
+  2698:
+    (var_76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc, 76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc)
+  value = (
+    2828:
+      obj = (
+        2828:
+          (var_fab528de4c68004e669a2bffb96f1aa839538270c763f3d09e6e36223842b30ea6504c9e2a06ea0199a81d9fabe4d323b39056a98ea0bb926e46dd19566fd424, fab528de4c68004e669a2bffb96f1aa839538270c763f3d09e6e36223842b30ea6504c9e2a06ea0199a81d9fabe4d323b39056a98ea0bb926e46dd19566fd424)
+      )
+      idx = (
+        2959:
+          (1, None)
+      )
+      return (obj[idx], None)
+  )
+  var_76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc = value
+2965:
+  2966:
+    (var_6bb0faf0c82a0d22f5a4655c7731c213e2e8d3f350bc85e707ddcebc5d90bc3b1d789973532f07508782ab858ff3e5f066ba4bd5d8d91866c57cc1143801269d, 6bb0faf0c82a0d22f5a4655c7731c213e2e8d3f350bc85e707ddcebc5d90bc3b1d789973532f07508782ab858ff3e5f066ba4bd5d8d91866c57cc1143801269d)
+  value = (
+    3096:
+      3096:
+        ("SELECT password FROM users WHERE username = '{}'", None)
+      SELECT password FROM users WHERE username = '{}'.format(
+        (
+          3096:
+            (var_4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61, 4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61)
+        ),
+      )
+  )
+  var_6bb0faf0c82a0d22f5a4655c7731c213e2e8d3f350bc85e707ddcebc5d90bc3b1d789973532f07508782ab858ff3e5f066ba4bd5d8d91866c57cc1143801269d = value
+3287:
+  3287:
+    (var_76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc, 76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc)
+  0.execute(
+    (
+      3416:
+        (var_6bb0faf0c82a0d22f5a4655c7731c213e2e8d3f350bc85e707ddcebc5d90bc3b1d789973532f07508782ab858ff3e5f066ba4bd5d8d91866c57cc1143801269d, 6bb0faf0c82a0d22f5a4655c7731c213e2e8d3f350bc85e707ddcebc5d90bc3b1d789973532f07508782ab858ff3e5f066ba4bd5d8d91866c57cc1143801269d)
+    ),
+  )
+3556:
+  3557:
+    (var_1a736b197b1c293b7d780a25a30cb122d88fc69f377702ae3797e9c783bd35a53496002d1a41a91126c2d1fe253b5627b66f400f5c18f7c3a2a252f133678128, 1a736b197b1c293b7d780a25a30cb122d88fc69f377702ae3797e9c783bd35a53496002d1a41a91126c2d1fe253b5627b66f400f5c18f7c3a2a252f133678128)
+  value = (
+    3687:
+      3687:
+        (var_76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc, 76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc)
+      0.fetchone(
+        (
+          3816:
+        ),
+      )
+  )
+  var_1a736b197b1c293b7d780a25a30cb122d88fc69f377702ae3797e9c783bd35a53496002d1a41a91126c2d1fe253b5627b66f400f5c18f7c3a2a252f133678128 = value
+3829:
+  if (
+    3830:
+      a = (
+        3831:
+          (var_1a736b197b1c293b7d780a25a30cb122d88fc69f377702ae3797e9c783bd35a53496002d1a41a91126c2d1fe253b5627b66f400f5c18f7c3a2a252f133678128, 1a736b197b1c293b7d780a25a30cb122d88fc69f377702ae3797e9c783bd35a53496002d1a41a91126c2d1fe253b5627b66f400f5c18f7c3a2a252f133678128)
+      )
+      b = (
+        3960:
+          (None, None)
+      )
+      return (a != b, None)
+  )
+  4095:
+    4095:
+      (var_76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc, 76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc)
+    0.close(
+      (
+        4224:
+      ),
+    )
+  4233:
+    4233:
+      (var_360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed, 360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed)
+    0.close(
+      (
+        4362:
+      ),
+    )
+  4371:
+    send_status(
+      (
+        4371:
+          (403, None)
+      ),
+      (
+        4371:
+          (False, None)
+      ),
+    )
+  4400:
+    4400:
+      ("Content-Type: text/html
+", None)
+    print(Content-Type: text/html
+)
+  4429:
+    4429:
+      ("Already registered", None)
+    print(Already registered)
+  4452:
+    exit(
+      (
+        4452:
+          (0, None)
+      ),
+    )
+  else
+  end
+4335:
+  4336:
+    (var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51, 27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51)
+  value = (
+    4466:
+      4466:
+        (var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51, 27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51)
+      0.encode(
+        (
+          4595:
+        ),
+      )
+  )
+  var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51 = value
+4606:
+  4607:
+    (var_f6189780808621c432824e47afa3fe1d22eb70b6183a1562ce71e482b5a05e5ba72355d73664cde6ab045f56fc43f7dc577727b8b4d68422adf108ecfdf43406, f6189780808621c432824e47afa3fe1d22eb70b6183a1562ce71e482b5a05e5ba72355d73664cde6ab045f56fc43f7dc577727b8b4d68422adf108ecfdf43406)
+  value = (
+    4737:
+      4737:
+        (var_051a0925c598e937b50ee48f3ca202f6be5ba2cb17e08631d1fa4918f8b5338be2684447ae46674a20355e9b2396ca8a61209a4ca922b68cf9795557a515f408, 051a0925c598e937b50ee48f3ca202f6be5ba2cb17e08631d1fa4918f8b5338be2684447ae46674a20355e9b2396ca8a61209a4ca922b68cf9795557a515f408)
+      <module 'hashlib' from '/usr/lib/python3.12/hashlib.py'>.sha256(
+        (
+          4866:
+            (var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51, 27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51)
+        ),
+      )
+  )
+  var_f6189780808621c432824e47afa3fe1d22eb70b6183a1562ce71e482b5a05e5ba72355d73664cde6ab045f56fc43f7dc577727b8b4d68422adf108ecfdf43406 = value
+5006:
+  5007:
+    (var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51, 27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51)
+  value = (
+    5137:
+      5137:
+        (var_f6189780808621c432824e47afa3fe1d22eb70b6183a1562ce71e482b5a05e5ba72355d73664cde6ab045f56fc43f7dc577727b8b4d68422adf108ecfdf43406, f6189780808621c432824e47afa3fe1d22eb70b6183a1562ce71e482b5a05e5ba72355d73664cde6ab045f56fc43f7dc577727b8b4d68422adf108ecfdf43406)
+      0.hexdigest(
+        (
+          5266:
+        ),
+      )
+  )
+  var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51 = value
+5280:
+  5280:
+    (var_76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc, 76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc)
+  0.execute(
+    (
+      5409:
+        a = (
+          5409:
+            ("INSERT INTO users (username, password) VALUES ('%s', '%s')", None)
+        )
+        b = (
+          5409:
+            elts = (
+              5409:
+                (var_4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61, 4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61)
+              5538:
+                (var_27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51, 27626286e09c74d0181bcc07cf6babead84fde4c56cd2cc2f13d9c1ccac4ea42820df1ecc5e3e0615d5e669b673b8361b87cab062c8fb3af95f18a6deb2b6a51)
+            )
+        )
+        return (a / b, None)
+    ),
+  )
+5746:
+  5746:
+    (var_360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed, 360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed)
+  0.commit(
+    (
+      5875:
+    ),
+  )
+5885:
+  5886:
+    (var_4d1062cfe1b02cd763de9d52145535c594b7de9cab7b3fd9cea03fbf060981bfd7b3fd895b99b6d92bb0b60fbc2f402bdf2ee8e24566d8c04ac3d51b022d7ebf, 4d1062cfe1b02cd763de9d52145535c594b7de9cab7b3fd9cea03fbf060981bfd7b3fd895b99b6d92bb0b60fbc2f402bdf2ee8e24566d8c04ac3d51b022d7ebf)
+  value = (
+    6016:
+      dict(
+        (
+          6016:
+        ),
+      )
+  )
+  var_4d1062cfe1b02cd763de9d52145535c594b7de9cab7b3fd9cea03fbf060981bfd7b3fd895b99b6d92bb0b60fbc2f402bdf2ee8e24566d8c04ac3d51b022d7ebf = value
+6024:
+  6025:
+    obj = (
+      6025:
+        (var_4d1062cfe1b02cd763de9d52145535c594b7de9cab7b3fd9cea03fbf060981bfd7b3fd895b99b6d92bb0b60fbc2f402bdf2ee8e24566d8c04ac3d51b022d7ebf, 4d1062cfe1b02cd763de9d52145535c594b7de9cab7b3fd9cea03fbf060981bfd7b3fd895b99b6d92bb0b60fbc2f402bdf2ee8e24566d8c04ac3d51b022d7ebf)
+    )
+    idx = (
+      6156:
+        ("username", None)
+    )
+    return (obj[idx], None)
+  value = (
+    6169:
+      (var_4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61, 4ae83ef556be289f0ad72346a59ab38f9c7cddb595860413037072429dd5b82a3e5a09a9f2fb7ade25a1a29b84055cba94923dc3a424eae711a46c8f93947c61)
+  )
+  0[username] = value
+6299:
+  6300:
+    (var_b015cc68d4dc2e2dce63bc0a918342717fdd676c1d9ee323a81ca39dec412e831180dba038ace1203683c52dd5fc7555f2684af89b3e9f61b47e007c7f614b42, b015cc68d4dc2e2dce63bc0a918342717fdd676c1d9ee323a81ca39dec412e831180dba038ace1203683c52dd5fc7555f2684af89b3e9f61b47e007c7f614b42)
+  value = (
+    6430:
+      generate_jwt(
+        (
+          6430:
+            (var_4d1062cfe1b02cd763de9d52145535c594b7de9cab7b3fd9cea03fbf060981bfd7b3fd895b99b6d92bb0b60fbc2f402bdf2ee8e24566d8c04ac3d51b022d7ebf, 4d1062cfe1b02cd763de9d52145535c594b7de9cab7b3fd9cea03fbf060981bfd7b3fd895b99b6d92bb0b60fbc2f402bdf2ee8e24566d8c04ac3d51b022d7ebf)
+        ),
+      )
+  )
+  var_b015cc68d4dc2e2dce63bc0a918342717fdd676c1d9ee323a81ca39dec412e831180dba038ace1203683c52dd5fc7555f2684af89b3e9f61b47e007c7f614b42 = value
+6575:
+  set_cookie(
+    (
+      6575:
+        ("token", None)
+    ),
+    (
+      6575:
+        (var_b015cc68d4dc2e2dce63bc0a918342717fdd676c1d9ee323a81ca39dec412e831180dba038ace1203683c52dd5fc7555f2684af89b3e9f61b47e007c7f614b42, b015cc68d4dc2e2dce63bc0a918342717fdd676c1d9ee323a81ca39dec412e831180dba038ace1203683c52dd5fc7555f2684af89b3e9f61b47e007c7f614b42)
+    ),
+  )
+6726:
+  6726:
+    ("Content-Type: text/html
+", None)
+  print(Content-Type: text/html
+)
+6755:
+  6755:
+    ("Success<br /><a href=/>Go to home page</a>", None)
+  print(Success<br /><a href=/>Go to home page</a>)
+6802:
+  6802:
+    (var_76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc, 76b1d01564e178e17c46f578b3b98dc36c36f330dd5a112d4daa21e2b716515f69b6d40b8a0d5e15e4ba8b6fb3862a5990381a8ee43641b4db376ff5f472abfc)
+  0.close(
+    (
+      6931:
+    ),
+  )
+6940:
+  6940:
+    (var_360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed, 360bba946565157e9d7cf478aef00815380d89dcd44ef2129b0a6df1750ae8efd79d0d6c117b31e80437c08a2ad940045d33e4a04d3442b435655a493b843fed)
+  0.close(
+    (
+      7069:
+    ),
+  )
+7078:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)
+7207:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)
+7336:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)
+7465:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)
+7594:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)
+7723:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)
+7852:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)
+7981:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)
+8110:
+  (var_2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f, 2c411011219628b0b48c93075a588db4809ca8827a81eba709d8477fe31aa59b9182e1ab63b8bbba999c34cd533f096fae51403b485cef0db4c447016c40c34f)

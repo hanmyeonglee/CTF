@@ -1,0 +1,2 @@
+<h1> admin page1! </h1>
+<p> admin username : <?php if(isset($_GET['user'])){ echo $_GET['user']; } ?>

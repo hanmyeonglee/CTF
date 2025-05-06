@@ -1,0 +1,25 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:48:01.107525 2024] [core:warn] [pid 76:tid 140678642628480] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:48:01.108693 2024] [mpm_event:notice] [pid 76:tid 140678642628480] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:48:01.109790 2024] [core:notice] [pid 76:tid 140678642628480] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 09 05:48:53.225263 2024] [cgid:error] [pid 79:tid 140678632052288] [client 172.18.0.1:57532] malformed header from script 'interpreter.py': Bad header: main, referer: http://localhost:8081/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:49:37.378009 2024] [cgid:error] [pid 77:tid 139729219024768] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.76
+[Sat Nov 09 05:49:37.378586 2024] [core:warn] [pid 76:tid 139729219024768] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:49:37.380125 2024] [mpm_event:notice] [pid 76:tid 139729219024768] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:49:37.380475 2024] [core:notice] [pid 76:tid 139729219024768] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 09 05:49:37.380932 2024] [cgid:crit] [pid 76:tid 139729219024768] AH01238: cgid daemon failed to initialize
+[Sat Nov 09 05:50:15.347960 2024] [cgid:error] [pid 79:tid 139729208448576] (2)No such file or directory: [client 172.18.0.1:57540] AH01257: unable to connect to cgi daemon after multiple tries: /usr/lib/cgi-bin/interpreter.py, referer: http://localhost:8081/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:52:26.187537 2024] [core:warn] [pid 77:tid 139925869082496] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:52:26.188503 2024] [mpm_event:notice] [pid 77:tid 139925869082496] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:52:26.190734 2024] [core:notice] [pid 77:tid 139925869082496] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:54:07.929495 2024] [core:warn] [pid 78:tid 140602032478080] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:54:07.931139 2024] [mpm_event:notice] [pid 78:tid 140602032478080] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:54:07.931798 2024] [core:notice] [pid 78:tid 140602032478080] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 09 05:54:32.449920 2024] [cgid:error] [pid 81:tid 140602021901888] [client 172.18.0.1:57564] malformed header from script 'interpreter.py': Bad header: <function getenv at 0x7f10e10e, referer: http://localhost:8081/
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+[Sat Nov 09 05:56:59.824421 2024] [core:warn] [pid 78:tid 140362882312064] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 09 05:56:59.825174 2024] [mpm_event:notice] [pid 78:tid 140362882312064] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sat Nov 09 05:56:59.826532 2024] [core:notice] [pid 78:tid 140362882312064] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

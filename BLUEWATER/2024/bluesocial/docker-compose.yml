@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: ./challenge
+    ports:
+      - "${PORT}:1337"
+    # environment:
+      # - SITE=hax.perfect.blue:6969
+      # - FLAG=bwctf{test_flag}
