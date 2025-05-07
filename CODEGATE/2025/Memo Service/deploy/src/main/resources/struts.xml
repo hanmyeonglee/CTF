@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+    <constant name="struts.devMode" value="false"/>
+
+    <package name="default" namespace="/" extends="struts-default">
+    </package>
+
+    <package name="user" namespace="/user" extends="struts-default">
+        <action name="login" class="com.example.memo.actions.UserAction" method="login">
+            <result name="success" type="redirect">
+                <param name="location">/memo/list.action</param>
+            </result>
+            <result name="input">/user/login.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="register" class="com.example.memo.actions.UserAction" method="register">
+            <result name="success" type="redirect">
+                <param name="location">/user/login.action</param>
+            </result>
+            <result name="input">/user/register.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="logout" class="com.example.memo.actions.UserAction" method="logout">
+            <result name="success" type="redirect">
+                <param name="location">/memo/login.action</param>
+            </result>
+        </action>
+    </package>
+
+    <package name="memo" namespace="/memo" extends="struts-default">
+        <action name="list" class="com.example.memo.actions.MemoAction" method="list">
+            <result name="success">/memo/list.jsp</result>
+        </action>
+
+        <action name="read" class="com.example.memo.actions.MemoAction" method="read">
+            <result name="success">/memo/read.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="write" class="com.example.memo.actions.MemoAction" method="write">
+            <result name="success" type="redirect">/memo/list.action</result>
+            <result name="input">/memo/write.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+        
+        <action name="download" class="com.example.memo.actions.MemoAction" method="download">
+            <result name="success">/memo/download.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+    </package>
+
+</struts>

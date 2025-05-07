@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  memo-service:
+    build: .
+    container_name: memo-service
+    ports:
+      - "8080:80"
+    environment:
+      - PORT=8080
+    working_dir: /app
+    command: ["mvn", "org.apache.tomcat.maven:tomcat7-maven-plugin:2.2:run-war-only"]

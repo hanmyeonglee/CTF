@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/switch.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Masquerade</h1>
+            <div class="user-info">
+                <span class="username">
+                    <%= uuid %> / <%= role %>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Admin Panel</h1>
+
+        <div>
+            <div class="form-group">
+                <label for="rile">Set Permission</label>
+                <input type="text" id="uuidInput" name="uuid" placeholder="Enter user's uuid" required><br>
+
+                <div class="switchWrapper">
+                    <span>Write Permission</span>
+                    <label class="switch">
+                        <input id="permCheck" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div><br>
+                <div class="switchWrapper">
+                    <span>Report Permission</span>
+                    <label class="switch">
+                        <input id="permCheck" type="checkbox" disabled>
+                        <span class="slider disabled round"></span>
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" id="permButton" class="button primary">Set Permission</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Posts</h1>
+        <a href="/post" class="button primary">Go to Post Page</a>
+    </div>
+
+    <script nonce="<%= nonce %>">
+        const uuidInput = document.querySelector("#uuidInput");
+        const permSwitch = document.querySelector("#permCheck");
+        const permButton = document.querySelector("#permButton");
+
+        permButton.addEventListener("click", () => {
+
+            fetch("/admin/user/perm", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uuid: uuidInput.value, value: permSwitch.checked })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                });
+        });
+    </script>
+</body>
+
+</html>

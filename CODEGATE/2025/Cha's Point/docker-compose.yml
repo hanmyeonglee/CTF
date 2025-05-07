@@ -1,0 +1,19 @@
+services:
+  web:
+    build:
+      context: ./web
+    ports:
+      - "5000:3000"
+    links:
+      - db
+  db:
+    build:
+      context: ./db
+    environment:
+      TZ: "Asia/Seoul"
+      MYSQL_DATABASE: "codegate"
+      MYSQL_USER: "codegate"
+      MYSQL_PASSWORD: "codegate"
+      MYSQL_ROOT_PASSWORD: "codegate"
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password

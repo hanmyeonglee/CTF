@@ -1,0 +1,37 @@
+version: '3.7'
+
+services:
+  external:
+    build:
+      context: ./external
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      prob_network:
+        ipv4_address: 192.168.200.100
+
+  internal-server:
+    build:
+      context: ./internal/server
+    restart: always
+    depends_on:
+      - internal-db
+    networks:
+      prob_network:
+        ipv4_address: 192.168.200.120
+
+  internal-db:
+    build:
+      context: ./internal/db
+    restart: always
+    networks:
+      prob_network:
+        ipv4_address: 192.168.200.130
+
+networks:
+  prob_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.200.0/24

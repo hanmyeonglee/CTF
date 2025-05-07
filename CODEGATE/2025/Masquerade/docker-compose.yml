@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: ./app
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      prob_network:
+        ipv4_address: 192.168.200.100
+
+networks:
+  prob_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.200.0/24

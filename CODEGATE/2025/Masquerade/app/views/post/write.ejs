@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Post</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Masquerade</h1>
+            <div class="user-info">
+                <span class="username">
+                    <%= uuid %> / <%= role %>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>New Post</h2>
+            <div id="new-post">
+                <div>
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div>
+                    <label for="content">Content</label>
+                    <textarea id="content" name="content" required></textarea>
+                </div>
+                <button id="submit" class="button">Write</button>
+            </div>
+        </div>
+    </main>
+
+    <script nonce="<%= nonce %>">
+        document.querySelector('#submit').addEventListener('click', function () {
+            const title = document.querySelector('#title').value;
+            const content = document.querySelector('#content').value;
+
+            fetch('/post/write', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ title, content })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                    if (data.post) location.href = "/post";
+                })
+        });
+    </script>
+</body>
+
+</html>

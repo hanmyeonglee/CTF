@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Masquerade</h1>
+            <div class="user-info">
+                <span class="username">
+                    <%= uuid %> / <%= role %>
+                </span>
+                <a class="button">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Posts</h1>
+
+        <% for(let i=0; i < posts.length; i++) { %>
+            <div class="post">
+                <h2><a href="/post/<%= posts[i].post_id %>">
+                        <%= posts[i].title %>
+                    </a></h2>
+            </div>
+            <% } %>
+
+                <a href="/post/write" class="button primary">Add New Post</a>
+    </div>
+    <script src="js/logout.js" nonce="<%= nonce %>"></script>
+</body>
+
+</html>

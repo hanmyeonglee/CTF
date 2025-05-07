@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+
+        <div>
+            <div class="form-group">
+                <label for="uuid">uuid</label>
+                <input type="text" id="uuid" name="uuid" required>
+            </div>
+            <div class="form-group">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="button primary">Login</button>
+        </div>
+
+        <p>Don't have an account? <a class="blue-a" href="/auth/register">Register</a></p>
+    </div>
+</body>
+<script nonce="<%= nonce %>">
+    const submit = document.querySelector('button');
+    const uuid = document.querySelector("#uuid");
+    const password = document.querySelector("#password");
+
+    const getQueryParam = (param) => {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    };
+
+    const uuidValue = getQueryParam("uuid");
+    uuid.value = uuidValue;
+
+    submit.addEventListener("click", () => {
+        fetch("/auth/login", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ uuid: uuid.value, password: password.value })
+        })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                if (data.token) {
+                    document.cookie = `jwt=${data.token}; path=/`;
+                    location.href = "/user";
+                }
+            });
+    });
+</script>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="post-title">
+            <%= post.title %>
+        </h1>
+        <div class="user-info">
+            <button id="report" class="button danger">Report</button>
+            <button id="delete" class="button danger">Delete</button>
+        </div>
+
+        <hr>
+        <div class="post-content">
+            <%- post.content %>
+        </div>
+        <a href="/post" class="button">Go to Posts</a>
+    </div>
+    <script nonce="<%= nonce %>">
+        <% if (isOwner || isAdmin) { %>
+            window.conf = window.conf || {
+                deleteUrl: "/post/delete/<%= post.post_id %>"
+            };
+        <% } else { %>
+            window.conf = window.conf || {
+                deleteUrl: "/error/role"
+            };
+        <% } %>
+
+        <% if (isInspector) { %>
+            window.conf.reportUrl = "/report/<%= post.post_id %>";
+        <% } else { %>
+            window.conf.reportUrl = "/error/role";
+        <% } %>
+
+        const reportButton = document.querySelector("#report");
+
+        reportButton.addEventListener("click", () => {
+            location.href = window.conf.reportUrl;
+        });
+
+        const deleteButton = document.querySelector("#delete");
+
+        deleteButton.addEventListener("click", () => {
+            location.href = window.conf.deleteUrl;
+        });
+    </script>
+</body>
+
+</html>

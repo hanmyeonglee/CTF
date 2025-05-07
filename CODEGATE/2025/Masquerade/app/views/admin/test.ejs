@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Place</title>
+</head>
+
+<body>
+    <h1 class="post_title"></h1>
+    <div class="post_content"></div>
+    <div class="error_div"></div>
+    <script src="../js/purify.min.js"></script>
+    <script>
+        const post_title = document.querySelector('.post_title'),
+            post_content = document.querySelector('.post_content'),
+            error_div = document.querySelector('.error_div');
+
+        const urlSearch = new URLSearchParams(location.search),
+            title = urlSearch.get('title');
+            
+        const content = urlSearch.get('content');
+        if (!title && !content) {
+            post_content.innerHTML = 'Usage: ?title=a&content=b'
+        } else {
+            try {
+                post_title.innerHTML = DOMPurify.sanitize(title)
+                post_content.innerHTML = DOMPurify.sanitize(content)
+            } catch {
+                post_title.innerHTML = title
+                post_content.innerHTML = content
+            }
+        }
+    </script>
+
+</html>
