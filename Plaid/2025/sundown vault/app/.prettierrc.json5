@@ -1,0 +1,16 @@
+{
+	plugins: ["@trivago/prettier-plugin-sort-imports"],
+	printWidth: 120,
+	tabWidth: 4,
+	useTabs: true,
+	importOrder: [
+		"^node:", // node builtins
+		"^@?\\w", // external packages
+		"^(?!(\\.|@\\/))", // anything that's not a relative import
+		"^@\\/", // absolute imports
+		"^\\.(?!(.*\\.s?css$))", // relative imports
+		"\\.s?css$", // style imports
+	],
+	importOrderSeparation: true,
+	importOrderSortSpecifiers: true,
+}

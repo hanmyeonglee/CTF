@@ -1,0 +1,23 @@
+services:
+  db:
+    image: sundown/db
+    build:
+      context: ./db
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-postgres}
+      - POSTGRES_DB=sundown
+  app:
+    image: sundown/app
+    platform: linux/amd64
+    build:
+      context: ./app
+    depends_on:
+      - db
+    restart: always
+    environment:
+      - POSTGRES_URL=postgres://postgres:${POSTGRES_PASSWORD:-postgres}@db:5432/sundown
+      - FLAG=${FLAG:-PCTF{test_flag}}
+    ports:
+      - "12345:80"

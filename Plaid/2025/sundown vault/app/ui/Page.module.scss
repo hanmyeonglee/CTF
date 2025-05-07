@@ -1,0 +1,44 @@
+.page {
+	.header {
+		padding: 16px 24px;
+		background: #008e72;
+		display: flex;
+		flex-direction: row;
+		gap: 16px;
+		align-items: center;
+
+		.link {
+			color: #ffffff;
+			text-decoration: none;
+			padding: 8px;
+			cursor: pointer;
+
+			&:hover {
+				background: #007e63;
+				transition: background 0.2s;
+				border-radius: 8px;
+			}
+
+			&.login {
+				margin-left: auto;
+			}
+		}
+
+		.home-link {
+			font-weight: 600;
+			font-size: 20px;
+		}
+
+		.user {
+			color: #ffffff;
+			margin-left: auto;
+		}
+	}
+
+	.content {
+		color: #ffffff;
+		padding: 40px 20px;
+		max-width: 1000px;
+		margin: 0px auto;
+	}
+}
