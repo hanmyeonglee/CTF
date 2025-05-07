@@ -1,0 +1,23 @@
+[package]
+name = "frontdoor-backend"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "backend"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+axum = "0"
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
+tracing-subscriber = { version = "0", features = ["env-filter"] }
+tracing-appender = "0"
+tracing = "0"
+tower-sessions = "0"
+tempfile = "3"
+base64 = "0"
+serde_json = "1"
+time = "0"

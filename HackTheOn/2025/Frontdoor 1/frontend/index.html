@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="icon" type="image/png" href="/img/favicon.png" />
+
+        <title>Frontdoor</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="flex flex-col bg-gray-50 min-h-screen">
+        <header
+            class="flex items-end gap-4 bg-white py-4 px-8 border-b border-double"
+        >
+            <h1 class="font-bold text-3xl text-[#3981FB]">Nexora</h1>
+            <p class="text-md text-gray-500">Status Monitor</p>
+        </header>
+
+        <main class="grow flex flex-col gap-8 container mx-auto p-4">
+            <div
+                class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8"
+            >
+                <div
+                    class="flex flex-col justify-center gap-4 h-28 p-4 bg-white rounded-md shadow-md"
+                >
+                    <h2 class="font-semibold text-lg text-center">
+                        Health check
+                    </h2>
+                    <p id="health-check-state" class="text-center">
+                        Loading...
+                    </p>
+                </div>
+
+                <div
+                    class="flex flex-col justify-center gap-4 h-28 p-6 bg-white rounded-md shadow-md"
+                >
+                    <h2 class="font-semibold text-lg text-center">Session</h2>
+                    <p id="session-id" class="text-center">Loading...</p>
+                </div>
+
+                <div
+                    class="flex flex-col justify-center gap-4 h-28 p-4 bg-white rounded-md shadow-md"
+                >
+                    <h2 class="font-semibold text-lg text-center">Uptime</h2>
+                    <p id="uptime" class="text-center">Loading...</p>
+                </div>
+
+                <div
+                    class="flex flex-col justify-center gap-4 h-28 p-4 bg-white rounded-md shadow-md"
+                >
+                    <h2 class="font-semibold text-lg text-center">Idle Time</h2>
+                    <p id="idle-time" class="text-center">Loading...</p>
+                </div>
+
+                <div
+                    class="flex flex-col justify-center gap-4 h-28 p-4 bg-white rounded-md shadow-md"
+                >
+                    <h2 class="font-semibold text-lg text-center">CPU Usage</h2>
+                    <p id="cpu-usage" class="text-center">Loading...</p>
+                </div>
+
+                <div
+                    class="flex flex-col justify-center gap-4 h-28 p-4 bg-white rounded-md shadow-md"
+                >
+                    <h2 class="font-semibold text-lg text-center">
+                        Memory Usage
+                    </h2>
+                    <p id="mem-usage" class="text-center">Loading...</p>
+                </div>
+            </div>
+            <div
+                class="flex flex-col justify-center gap-4 min-h-28 p-4 bg-white rounded-md shadow-md"
+            >
+                <h2 class="font-semibold text-lg text-center">Logs</h2>
+                <pre id="logs" class="mx-8">No logs found</pre>
+            </div>
+        </main>
+
+        <footer
+            class="flex justify-center gap-4 items-center bg-gray-200 py-2 border-t-8 border-double"
+        >
+            <img alt="Nexora" src="/img/logo.png" class="h-24 w-auto" />
+            <p>Copyright © 2025 Nexora</p>
+        </footer>
+
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
