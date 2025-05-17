@@ -1,0 +1,3 @@
+flag : byuctf{ch4ch4_sl1d3?...n0,ch4ch4_b1tfl1p}
+
+아니 pt랑 ct 다 주고 처음부터 다시 시작하면 그냥 stream 아는거라서 암호화의 의미가 없구만?
