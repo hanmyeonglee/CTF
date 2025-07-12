@@ -1,0 +1,4 @@
+flag : byuctf{P3M_f0rm4t_1s_k1ng}
+
+표현이 왠지 flag가 sqrt(n)에 포함되어 있다는 것 같아서
+n을 sqrt했음

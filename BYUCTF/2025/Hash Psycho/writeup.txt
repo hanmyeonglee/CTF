@@ -1,0 +1,5 @@
+flag : byuctf{wh0_kn3w_h4sh_w4snt_h4sh}
+
+python hash의 한계는 2 ** 60 - 2임
+hash(2 ** 60 - 1) = 0이라서
+2 ** 60 - 1 + 1337은 hash의 값이 1337과 같음
