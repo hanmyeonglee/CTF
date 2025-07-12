@@ -1,0 +1,10 @@
+services:
+  msd:
+    build:
+      context: .
+    ulimits:
+      core: 0
+    ports:
+      - "12345:12345"
+    restart: unless-stopped
+    privileged: true

@@ -1,0 +1,19 @@
+services:
+  web:
+    build: ./web
+    restart: unless-stopped
+    init: true
+    ports:
+      - 54321:3000
+  bot:
+    build: ./bot
+    restart: unless-stopped
+    init: true
+    ports:
+      - 54322:1337
+    environment:
+      - FLAG=IERAE{dummy}
+    deploy:
+      resources:
+        reservations:
+          memory: "200mb"
