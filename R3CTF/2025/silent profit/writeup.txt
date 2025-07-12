@@ -1,0 +1,1 @@
+O:9:"Exception":7:{s:10:" * message";s:15:"hello exception";s:17:" Exception string";s:0:"";s:7:" * code";i:0;s:7:" * file";s:23:"/var/www/html/index.php";s:7:" * line";i:2;s:16:" Exception trace";a:0:{}s:19:" Exception previous";N;}

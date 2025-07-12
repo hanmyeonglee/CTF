@@ -1,0 +1,20 @@
+services:
+  challenge:
+    image: php:8-apache
+    ports:
+      - 8080:80
+    volumes:
+      - ./html/:/var/www/html
+    restart: unless-stopped
+
+  xssbot:
+    build:
+      context: ./bot
+      dockerfile: Dockerfile
+    ports:
+      - 31337:31337
+    working_dir: /app
+    command: node /app/bot.js
+    environment:
+      - FLAG=r3ctf{test_flag}
+    restart: unless-stopped
