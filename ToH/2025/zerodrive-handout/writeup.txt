@@ -1,0 +1,3 @@
+os.path.normpath를 사용하면 /app 까지는 접근 가능하다
+db 파일이 /app 아래에 있기에 덮어씌우고
+해당 uuid로 /uploads/<uuid>로 요청 보내면 됨
