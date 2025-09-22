@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:latest 
+    container_name: mongodb
+    expose:
+      - "27017" 
+    command: mongod --quiet --logpath /dev/null 
+
+  app:
+    build: src/.
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    environment:
+      - PORT=8000
+      - DB_URI=mongodb://mongodb:27017/myapp
+      - HOSTNAME=http://localhost:8000
+      - FLAG=crew{REDACTED}
+

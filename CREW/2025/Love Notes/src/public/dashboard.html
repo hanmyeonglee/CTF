@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/dashboard.css">
+</head>
+<body>
+    <div id="menu">
+    <h1>Dashboard</h1>
+    <a href="/api/auth/logout">Logout</a>
+    </div>
+    <div id="show-note">
+    </div>
+    <div id="dashboard">
+    <div id="my-notes">
+    <h2>Your Notes</h2>
+    <ul id="notesList"></ul>
+    </div>
+    <div id="create-note">
+    <h2>Add a New Note</h3>
+    <form id="addNoteForm" method="POST" action="/api/notes">
+        <label for="title">Title: </label>
+        <input type="text" name="title" id="title" required /><br/>
+        <label for="content">Content: </label>
+        <textarea name="content" id="content" required></textarea><br/>
+        <button type="submit">Add Note</button>
+    </form>
+    </div>
+    </div>
+    <div class="hearts-container">
+        <span class="heart"></span><span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span> <span class="heart"></span>
+    </div>
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>
+
