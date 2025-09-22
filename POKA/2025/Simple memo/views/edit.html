@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>메모 수정</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>메모 수정</h2>
+
+    <form id="edit-form" method="post">
+      <input type="text" name="title" placeholder="제목" required>
+      <textarea name="content" placeholder="내용" required></textarea>
+      <button type="submit" class="btn">저장</button>
+      <a id="cancel" href="/list">취소</a>
+    </form>
+  </div>
+
+  <script>
+    const params  = new URLSearchParams(location.search);
+    const memoId  = params.get('id');
+    if (!memoId) {
+      alert('메모 ID가 없습니다.');
+      location.href = '/list';
+    } else {
+      const form   = document.getElementById('edit-form');
+      const cancel = document.getElementById('cancel');
+      const titleI = form.querySelector('input[name="title"]');
+
+      form.action  = `/memo/${memoId}/edit`;
+      cancel.href  = `/memo/${memoId}`;
+
+      fetch("/title")
+          .then(res => res.json())
+          .then(data => {
+            const memo = data.find(m => m.memo_id == memoId);
+            if (memo) {
+              titleI.value = memo.title;
+            } else {
+              titleI.value = "제목을 찾을 수 없습니다.";
+            }
+          })
+    }
+  </script>
+</body>
+</html>

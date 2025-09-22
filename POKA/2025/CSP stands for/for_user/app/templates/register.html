@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/register.css">
+</head>
+
+<body>
+    <header>
+        <h1>webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Info</a></li>
+                <li><a href="/report">Report</a></li>
+                <li><a href="/mypage">Mypage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class='signup-container'>
+            <h1>Sign up</h1>
+            <form action="/register" method="POST">
+                <p><input type="text" name="username" id="username" placeholder="username" required></p>
+                <p><input type="email" name="email" id="email" placeholder="이메일(선택)"></p>
+                <p><input type="password" name="password" id="password" placeholder="비밀번호" required></p>
+                <p><input type="password" name="password_confirm" placeholder="비밀번호 확인" required></p>
+                <p><input type="submit" value="회원 가입"></p>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        designed by GPT4.. hahaha
+    </footer>
+</body>
+
+</html>

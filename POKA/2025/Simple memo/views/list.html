@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>메모 목록</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>메모 목록</h2>
+    <ul id="title-list"></ul>
+    <a href="/memo">메모 작성</a>
+    <button onclick="logout()" class="btn">로그아웃</button>
+  </div>
+  <script>
+    fetch('/title', { credentials: 'include' })
+      .then(res => {
+        if (res.status === 401) {
+          alert('로그인이 필요합니다.');
+          location.href = '/login';
+          return;
+        }
+        return res.json();
+      })
+      .then(data => {
+        if (!data) return;
+        const ul = document.getElementById('title-list');
+        ul.innerHTML = '';
+        if (data.length === 0) {
+          ul.textContent = '저장된 메모가 없습니다.';
+          return;
+        }
+        data.forEach(memo => {
+          const li   = document.createElement('li');
+          const view = document.createElement('a');
+          view.href        = `/memo/${memo.memo_id}`;
+          view.textContent = memo.title;
+          li.appendChild(view);
+          ul.appendChild(li);
+        });
+      })
+      .catch(err => {
+        console.error('제목 목록 로딩 오류:', err);
+        alert('메모 제목을 불러오는데 실패했습니다.');
+      });
+    function logout() {
+      location.href = '/logout';
+    }
+  </script>
+</body>
+</html>

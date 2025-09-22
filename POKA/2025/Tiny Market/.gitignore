@@ -1,0 +1,8 @@
+# Created by https://www.toptal.com/developers/gitignore/api/rust,python,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=rust,python,macos
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride

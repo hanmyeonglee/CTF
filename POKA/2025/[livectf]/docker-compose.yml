@@ -1,0 +1,13 @@
+name: live-noderedis
+
+services:
+  live-noderedis:
+    container_name: live-noderedis
+    build: .
+    ports:
+      - 23001:3001
+    environment:
+      - FLAG=poka{test_flag}
+    restart: always
+  redis:
+    image: redis:latest

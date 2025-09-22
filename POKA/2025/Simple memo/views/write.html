@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>메모 작성</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>메모 작성</h2>
+    <form action="/memo" method="post" enctype="multipart/form-data">
+      <input type="text" name="title" placeholder="제목" required>
+      <textarea name="content" placeholder="내용" required></textarea>
+      <input type="file" name="file" placeholder="파일">
+      <button type="submit" class="btn">저장</button>
+    </form>
+    <a href="/list">메모 목록</a>
+    <button onclick="logout()" class="btn">로그아웃</button>
+  </div>
+  <script>
+    function logout() {
+      location.href = '/logout';
+    }
+  </script>
+</body>
+</html> 

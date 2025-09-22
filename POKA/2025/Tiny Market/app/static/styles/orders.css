@@ -1,0 +1,418 @@
+/* Orders Management Page Styles */
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.breadcrumb-item {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.breadcrumb-item:hover {
+  color: var(--text);
+}
+
+.breadcrumb-item.current {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.breadcrumb-separator {
+  color: var(--muted);
+}
+
+/* Orders Header */
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  gap: 24px;
+}
+
+.orders-title-section {
+  flex: 1;
+}
+
+.orders-title {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.orders-subtitle {
+  margin: 0;
+  font-size: 16px;
+}
+
+.orders-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.stat-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  min-width: 80px;
+}
+
+.stat-number {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Filters */
+.filters-section {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 140px;
+}
+
+.filter-group label {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.filter-select {
+  background: #0c0f14;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: var(--text);
+  font-size: 14px;
+}
+
+/* Table Header */
+.orders-table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.orders-table-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.table-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.table-actions button {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* Orders Table */
+.orders-table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--panel);
+}
+
+.orders-table th {
+  background: #0c0f14;
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.orders-table td {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.orders-table tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.orders-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Table Cell Styles */
+.order-link {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.order-link:hover {
+  text-decoration: underline;
+}
+
+.buyer-name {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.buyer-id {
+  font-size: 12px;
+}
+
+.quantity {
+  font-weight: 600;
+}
+
+.amount {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+/* Payment Badges */
+.payment-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.payment-credit-card {
+  background: rgba(37, 99, 235, 0.2);
+  color: #60a5fa;
+}
+
+.payment-bank-transfer {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+}
+
+.payment-kakao-pay {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fbbf24;
+}
+
+.payment-naver-pay {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+/* Status Badges */
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-pending {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fbbf24;
+}
+
+.status-completed {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.status-shipped {
+  background: rgba(37, 99, 235, 0.2);
+  color: #60a5fa;
+}
+
+.status-delivered {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+}
+
+.status-cancelled {
+  background: rgba(239, 68, 68, 0.2);
+  color: #f87171;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.btn-action {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.btn-approve {
+  background: var(--accent);
+  color: #0b0d12;
+}
+
+.btn-approve:hover {
+  background: #51cf66;
+  transform: translateY(-1px);
+}
+
+.btn-cancel {
+  background: var(--danger);
+  color: white;
+}
+
+.btn-cancel:hover {
+  background: #fa5252;
+  transform: translateY(-1px);
+}
+
+.btn-ship {
+  background: var(--link);
+  color: white;
+}
+
+.btn-ship:hover {
+  background: #4c82f7;
+  transform: translateY(-1px);
+}
+
+.btn-detail {
+  background: var(--border);
+  color: var(--text);
+}
+
+.btn-detail:hover {
+  background: #3a4553;
+  transform: translateY(-1px);
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--muted);
+}
+
+.empty-state h3 {
+  margin: 16px 0 8px;
+  color: var(--text);
+}
+
+.empty-state p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .orders-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .orders-stats {
+    justify-content: space-between;
+  }
+
+  .stat-card {
+    flex: 1;
+    min-width: 60px;
+  }
+
+  .filters-section {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .filter-group {
+    min-width: auto;
+  }
+
+  .orders-table-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .table-actions {
+    justify-content: stretch;
+  }
+
+  .table-actions button {
+    flex: 1;
+  }
+
+  .orders-table {
+    font-size: 13px;
+  }
+
+  .orders-table th,
+  .orders-table td {
+    padding: 8px 12px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .btn-action {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 640px) {
+  .orders-stats {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .stat-card {
+    min-width: calc(50% - 4px);
+  }
+
+  .orders-table th:nth-child(n + 6),
+  .orders-table td:nth-child(n + 6) {
+    display: none;
+  }
+}

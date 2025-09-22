@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: memo_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: memodb
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./memo-server/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    ports:
+      - "3307:3306"
+
+  file-server:
+    build:
+      context: ./file-server
+    container_name: file_server
+    restart: always
+    ports:
+      - "8000:8000"
+      - "3000:3000"
+    depends_on:
+      - db
+
+  memo-app:
+    build:
+      context: ./memo-server
+    container_name: memo_app
+    restart: always
+    network_mode: "service:file-server"
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASSWORD: 1234
+      DB_NAME: memodb
+      DB_PORT: 3306
+      FILE_SERVER_URL: http://127.0.0.1:8000
+    volumes:
+      - ./public:/app/public
+      - ./views:/app/views
+    depends_on:
+      - db
+
+volumes:
+  db_data:

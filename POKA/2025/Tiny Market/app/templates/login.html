@@ -1,0 +1,36 @@
+{% extends 'base.html' %} {% block title %}Login - Tiny Market{% endblock %} {%
+block content %}
+<section class="card">
+  <h1>로그인</h1>
+  <p class="muted">
+    아직 회원이 아니신가요? <a class="muted" href="/register">회원가입</a>을
+    진행해주세요.
+  </p>
+  <form id="login-form" class="space-y-3">
+    <div>
+      <label for="email">이메일</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        required
+        placeholder="you@example.com"
+      />
+    </div>
+    <div>
+      <label for="password">비밀번호</label>
+      <input id="password" name="password" type="password" required />
+    </div>
+    <div class="row">
+      <button id="login-btn" type="submit">로그인하기</button>
+      <span id="status" class="muted"></span>
+    </div>
+  </form>
+</section>
+{% endblock %} {% block scripts %}
+<script
+  nonce="{{ g.csp_nonce }}"
+  src="{{ url_for('static', filename='scripts/page-login.js') }}"
+  defer
+></script>
+{% endblock %}

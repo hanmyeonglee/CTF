@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Checker (For Admin)</title>
+    <style nonce="{{ g.csp_nonce }}">
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .container {
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+      }
+      input,
+      textarea,
+      select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        box-sizing: border-box;
+      }
+      textarea {
+        height: 100px;
+        resize: vertical;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+      button:disabled {
+        background-color: #6c757d;
+        cursor: not-allowed;
+      }
+      .result {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        background-color: #f8f9fa;
+        white-space: pre-wrap;
+        font-family: monospace;
+        display: none;
+      }
+      .result.success {
+        border-color: #28a745;
+        background-color: #d4edda;
+        color: #155724;
+      }
+      .result.error {
+        border-color: #dc3545;
+        background-color: #f8d7da;
+        color: #721c24;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Health Checker (For Admin)</h1>
+
+      <form id="healthForm">
+        <div class="form-group">
+          <label for="method">HTTP Method:</label>
+          <select id="method" name="method" required>
+            <option value="GET">GET</option>
+            <option value="POST">POST</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="path">API Path:</label>
+          <input type="text" id="path" name="path" placeholder="/" required />
+        </div>
+
+        <div class="form-group">
+          <label for="bodyType">Body Type:</label>
+          <select id="bodyType" name="bodyType">
+            <option value="text">Text</option>
+            <option value="json">JSON</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="body">Request Body:</label>
+          <textarea
+            id="body"
+            name="body"
+            placeholder="Plain text data..."
+          ></textarea>
+        </div>
+
+        <button type="submit" id="{{ submit }}">Send Request</button>
+      </form>
+
+      <div id="result" class="result"></div>
+    </div>
+
+    <script nonce="{{ g.csp_nonce }}">
+        // Initialize form with query parameters
+        const initialMethod = {{ method|tojson }};
+        const initialPath = {{ path|tojson }};
+        const initialBody = {{ body|tojson }};
+        const submitId = {{ submit|tojson }};
+
+        // Set initial values
+        if (initialMethod) {
+          document.getElementById('method').value = initialMethod;
+        }
+        if (initialPath) {
+          document.getElementById('path').value = initialPath;
+        }
+        if (initialBody) {
+          document.getElementById('body').value = initialBody;
+        }
+
+        // Update placeholder based on body type
+        document.getElementById('bodyType').addEventListener('change', function() {
+          const bodyTextarea = document.getElementById('body');
+
+          if (this.value === 'json') {
+              bodyTextarea.placeholder = '{"key": "value"}';
+          } else {
+              bodyTextarea.placeholder = 'Plain text data...';
+          }
+        });
+
+      document.getElementById('healthForm').addEventListener('submit', async function(e) {
+          e.preventDefault();
+
+          const submitBtn = document.getElementById(submitId);
+          const resultDiv = document.getElementById('result');
+
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Sending...';
+          resultDiv.style.display = 'none';
+
+          try {
+              const method = document.getElementById('method').value;
+              const path = document.getElementById('path').value;
+              const bodyText = document.getElementById('body').value.trim();
+              const bodyType = document.getElementById('bodyType').value;
+
+              // Validate path
+              if (!path) {
+                  throw new Error('Path is required');
+              }
+
+              // Prepare request options
+              const requestOptions = {
+                  method: method,
+              };
+
+              // Add body for non-GET requests
+              if (method !== 'GET' && bodyText) {
+                  if (bodyType === 'json') {
+                      try {
+                          requestOptions.body = JSON.stringify(JSON.parse(bodyText));
+                          requestOptions.headers = {
+                              'Content-Type': 'application/json',
+                          };
+                      } catch (err) {
+                          throw new Error('Invalid JSON in request body');
+                      }
+                  } else {
+                      requestOptions.body = bodyText;
+                  }
+              }
+
+              // Make the request to gateway endpoint
+              const response = await fetch(path, requestOptions);
+
+              let responseText;
+              const contentType = response.headers.get('content-type');
+
+              if (contentType && contentType.includes('application/json')) {
+                  const responseData = await response.json();
+                  responseText = JSON.stringify(responseData, null, 2);
+              } else {
+                  responseText = await response.text();
+              }
+
+              // Display result
+              resultDiv.textContent = `Status: ${response.status} ${response.statusText}\n\nResponse:\n${responseText}`;
+              resultDiv.className = 'result ' + (response.ok ? 'success' : 'error');
+              resultDiv.style.display = 'block';
+          } catch (error) {
+              resultDiv.textContent = `Error: ${error.message}`;
+              resultDiv.className = 'result error';
+              resultDiv.style.display = 'block';
+          } finally {
+              submitBtn.disabled = false;
+              submitBtn.textContent = 'Send Request';
+          }
+        });
+    </script>
+  </body>
+</html>

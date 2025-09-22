@@ -1,0 +1,390 @@
+{% extends 'base.html' %} {% block title %}프로필 - Tiny Market{% endblock %} {%
+block content %}
+
+<!-- Profile Header -->
+<div class="profile-header">
+  <div class="container">
+    <div class="profile-header-content">
+      <div class="profile-avatar-section">
+        <div
+          class="profile-avatar {% if profile.profileImageUrl %}has-image{% endif %}"
+          id="profile-avatar"
+          {%
+          if
+          profile.profileImageUrl
+          !="NONE"
+          %}style="background-image: url({{ profile.profileImageUrl }})"
+          {%
+          else
+          %}style="background-image: url(/static/assets/default-profile.png)"
+          {%
+          endif
+          %}
+        ></div>
+      </div>
+
+      <div class="profile-info">
+        <h1 class="profile-name" id="profile-name">
+          {{ profile.name or "사용자" }}
+        </h1>
+        <p class="profile-email" id="profile-email">
+          {{ profile.email or "" }}
+        </p>
+        <div class="profile-role {{ profile.role }}" id="profile-role">
+          {% if profile.role == "user" %}사용자 {% elif profile.role == "admin"
+          %}관리자 {% else %}{{ profile.role }} {% endif %}
+        </div>
+        <div class="profile-balance">
+          <span class="balance-label">보유 금액:</span>
+          <span class="balance-amount" id="profile-balance"
+            >{{ "{:,}".format(profile.amount) }}원</span
+          >
+        </div>
+      </div>
+
+      <div class="profile-actions">
+        <button class="btn btn-primary" id="edit-profile-btn">
+          프로필 편집
+        </button>
+        {% if profile.role == "seller" or profile.role == "admin" %}
+        <button class="btn btn-primary" id="send-referral-code-btn">
+          추천인 코드 전송
+        </button>
+        {% endif %} {% if profile.role == "user" %}
+        <button class="btn btn-primary" id="register-referral-code-btn">
+          추천인 코드 등록
+        </button>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Profile Content -->
+<div class="container">
+  <div class="profile-content">
+    <!-- Profile Details Card -->
+    <div class="profile-card">
+      <div class="card-header">
+        <h3>개인 정보</h3>
+      </div>
+      <div class="profile-details">
+        <div class="detail-row">
+          <div class="detail-label">이메일</div>
+          <div class="detail-value" id="detail-email">
+            {{ profile.email or "" }}
+          </div>
+        </div>
+        <div class="detail-row">
+          <div class="detail-label">이름</div>
+          <div class="detail-value" id="detail-name">
+            {{ profile.name or "" }}
+          </div>
+        </div>
+        <div class="detail-row">
+          <div class="detail-label">역할</div>
+          <div class="detail-value" id="detail-role">
+            {% if profile.role == "user" %}사용자 {% elif profile.role ==
+            "admin" %}관리자 {% else %}{{ profile.role }} {% endif %}
+          </div>
+        </div>
+        <div class="detail-row">
+          <div class="detail-label">가입일</div>
+          <div class="detail-value" id="detail-created">
+            {{ profile.createdAt[:10] }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Address Card -->
+    <div class="profile-card">
+      <div class="card-header">
+        <h3>배송 주소</h3>
+      </div>
+      <div class="address-details" id="address-details">
+        {% if profile.address %}
+        <div class="address-info">
+          <div class="address-row">
+            <div class="address-label">주소</div>
+            <div class="address-value">
+              {{ profile.address.address or "등록되지 않음" }}
+            </div>
+          </div>
+          <div class="address-row">
+            <div class="address-label">우편번호</div>
+            <div class="address-value">
+              {{ profile.address.postalCode or "등록되지 않음" }}
+            </div>
+          </div>
+          <div class="address-row">
+            <div class="address-label">국가</div>
+            <div class="address-value">
+              {% if profile.address.country == "KR" %}대한민국 {% elif
+              profile.address.country == "US" %}미국 {% elif
+              profile.address.country == "JP" %}일본 {% elif
+              profile.address.country == "CN" %}중국 {% else %}{{
+              profile.address.country or "등록되지 않음" }} {% endif %}
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <div class="address-loading">등록된 주소가 없습니다.</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Profile Modal -->
+<div id="edit-profile-modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>프로필 편집</h3>
+      <button class="modal-close" id="edit-modal-close">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label for="edit-name">이름</label>
+        <input type="text" id="edit-name" placeholder="이름을 입력하세요" />
+      </div>
+      <div class="form-group">
+        <label for="edit-profile-image">프로필 이미지</label>
+        <div class="image-upload-section">
+          <div class="current-image-preview" id="current-image-preview">
+            <div class="image-placeholder">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="image-upload-actions">
+            <input
+              type="file"
+              id="edit-profile-image"
+              accept="image/*"
+              style="display: none"
+            />
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="select-image-btn"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"
+                />
+              </svg>
+              이미지 선택
+            </button>
+            <p class="upload-hint">JPG, PNG 파일 (최대 10MB)</p>
+          </div>
+        </div>
+      </div>
+      <div class="form-section">
+        <h4>주소 정보</h4>
+        <div class="form-group">
+          <label for="edit-address-full">주소</label>
+          <input
+            type="text"
+            id="edit-address-full"
+            placeholder="주소를 입력하세요"
+          />
+        </div>
+        <div class="form-group">
+          <label for="edit-address-postal">우편번호</label>
+          <input
+            type="text"
+            id="edit-address-postal"
+            placeholder="우편번호를 입력하세요"
+          />
+        </div>
+        <div class="form-group">
+          <label for="edit-address-country">국가</label>
+          <select id="edit-address-country">
+            <option value="KR">대한민국</option>
+            <option value="US">미국</option>
+            <option value="JP">일본</option>
+            <option value="CN">중국</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" id="cancel-edit">취소</button>
+      <button class="btn btn-primary" id="save-edit">저장</button>
+    </div>
+  </div>
+</div>
+
+<!-- Send Referral Code Modal -->
+<div id="send-referral-modal" class="modal-overlay">
+  <div class="modal-content send-referral-modal-content">
+    <div class="modal-header">
+      <h3 class="modal-title">추천인 코드 전송</h3>
+      <button type="button" class="modal-close" id="send-referral-modal-close">
+        ×
+      </button>
+    </div>
+    <div class="modal-body">
+      <form id="send-referral-form" class="space-y-3">
+        <div class="send-referral-section">
+          <div class="form-group">
+            <label for="target-user-id">전송할 사용자 ID</label>
+            <input
+              id="target-user-id"
+              name="targetUserId"
+              type="text"
+              required
+              placeholder="사용자 ID를 입력하세요"
+              maxlength="50"
+            />
+            <div class="input-hint">
+              추천인 코드를 받을 사용자의 ID를 입력하세요
+            </div>
+          </div>
+
+          <div class="referral-benefit-info">
+            <div class="benefit-card">
+              <div class="benefit-icon">📤</div>
+              <div class="benefit-content">
+                <h4>전송 안내</h4>
+                <p>
+                  해당 사용자에게 추천인 코드가 전송됩니다.<br />
+                  상대방이 코드를 사용하면 <strong>100,000원</strong>을
+                  지급받습니다!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="referral-terms">
+            <h4>주의사항</h4>
+            <ul>
+              <li>추천인 코드는 한 번만 사용 가능합니다</li>
+              <li>존재하지 않는 사용자 ID에는 전송할 수 없습니다</li>
+              <li>이미 추천인 코드를 사용한 사용자에게는 전송되지 않습니다</li>
+              <li>전송 후 상대방의 알림함에서 확인할 수 있습니다</li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button
+        type="button"
+        class="button secondary"
+        id="send-referral-modal-cancel"
+      >
+        취소
+      </button>
+      <button
+        type="submit"
+        form="send-referral-form"
+        class="button"
+        id="send-referral-submit"
+      >
+        전송하기
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Register Referral Code Modal -->
+<div id="register-referral-modal" class="modal-overlay">
+  <div class="modal-content register-referral-modal-content">
+    <div class="modal-header">
+      <h3 class="modal-title">추천인 코드 등록</h3>
+      <button
+        type="button"
+        class="modal-close"
+        id="register-referral-modal-close"
+      >
+        ×
+      </button>
+    </div>
+    <div class="modal-body">
+      <form id="register-referral-form" class="space-y-3">
+        <div class="referral-register-section">
+          <div class="form-group">
+            <label for="referral-code-input">추천인 코드</label>
+            <input
+              id="referral-code-input"
+              name="referralCode"
+              type="text"
+              required
+              placeholder="SKI-XXXXXX"
+              maxlength="20"
+              style="
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-family: 'Courier New', monospace;
+              "
+            />
+            <div class="input-hint">추천인으로부터 받은 코드를 입력하세요</div>
+          </div>
+
+          <div class="referral-benefit-info">
+            <div class="benefit-card">
+              <div class="benefit-icon">💰</div>
+              <div class="benefit-content">
+                <h4>혜택 안내</h4>
+                <p>
+                  추천인 코드 등록 시 <strong>100,000원</strong>을 즉시
+                  지급받습니다!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="referral-terms">
+            <h4>주의사항</h4>
+            <ul>
+              <li>추천인 코드는 한 번만 등록 가능합니다</li>
+              <li>잘못된 코드 입력 시 등록이 불가능합니다</li>
+              <li>이미 사용된 코드는 등록할 수 없습니다</li>
+              <li>혜택은 코드 등록 즉시 지급됩니다</li>
+            </ul>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button
+        type="button"
+        class="button secondary"
+        id="register-referral-modal-cancel"
+      >
+        취소
+      </button>
+      <button
+        type="submit"
+        form="register-referral-form"
+        class="button"
+        id="register-referral-submit"
+      >
+        등록하기
+      </button>
+    </div>
+  </div>
+</div>
+
+{% endblock %} {% block scripts %}
+<script
+  nonce="{{ g.csp_nonce }}"
+  src="{{ url_for('static', filename='scripts/page-profile.js') }}"
+  defer
+></script>
+{% endblock %}

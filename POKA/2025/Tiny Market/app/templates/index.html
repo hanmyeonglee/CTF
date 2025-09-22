@@ -1,0 +1,80 @@
+{% extends 'base.html' %} {% block title %}Shop - Tiny Market{% endblock %} {%
+block content %}
+
+<section class="hero">
+  <div class="hero-inner container">
+    <div class="hero-copy">
+      <h1 class="hero-title">당신의 일상을 바꾸는 쇼핑</h1>
+      <p class="hero-subtitle muted">지금 Tiny Market에서 만나보세요.</p>
+    </div>
+  </div>
+  <div class="hero-gradient" aria-hidden="true"></div>
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+</section>
+
+<section class="container space-y-4">
+  <div class="card">
+    <div
+      class="col"
+      style="justify-content: space-between; align-items: baseline"
+    >
+      <h2 style="margin: 0">Tiny Market의 모든 상품</h2>
+      <p class="muted">
+        오로지 Tiny Market에서만 판매하는 상품을 확인해보세요.
+      </p>
+    </div>
+    <div class="product-grid" id="featured-grid">
+      {% for product in products %}
+      <a href="/products/{{ product.id }}" class="product-card">
+        <div
+          class="thumb"
+          style="background:#0d121b {% if product.imageUrl %}url({{ product.imageUrl[0] }}) center/cover no-repeat{% endif %}"
+        ></div>
+        <div class="info">
+          <div class="name">{{ product.name or "상품" }}</div>
+          <div class="price">
+            {% if product.price is not none %} {{ "{:,}".format(product.price)
+            }}원 {% endif %}
+          </div>
+        </div>
+        <button class="add-btn" data-id="{{ product.id }}">즉시구매</button>
+      </a>
+      {% endfor %}
+    </div>
+
+    <!-- Pagination -->
+    <div
+      class="pagination-container"
+      id="pagination-container"
+      style="display: none"
+    >
+      <div class="pagination">
+        <button class="pagination-btn pagination-prev" id="prev-btn" disabled>
+          <span class="pagination-icon">←</span>
+          이전
+        </button>
+
+        <div class="pagination-pages" id="pagination-pages">
+          <!-- Page numbers will be inserted here -->
+        </div>
+
+        <button class="pagination-btn pagination-next" id="next-btn">
+          다음
+          <span class="pagination-icon">→</span>
+        </button>
+      </div>
+
+      <div class="pagination-info" id="pagination-info">
+        <!-- Page info will be inserted here -->
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %} {% block scripts %}
+<script
+  nonce="{{ g.csp_nonce }}"
+  src="{{ url_for('static', filename='scripts/page-home.js') }}"
+  defer
+></script>
+{% endblock %}

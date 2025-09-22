@@ -1,0 +1,32 @@
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-backdrop.show {
+    display: flex;
+    background: rgba(0, 0, 0, .4);
+}
+
+.modal {
+    background: #fff;
+    padding: 1rem;
+    width: 90%;
+    max-width: 480px;
+    border-radius: 12px;
+}
+
+.modal header {
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,56 @@
+services:
+  app:
+    build:
+      context: ./app
+    container_name: tiny_market_app
+    ports:
+      - "3000:8080"
+    environment:
+      - FLASK_DEBUG=0
+      - FLASK_APP=app.py
+      - ALLOWED_CIDR=172.28.0.0/16
+      - DENY_GW=172.28.0.1
+      - SECRET_KEY=TBD
+    command: python -m flask run --host=0.0.0.0 --port=8080
+    volumes:
+      - ./app:/app
+    networks:
+      internal:
+        aliases:
+          - app.local
+
+  bot:
+    build: ./bot
+    container_name: tiny_market_bot
+    ports:
+      - "3010:5000"
+    volumes:
+      - ./bot:/app
+      - /app/node_modules
+    environment:
+      - ADMIN_EMAIL=admin@tiny.com
+      - ADMIN_PASSWORD=TBD
+    networks:
+      - internal
+    depends_on:
+      - app
+      - api-server
+
+  api-server:
+    build:
+      context: ./api-server
+    container_name: tiny_market_api
+    expose:
+      - "8000"
+    volumes:
+      - ./api-server/chall.db:/app/chall.db
+    restart: unless-stopped
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16

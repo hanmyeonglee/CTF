@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}Tiny Market{% endblock %}</title>
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='assets/logo.svg') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/main.css') }}"
+    />
+    {% if request.endpoint == 'login' %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/login.css') }}"
+    />
+    {% elif request.endpoint == 'register' %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/register.css') }}"
+    />
+    {% elif request.endpoint == 'product_detail' %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/product_detail.css') }}"
+    />
+    {% elif request.endpoint == 'profile' %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/profile.css') }}"
+    />
+    {% elif request.endpoint == 'checkout' %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/checkout.css') }}"
+    />
+    {% elif request.endpoint == 'orders' %}
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/orders.css') }}"
+    />
+    {% endif %}
+    <script nonce="{{ g.csp_nonce }}">
+      window.ENV = {
+        REQUEST_TIMEOUT_MS: 8000,
+      };
+    </script>
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="/">
+          <img
+            src="{{ url_for('static', filename='assets/logo.svg') }}"
+            alt="logo"
+            class="logo"
+          />
+          <span>Tiny Market</span>
+        </a>
+        <nav class="nav">
+          <span id="nav-auth" class="nav-group">
+            <a href="/login" data-nav>로그인</a>
+            <a href="/register" data-nav>회원가입</a>
+          </span>
+          <span id="nav-user" class="nav-group hidden">
+            <div class="notification-container">
+              <button
+                class="notification-btn"
+                id="notification-btn"
+                aria-label="알림"
+              >
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"
+                  />
+                </svg>
+                <span
+                  class="notification-badge"
+                  id="notification-badge"
+                  style="display: none"
+                  >0</span
+                >
+              </button>
+              <div class="notification-dropdown" id="notification-dropdown">
+                <div class="notification-header">
+                  <h3>알림</h3>
+                  <button class="mark-all-read" id="mark-all-read">
+                    모두 읽음
+                  </button>
+                </div>
+                <div class="notification-list" id="notification-list">
+                  <div class="notification-loading">
+                    <div class="loading-spinner"></div>
+                    <span>알림을 불러오는 중...</span>
+                  </div>
+                </div>
+                <div class="notification-footer">
+                  <a href="#" class="view-all-notifications">모든 알림 보기</a>
+                </div>
+              </div>
+            </div>
+            <a href="/profile" class="profile" aria-label="프로필">
+              <img
+                id="nav-avatar"
+                class="avatar"
+                alt="avatar"
+                src="{{ url_for('static', filename='assets/logo.svg') }}"
+              />
+              <span id="nav-username" class="username">사용자</span>
+            </a>
+          </span>
+        </nav>
+      </div>
+    </header>
+
+    {% block init_scripts %}{% endblock %}
+
+    <main class="container" aria-live="polite">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> Tiny Market</small>
+      </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal-overlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="modal-title" class="modal-title">상품 추가</h3>
+          <button type="button" class="modal-close" id="modal-close">×</button>
+        </div>
+        <div class="modal-body">
+          <form id="product-form" class="space-y-3">
+            <div class="form-group">
+              <label for="modal-product-name">상품명</label>
+              <input
+                id="modal-product-name"
+                name="name"
+                type="text"
+                required
+                placeholder="상품명을 입력하세요"
+              />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="modal-product-price">가격 (원)</label>
+                <input
+                  id="modal-product-price"
+                  name="price"
+                  type="number"
+                  required
+                  min="0"
+                  placeholder="0"
+                />
+              </div>
+              <div class="form-group">
+                <label for="modal-product-stock">재고</label>
+                <input
+                  id="modal-product-stock"
+                  name="stock"
+                  type="number"
+                  required
+                  min="0"
+                  placeholder="0"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="modal-product-description">상품 설명</label>
+              <textarea
+                id="modal-product-description"
+                name="description"
+                rows="3"
+                placeholder="상품에 대한 설명을 입력하세요"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="modal-product-categories">카테고리</label>
+              <div class="category-selector">
+                <select id="modal-category-select" class="category-select">
+                  <option value="">카테고리 선택</option>
+                  <option value="전자기기">전자기기</option>
+                  <option value="패션">패션</option>
+                  <option value="리빙">리빙</option>
+                  <option value="스포츠">스포츠</option>
+                  <option value="뷰티">뷰티</option>
+                  <option value="기타">기타</option>
+                </select>
+                <button
+                  type="button"
+                  id="modal-add-category-btn"
+                  class="button secondary"
+                >
+                  추가
+                </button>
+              </div>
+              <div
+                id="modal-selected-categories"
+                class="selected-categories"
+              ></div>
+            </div>
+
+            <div class="form-group">
+              <label class="checkbox-label">
+                <input
+                  id="modal-product-hidden"
+                  name="hidden"
+                  type="checkbox"
+                />
+                <span class="checkbox-text"
+                  >상품 숨기기 (체크하면 고객에게 보이지 않음)</span
+                >
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label for="modal-product-images"
+                >상품 이미지 (여러 장 가능)</label
+              >
+              <div class="file-upload-area" id="modal-file-upload-area">
+                <input
+                  id="modal-product-images"
+                  name="images"
+                  type="file"
+                  accept="image/*"
+                  multiple
+                  style="display: none"
+                />
+                <div class="file-upload-content">
+                  <svg
+                    width="48"
+                    height="48"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    style="color: var(--muted)"
+                  >
+                    <path
+                      d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"
+                    />
+                  </svg>
+                  <p class="file-upload-text">
+                    클릭하여 이미지를 선택하거나 드래그하여 업로드
+                  </p>
+                  <p class="file-upload-hint">
+                    JPG, PNG, GIF (최대 10MB, 여러 장 선택 가능)
+                  </p>
+                </div>
+              </div>
+              <div id="modal-image-previews" class="image-previews"></div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button secondary" id="modal-cancel">
+            취소
+          </button>
+          <button
+            type="submit"
+            form="product-form"
+            class="button"
+            id="modal-submit"
+          >
+            저장
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      nonce="{{ g.csp_nonce }}"
+      src="{{ url_for('static', filename='scripts/api.js') }}"
+    ></script>
+    <script
+      nonce="{{ g.csp_nonce }}"
+      src="{{ url_for('static', filename='scripts/site.js') }}"
+      defer
+    ></script>
+    <script
+      nonce="{{ g.csp_nonce }}"
+      src="{{ url_for('static', filename='scripts/product-modal.js') }}"
+      defer
+    ></script>
+    <script
+      nonce="{{ g.csp_nonce }}"
+      src="{{ url_for('static', filename='scripts/notifications.js') }}"
+      defer
+    ></script>
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

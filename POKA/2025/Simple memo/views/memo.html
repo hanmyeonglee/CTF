@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html lang="ko">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="Content-Security-Policy" content="base-uri 'self'; script-src 'nonce-{{nonce}}'; style-src 'self'; img-src 'self'; object-src 'none';">
+      <link rel="stylesheet" href='/style.css'>
+    </head>
+    <body>
+      <div class="container">
+        <h2 id="memo-title"></h2>
+        <div id="memo-content">{{content}}</div>
+        <a href="/list">목록으로</a>
+      </div>
+      <script nonce="{{nonce}}">
+        const memoId = "{{memoId}}";
+        fetch("/title")
+          .then(res => res.json())
+          .then(data => {
+            const memo = data.find(m => m.memo_id == memoId);
+            if (memo) {
+              document.getElementById("memo-title").innerHTML = memo.title;
+            } else {
+              document.getElementById("memo-title").innerHTML = "제목을 찾을 수 없습니다.";
+            }
+          })
+      </script>
+    </body>
+    </html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/mypage.css">
+</head>
+
+<body>
+    <header>
+        <h1>webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Info</a></li>
+                <li><a href="/report">Report</a></li>
+                <li><a href="/mypage">Mypage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="profile-container">
+            <img src="user-photo.jpg" alt="User Photo" class="profile-photo">
+            <div class="user-info">
+                <h2>아이디:
+                    <span id="username"></span>
+                </h2>
+                <p>이메일:
+                    <span id="email"></span>
+                </p>
+            </div>
+            <button id="editButton" class="edit-button">Modify</button>
+            <button id="deleteButton" class="delete-button">Sign Out</button>
+
+        </div>
+    </main>
+    <script src="/static/js/mypage.js"></script>
+    <footer>
+        designed by GPT4.. hahaha
+    </footer>
+</body>
+
+</html>

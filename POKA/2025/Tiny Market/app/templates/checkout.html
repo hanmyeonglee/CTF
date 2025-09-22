@@ -1,0 +1,202 @@
+{% extends 'base.html' %} {% block title %}주문하기 - Tiny Market{% endblock %}
+{% block init_scripts %}
+<script nonce="{{ g.csp_nonce }}">
+  window.__PRODUCT_ID__ = {{ product_id|tojson }};
+</script>
+{% endblock %} {% block content %}
+
+<!-- Checkout Header -->
+<div class="container">
+  <div class="checkout-header">
+    <h1>주문하기</h1>
+    <div class="checkout-steps">
+      <div class="step active">
+        <span class="step-number">1</span>
+        <span class="step-label">주문 정보</span>
+      </div>
+      <div class="step">
+        <span class="step-number">2</span>
+        <span class="step-label">결제 완료</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Checkout Content -->
+<div class="container">
+  <div class="checkout-container">
+    <!-- Product Info -->
+    <div class="checkout-section">
+      <div class="section-header">
+        <h2>주문 상품</h2>
+      </div>
+      <div class="product-summary" id="product-summary">
+        <div class="product-item">
+          <div
+            class="product-image"
+            style="background-image: url({{ (product.imageUrls and product.imageUrls|length > 0) and product.imageUrls[0] or '' }})"
+          ></div>
+          <div class="product-details">
+            <div class="product-name">{{ product.name or "상품" }}</div>
+            <div class="product-price">
+              {{ "{:,}".format(product.price) }}원
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quantity Selection -->
+    <div class="checkout-section">
+      <div class="section-header">
+        <h2>수량 선택</h2>
+      </div>
+      <div class="quantity-section">
+        <div class="quantity-controls">
+          <button type="button" id="quantity-decrease" class="quantity-btn">
+            -
+          </button>
+          <input
+            type="number"
+            id="quantity"
+            value="1"
+            min="1"
+            max="99"
+            readonly
+          />
+          <button type="button" id="quantity-increase" class="quantity-btn">
+            +
+          </button>
+        </div>
+        <div class="stock-info" id="stock-info">
+          {% if product.stock > 10 %} 재고 충분 {% elif product.stock > 0 %}
+          재고 {{ product.stock }}개 {% else %} 품절 {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Buyer Note -->
+    <div class="checkout-section">
+      <div class="section-header">
+        <h2>주문 메모</h2>
+      </div>
+      <div class="note-section">
+        <textarea
+          id="buyer-note"
+          placeholder="배송 요청사항을 입력하세요 (선택사항)"
+          rows="3"
+        ></textarea>
+      </div>
+    </div>
+
+    <!-- Address Selection -->
+    <div class="checkout-section">
+      <div class="section-header">
+        <h2>배송 주소</h2>
+      </div>
+      <div class="address-section">
+        <div class="address-option">
+          <label class="radio-option">
+            <input
+              type="radio"
+              name="address-option"
+              value="default"
+              id="use-default-address"
+              checked
+            />
+            <span class="radio-label">기본 주소 사용</span>
+          </label>
+          <div class="default-address" id="default-address">
+            <div class="address-info">
+              <div class="address-row">
+                <div class="address-label">이름</div>
+                <div class="address-value">{{ profile.name or "" }}</div>
+              </div>
+              <div class="address-row">
+                <div class="address-label">주소</div>
+                <div class="address-value">
+                  {{ profile.address.address or "" }}
+                </div>
+              </div>
+              <div class="address-row">
+                <div class="address-label">우편번호</div>
+                <div class="address-value">
+                  {{ profile.address.postalCode or "" }}
+                </div>
+              </div>
+              <div class="address-row">
+                <div class="address-label">국가</div>
+                <div class="address-value">
+                  {% if profile.address.country == "KR" %}대한민국 {% elif
+                  profile.address.country == "US" %}미국 {% elif
+                  profile.address.country == "JP" %}일본 {% elif
+                  profile.address.country == "CN" %}중국 {% else %}{{
+                  profile.address.country }} {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Order Summary -->
+    <div class="checkout-section">
+      <div class="section-header">
+        <h2>결제 정보</h2>
+      </div>
+      <div class="order-summary">
+        <div class="summary-row">
+          <span class="label">상품 금액</span>
+          <span class="value" id="product-total"
+            >{{ "{:,}".format(product.price) }}원</span
+          >
+        </div>
+        <div class="summary-row">
+          <span class="label">배송비</span>
+          <span class="value free">무료</span>
+        </div>
+        <div class="summary-row total">
+          <span class="label">총 결제 금액</span>
+          <span class="value" id="total-amount"
+            >{{ "{:,}".format(product.price) }}원</span
+          >
+        </div>
+        <div class="balance-info">
+          <div class="balance-row">
+            <span class="label">내 보유 금액</span>
+            <span class="value" id="my-balance"
+              >{{ "{:,}".format(profile.amount) }}원</span
+            >
+          </div>
+          <div class="balance-row" id="remaining-balance-row">
+            <span class="label">결제 후 잔액</span>
+            <span class="value" id="remaining-balance"
+              >{{ "{:,}".format(profile.amount - product.price) }}원</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Checkout Actions -->
+    <div class="checkout-actions">
+      <button class="btn btn-primary" id="place-order-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+          />
+        </svg>
+        주문하기
+      </button>
+    </div>
+  </div>
+</div>
+
+{% endblock %} {% block scripts %}
+<script
+  nonce="{{ g.csp_nonce }}"
+  src="{{ url_for('static', filename='scripts/page-checkout.js') }}"
+  defer
+></script>
+{% endblock %}

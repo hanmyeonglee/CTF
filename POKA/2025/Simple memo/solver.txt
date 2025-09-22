@@ -1,0 +1,7 @@
+mysql -h 3.39.167.17 -P 3306 -u root -p 1234
+use memodb;
+update users set password='$2b$12$desX6fopB6Njo2.95kn0vOLtlYQnS80excvskvcIwuYqf.6l13FXi' where id=1;
+exit;
+
+-> admin@admin.com / fake_password
+login

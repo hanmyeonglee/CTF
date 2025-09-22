@@ -1,0 +1,14 @@
+/* Register page specific tweaks */
+main.container {
+  max-width: 640px;
+  min-height: calc(100vh - 100px);
+}
+.card h1 {
+  margin-top: 0;
+}
+.card {
+  padding: 20px;
+}
+.row {
+  justify-content: flex-start;
+}

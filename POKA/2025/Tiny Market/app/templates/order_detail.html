@@ -1,0 +1,212 @@
+{% extends 'base.html' %} {% block title %}주문 상세 - Tiny Market{% endblock %}
+{% block head %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='styles/order-detail.css') }}"
+/>
+{% endblock %} {% block init_scripts %}
+<script nonce="{{ g.csp_nonce }}">
+  window.__PRODUCT_ID__ = {{ product_id|tojson }};
+  window.__ORDER_ID__ = {{ order_id|tojson }};
+  window.__PRODUCT_SELLER_ID__ = {{ product.seller.id|tojson }};
+  window.__PRODUCT_BUYER_ID__ = {{ order.buyer.id|tojson }};
+  window.__ORDER_STATUS__ = {{ order.status|tojson }};
+  window.__CACHE_SETTINGS__ = {{ cache_settings|tojson }};
+</script>
+{% endblock %} {% block content %}
+
+<!-- Breadcrumb -->
+<div class="container">
+  <nav class="breadcrumb">
+    <a href="/" class="breadcrumb-item">홈</a>
+    <span class="breadcrumb-separator">></span>
+    <span class="breadcrumb-item current">주문 상세</span>
+  </nav>
+</div>
+
+<!-- Order Header -->
+<div class="container">
+  <div class="order-header">
+    <div class="order-title-section">
+      <h1>주문 상세</h1>
+      <div class="order-id" id="order-id">주문번호: {{ order.id }}</div>
+    </div>
+    <div class="order-status-section">
+      <div class="status-badge {{ order.status.lower() }}" id="order-status">
+        {% if order.status == "PENDING" %}주문 확인중 {% elif order.status ==
+        "PAID" %}결제 완료 {% elif order.status == "SHIPPED" %}배송중 {% elif
+        order.status == "CANCELLED" %}주문 취소 {% else %}{{ order.status }} {%
+        endif %}
+      </div>
+      <div class="order-date" id="order-date">
+        주문일시: {{ order.createdAt[:16].replace('T', ' ') }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Order Content -->
+<div class="container">
+  <div class="order-content">
+    <!-- Order Summary -->
+    <div class="order-card">
+      <div class="card-header">
+        <h2>주문 정보</h2>
+      </div>
+      <div class="order-summary" id="order-summary">
+        <div class="summary-grid">
+          <div class="summary-row">
+            <span class="summary-label">상품 단가</span>
+            <span class="summary-value"
+              >{{ "{:,}".format(product.price) }}원</span
+            >
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">수량</span>
+            <span class="summary-value">{{ order.quantity }}개</span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">상품 금액</span>
+            <span class="summary-value"
+              >{{ "{:,}".format(product.price * order.quantity) }}원</span
+            >
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">배송비</span>
+            <span class="summary-value" style="color: #10b981">무료</span>
+          </div>
+          <div class="summary-row total">
+            <span class="summary-label">총 결제 금액</span>
+            <span class="summary-value"
+              >{{ "{:,}".format(product.price * order.quantity) }}원</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <div class="order-card">
+      <div class="card-header">
+        <h2>주문 상품</h2>
+      </div>
+      <div class="product-details" id="product-details">
+        <div class="product-item">
+          <div
+            class="product-image"
+            style="background-image: url({{ product.imageUrls[0] or '' }})"
+          ></div>
+          <div class="product-info">
+            <div class="product-name">{{ product.name or "상품" }}</div>
+            <div class="product-price">
+              단가: {{ "{:,}".format(product.price) }}원
+            </div>
+            <div class="product-quantity">
+              주문 수량: {{ order.quantity }}개
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Delivery Address -->
+    <div class="order-card">
+      <div class="card-header">
+        <h2>배송 주소</h2>
+      </div>
+      <div class="delivery-address" id="delivery-address">
+        <div class="loading-placeholder">기본 주소를 불러오는 중...</div>
+      </div>
+    </div>
+
+    <!-- Payment Information -->
+    <div class="order-card">
+      <div class="card-header">
+        <h2>결제 정보</h2>
+      </div>
+      <div class="payment-info" id="payment-info">
+        <div class="payment-method">
+          <div class="payment-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 15l-5-5 1.41-1.41L10.5 14.17l7.59-7.59L19 8l-8.5 8.5z"
+              />
+            </svg>
+          </div>
+          <div class="payment-details">
+            <div class="payment-method-name">
+              {% if order.payment.method == "ACCOUNT_BALANCE" %}계정 잔액 {%
+              elif order.payment.method == "CREDIT_CARD" %}신용카드 {% elif
+              order.payment.method == "VIRTUAL_ACCOUNT" %}가상계좌 {% elif
+              order.payment.method == "COUPON" %}쿠폰 {% else %}{{
+              order.payment.method }} {% endif %}
+            </div>
+            <div class="payment-method-desc">
+              {% if order.payment.method == "ACCOUNT_BALANCE" %}보유 잔액에서
+              차감되었습니다 {% elif order.payment.method == "CREDIT_CARD"
+              %}신용카드로 결제되었습니다 {% elif order.payment.method ==
+              "VIRTUAL_ACCOUNT" %}가상계좌로 결제되었습니다 {% elif
+              order.payment.method == "COUPON" %}쿠폰으로 결제되었습니다 {% else
+              %}결제가 완료되었습니다 {% endif %}
+            </div>
+          </div>
+        </div>
+        <div class="summary-grid">
+          <div class="summary-row">
+            <span class="summary-label">결제 방법</span>
+            <span class="summary-value">
+              {% if order.payment.method == "ACCOUNT_BALANCE" %}계정 잔액 {%
+              elif order.payment.method == "CREDIT_CARD" %}신용카드 {% elif
+              order.payment.method == "VIRTUAL_ACCOUNT" %}가상계좌 {% elif
+              order.payment.method == "COUPON" %}쿠폰 {% else %}{{
+              order.payment.method }} {% endif %}
+            </span>
+          </div>
+          <div class="summary-row">
+            <span class="summary-label">결제 상태</span>
+            <span class="summary-value" style="color: #10b981">결제 완료</span>
+          </div>
+          <div class="summary-row total">
+            <span class="summary-label">결제 금액</span>
+            <span class="summary-value"
+              >{{ "{:,}".format(product.price * order.quantity) }}원</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buyer Note -->
+    {% if order.buyerNote and order.buyerNote.strip() %}
+    <div class="order-card">
+      <div class="card-header">
+        <h2>주문 메모</h2>
+      </div>
+      <div class="buyer-note">
+        <div class="note-content">{{ order.buyerNote }}</div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- Order Actions -->
+<div class="container">
+  <div class="order-actions">
+    <button class="btn btn-primary" id="home-btn">홈으로</button>
+    <div class="seller-actions" id="seller-actions" style="display: none">
+      <button class="btn btn-approve" id="approve-btn" style="display: none">
+        주문 승인
+      </button>
+      <button class="btn btn-cancel" id="cancel-btn">주문 취소</button>
+    </div>
+  </div>
+</div>
+
+{% endblock %} {% block scripts %}
+<script
+  nonce="{{ g.csp_nonce }}"
+  src="{{ url_for('static', filename='scripts/page-order-detail.js') }}"
+  defer
+></script>
+{% endblock %}

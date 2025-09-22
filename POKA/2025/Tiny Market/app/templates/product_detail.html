@@ -1,0 +1,182 @@
+{% extends 'base.html' %} {% block title %}Product - Tiny Market{% endblock %}
+{% block init_scripts %}
+<script nonce="{{ g.csp_nonce }}">
+  window.__PRODUCT_ID__ = {{ product_id|tojson }};
+  window.__PRODUCT_SELLER_ID__ = {{ product.seller.id|tojson }};
+  window.product = {{ product|tojson }};
+</script>
+{% endblock %} {% block content %}
+
+<!-- Breadcrumb -->
+<div class="container">
+  <nav class="breadcrumb">
+    <a href="/" class="breadcrumb-item">홈</a>
+    <span class="breadcrumb-separator">></span>
+    <span class="breadcrumb-item current" id="breadcrumb-category">상품</span>
+  </nav>
+</div>
+
+<!-- Product Detail -->
+<div class="container">
+  <div class="product-detail-container">
+    <!-- Product Images -->
+    <div class="product-images">
+      <div class="main-image-container">
+        <div
+          id="product-main-image"
+          class="main-image {% if product.imageUrls and product.imageUrls|length > 0 %}has-image{% endif %}"
+          {%
+          if
+          product.imageUrls
+          and
+          product.imageUrls|length
+        >
+          0 %}style="background-image: url({{ product.imageUrls[0] }})"{% endif
+          %}> {% if not (product.imageUrls and product.imageUrls|length > 0) %}
+          <div class="image-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"
+              />
+            </svg>
+          </div>
+          {% endif %}
+        </div>
+        <div class="image-zoom-hint">클릭하여 확대</div>
+      </div>
+      <div class="thumbnail-images" id="thumbnail-images">
+        {% if product.imageUrls and product.imageUrls|length > 1 %} {% for
+        image_url in product.imageUrls %}
+        <div
+          class="thumbnail-image {% if loop.index0 == 0 %}active{% endif %}"
+          style="background-image: url({{ image_url }})"
+          data-index="{{ loop.index0 }}"
+        ></div>
+        {% endfor %} {% endif %}
+      </div>
+    </div>
+
+    <!-- Product Info -->
+    <div class="product-info">
+      <div class="product-header">
+        <div class="product-badges" id="product-badges">
+          <!-- Badges will be inserted here -->
+        </div>
+        <h1 id="detail-product-name" class="product-title">
+          {{ product.name or "상품" }}
+        </h1>
+      </div>
+
+      <div class="product-pricing">
+        <div class="price-section">
+          <div id="detail-product-price" class="current-price">
+            {% if product.price is not none %} {{ "{:,}".format(product.price)
+            }}원 {% else %} ₩0 {% endif %}
+          </div>
+          <div class="price-info">
+            <span class="shipping-info">무료배송</span>
+            <span class="stock-info" id="stock-info">
+              {% if product.stock > 10 %} 재고 충분 {% elif product.stock > 0 %}
+              재고 {{ product.stock }}개 {% else %} 품절 {% endif %}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-description">
+        <h3>상품 설명</h3>
+        <p id="product-desc" class="description-text">
+          {{ product.description or "상품 설명이 없습니다." }}
+        </p>
+      </div>
+
+      <div class="product-details">
+        <h3>상품 정보</h3>
+        <div class="details-grid" id="product-details-grid">
+          <div class="detail-item">
+            <span class="detail-label">카테고리</span>
+            <span class="detail-value"
+              >{{ product.categories|join(", ") }}</span
+            >
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">주문 수량</span>
+            <span class="detail-value">{{ product.orderCount }}회</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">등록일</span>
+            <span class="detail-value">{{ product.createdAt[:10] }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-actions">
+        <div class="quantity-selector">
+          <label for="quantity">수량</label>
+          <div class="quantity-controls">
+            <button type="button" id="quantity-decrease" class="quantity-btn">
+              -
+            </button>
+            <input type="number" id="quantity" value="1" min="1" max="99" />
+            <button type="button" id="quantity-increase" class="quantity-btn">
+              +
+            </button>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <button id="buy-now" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+            즉시구매
+          </button>
+        </div>
+
+        <div class="total-price">
+          <span class="total-label">총 금액</span>
+          <span id="total-price" class="total-amount">₩0</span>
+        </div>
+      </div>
+
+      <div class="seller-info" id="seller-info">
+        <h3>판매자 정보</h3>
+        <div class="seller-card">
+          <div class="seller-avatar">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+              />
+            </svg>
+          </div>
+          <div class="seller-details">
+            <div class="seller-name" id="seller-name">
+              {{ product.seller.name or "판매자" }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image Modal -->
+<div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <button class="modal-close" id="modal-close">&times;</button>
+    <img id="modal-image" src="" alt="상품 이미지" />
+    <div class="modal-nav">
+      <button id="modal-prev" class="modal-nav-btn">❮</button>
+      <button id="modal-next" class="modal-nav-btn">❯</button>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block scripts %}
+<script
+  nonce="{{ g.csp_nonce }}"
+  src="{{ url_for('static', filename='scripts/page-product-detail.js') }}"
+  defer
+></script>
+{% endblock %}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/register.css">
+
+  <script src="/static/js/sanitize-html.min.js"></script>
+  <script src="/static/js/query_parser.js"></script>
+</head>
+<body>
+  <header>
+    <h1>webpage</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Info</a></li>
+        <li><a href="/report">Report</a></li>
+        <li><a href="/mypage">Mypage</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="signup-container">
+      <h1>Report</h1>
+      <form action="/report" method="POST">
+        <p><input type="text" name="report_url" id="report_url" placeholder="URL" required></p>
+        <p><input type="submit" value="report"></p>
+      </form>
+    </div>
+  </main>
+
+  <script src="/static/js/mypage_modify.js"></script>
+
+  <footer>
+    designed by GPT4.. hahaha
+  </footer>
+</body>
+</html>
